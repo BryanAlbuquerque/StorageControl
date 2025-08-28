@@ -1,3 +1,9 @@
 # StorageControl
 
 Projeto em Andamento sendo feito usando **C# .NET com Visual Studio e Windowns forms**, e com auxilio do SGBD **(Sistema de Gerenciamento de Banco de Dados)** SQL Server.
+
+##Pasta Imagens
+**Esta com todas as imagens usadas até o momento no sistema**.
+
+##Pasta Querys SQL Server
+**Está armazenado as querys usadas pra formar o Banco de dados**.
