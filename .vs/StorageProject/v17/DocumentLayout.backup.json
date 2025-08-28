@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\bryan\\Documents\\GitHub\\ProjetosPessoais\\StorageProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageProject.csproj|c:\\users\\bryan\\documents\\github\\projetospessoais\\storageproject\\telaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageProject.csproj|solutionrelative:telaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageProject.csproj|C:\\Users\\bryan\\Documents\\GitHub\\ProjetosPessoais\\StorageProject\\baixasdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageProject.csproj|solutionrelative:baixasdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageProject.csproj|C:\\Users\\bryan\\Documents\\GitHub\\ProjetosPessoais\\StorageProject\\telaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageProject.csproj|solutionrelative:telaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageProject.csproj|C:\\Users\\bryan\\Documents\\GitHub\\ProjetosPessoais\\StorageProject\\baixasdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageProject.csproj|solutionrelative:baixasdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageProject.csproj|c:\\users\\bryan\\documents\\github\\projetospessoais\\storageproject\\telaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageProject.csproj|solutionrelative:telaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageProject.csproj|C:\\Users\\bryan\\Documents\\GitHub\\ProjetosPessoais\\StorageProject\\entrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -70,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
@@ -150,13 +150,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "BaixasDB.cs",
               "DocumentMoniker": "C:\\Users\\bryan\\Documents\\GitHub\\ProjetosPessoais\\StorageProject\\BaixasDB.cs",
               "RelativeDocumentMoniker": "BaixasDB.cs",
               "ToolTip": "C:\\Users\\bryan\\Documents\\GitHub\\ProjetosPessoais\\StorageProject\\BaixasDB.cs",
               "RelativeToolTip": "BaixasDB.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAIwCYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-17T00:25:39.643Z",
               "IsPinned": true,
@@ -170,7 +170,7 @@
               "RelativeDocumentMoniker": "TelaPrincipal.cs",
               "ToolTip": "C:\\Users\\bryan\\Documents\\GitHub\\ProjetosPessoais\\StorageProject\\TelaPrincipal.cs",
               "RelativeToolTip": "TelaPrincipal.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAD4v0MAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAD4vz0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-17T00:26:02.33Z",
               "IsPinned": true,
@@ -178,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "TelaPrincipal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\bryan\\Documents\\GitHub\\ProjetosPessoais\\StorageProject\\TelaPrincipal.cs",
               "RelativeDocumentMoniker": "TelaPrincipal.cs",
