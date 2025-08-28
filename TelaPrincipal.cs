@@ -39,11 +39,13 @@ namespace StorageProject
             lblPallet.Visible = true;
             txtQtde.Visible = true;
             txtBaixaPL.Visible = true;
+            txtRE.Visible = true;
             btnEnviarBaixa.Visible = true;
             PicBoxBaixa.Visible = true;
             lblFrase.Visible = true;
             lblFrase2.Visible = true;
             lblAnotacoes.Visible = true;
+            lblReBaixa.Visible = true;
 
             //Esconde os outros componentes
             lblTituloEnd.Visible = false;
@@ -51,8 +53,10 @@ namespace StorageProject
             lblEnd.Visible = false;
             txtEnderecoPL.Visible = false;
             txtEnd.Visible = false;
+            txtReEND.Visible = false;
             btnEnviarEnd.Visible = false;
             PicBoxEnd.Visible = false;
+            lblReEnd.Visible = false;
         }
 
         private void btnEnviarBaixa_Click(object sender, EventArgs e)
@@ -65,9 +69,17 @@ namespace StorageProject
             {
                 MessageBox.Show("Erro Existem espaços em Branco!");
             }
-            else if (BaixasDB.Baixas(PalletID, Quantidade, RE))
+            
+            bool sucessoBaixa = BaixasDB.Baixas(PalletID, Quantidade);
+            bool sucessoHistorico = BaixasDB.BaixasRealizadas(RE, PalletID, Quantidade);
+
+            if (sucessoBaixa && sucessoHistorico)
             {
-                MessageBox.Show("Baixa realizada!");
+                MessageBox.Show("Baixa Realizada com Sucesso!");
+            }
+            else
+            {
+                MessageBox.Show("Erro ao realizar a baixa.");
             }
         }
 
@@ -79,11 +91,13 @@ namespace StorageProject
             lblEnd.Visible = true;
             txtEnderecoPL.Visible = true;
             txtEnd.Visible = true;
+            txtReEND.Visible = true;
             btnEnviarEnd.Visible = true;
             PicBoxEnd.Visible = true;
             lblFrase.Visible = true;
             lblFrase2.Visible = true;
             lblAnotacoes.Visible = true;
+            lblReEnd.Visible = true;
 
             //Enconde os outros componentes
             lblTituloBaixa.Visible = false;
@@ -91,12 +105,15 @@ namespace StorageProject
             lblPallet.Visible = false;
             txtQtde.Visible = false;
             txtBaixaPL.Visible = false;
+            txtRE.Visible = false;
             btnEnviarBaixa.Visible = false;
             PicBoxBaixa.Visible = false;
+            lblReBaixa.Visible = false;
         }
 
         private void btnEnviarEnd_Click(object sender, EventArgs e)
         {
+            int RE = int.Parse(txtReEND.Text);
             int PalletID = int.Parse(txtEnderecoPL.Text);
             string Endereco = txtEnd.Text;
 
@@ -104,10 +121,19 @@ namespace StorageProject
             if (string.IsNullOrEmpty(txtEnderecoPL.Text))
             {
                 MessageBox.Show("Erro Existem espaços em Branco!");
+                return;
             }
-            else if (EnderecoDB.Enderecamento(PalletID, Endereco))
+
+            bool sucessoEnderecamento = EnderecoDB.Enderecamento(PalletID, Endereco);
+            bool sucessoHistorico = EnderecoDB.HistoricoEnderecos(RE, PalletID, Endereco);
+
+            if (sucessoEnderecamento && sucessoHistorico)
             {
                 MessageBox.Show("Endereçamento Realizado!");
+            }
+            else 
+            {
+                MessageBox.Show("");
             }
         }
 

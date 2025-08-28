@@ -1,5 +1,6 @@
-﻿using System;
-using Microsoft.Data.SqlClient;
+﻿using Microsoft.Data.SqlClient;
+using System;
+using System.Windows.Forms;
 
 namespace StorageProject
 {
@@ -23,13 +24,6 @@ namespace StorageProject
                     Consumo = 
                         ISNULL(Consumo, 0) + @quantidade
                          WHERE PalletID = @palletId";
-
-                //string query2 = @"
-                //    INSERT INTO Baixas_Realizadas
-                //    (ID_RegistroEmpresarial, PalletID, Quantidade)    
-                //    VALUES                     
-                //    (@palletId, @quantidade, @RE)";
-
 
                 using (var comando = new SqlCommand(query, conexao))
                 {
@@ -57,6 +51,42 @@ namespace StorageProject
                 }
             }
         }
+
+        public static bool BaixasRealizadas(int re, int palletID, int quantidade)
+        {
+            using (var conexao = new SqlConnection(connectionString))
+            {
+                string query = @"
+                   INSERT INTO Baixas_Realizadas (ID_RegistroEmpresarial, PalletID, Quantidade, Data_Atual)
+                   VALUES (@re, @palletId, @quantidade, GETDATE())";
+
+                using (var comando = new SqlCommand(query, conexao))
+                {
+                    comando.Parameters.AddWithValue("@re", re);
+                    comando.Parameters.AddWithValue("@palletId", palletID);
+                    comando.Parameters.AddWithValue("@quantidade", quantidade);
+                    try
+                    {
+                        conexao.Open();
+                        int rowsAffected = comando.ExecuteNonQuery();
+                        if (rowsAffected > 0)
+                            return true;
+                        else
+                        {
+                            MessageBox.Show("Nenhum registro foi inserido.");
+                            return false;
+                        }
+                    }
+                    catch (SqlException ex)
+                    {
+                        MessageBox.Show("Erro ao inserir dados: " + ex.Message);
+                        return false;
+                    }
+                }
+            }
+        }
+
     }
 }
+
 

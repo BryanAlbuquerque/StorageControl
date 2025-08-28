@@ -1,5 +1,6 @@
-﻿using System;
-using Microsoft.Data.SqlClient;
+﻿using Microsoft.Data.SqlClient;
+using System;
+using System.Windows.Forms;
 
 namespace StorageProject
 {
@@ -36,6 +37,40 @@ namespace StorageProject
                     }
                 }
             }
+        }
+
+        public static bool HistoricoEnderecos(int re, int palletID, string endereco)
+        { 
+            using (var conexao = new SqlConnection(connectionString)) 
+            { 
+                string query = @"
+                INSERT INTO Historico_Enderecos (ID_RegistroEmpresarial, PalletID, Endereco, Data_Atual)
+                  VALUES (@re, @palletId, @endereco, GETDATE())";
+
+                using (var comando = new SqlCommand(query, conexao)) 
+                {
+                    comando.Parameters.AddWithValue("@re", re);
+                    comando.Parameters.AddWithValue("@palletId", palletID);
+                    comando.Parameters.AddWithValue("@endereco", endereco);
+                    try
+                    {
+                        conexao.Open();
+                        int rowsAffected = comando.ExecuteNonQuery();
+                        if (rowsAffected > 0)
+                            return true;
+                        else
+                        {
+                            MessageBox.Show("Nenhum registro foi inserido.");
+                            return false;
+                        }
+                    }
+                    catch (SqlException ex)
+                    {
+                        MessageBox.Show("Erro ao inserir dados: " + ex.Message);
+                        return false;
+                    }
+                }
+            }   
         }
     }
 }
