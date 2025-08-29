@@ -34,5 +34,12 @@ namespace StorageProject
             cadastro.Show();
             this.Hide();
         }
+
+        private void lblAdm_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Admin adm = new Admin();
+            adm.Show();
+            this.Hide();
+        }
     }
 }

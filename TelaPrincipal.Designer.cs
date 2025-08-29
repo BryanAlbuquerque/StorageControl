@@ -54,7 +54,6 @@
             this.lblFrase = new System.Windows.Forms.Label();
             this.PicBoxEnd = new System.Windows.Forms.PictureBox();
             this.lblFrase2 = new System.Windows.Forms.Label();
-            this.btnRelatorios = new System.Windows.Forms.Button();
             this.lblAnotacoes = new System.Windows.Forms.ListBox();
             this.lblReBaixa = new System.Windows.Forms.Label();
             this.txtRE = new System.Windows.Forms.TextBox();
@@ -87,7 +86,7 @@
             this.btnGestao.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnGestao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGestao.ForeColor = System.Drawing.Color.White;
-            this.btnGestao.Location = new System.Drawing.Point(18, 78);
+            this.btnGestao.Location = new System.Drawing.Point(18, 142);
             this.btnGestao.Name = "btnGestao";
             this.btnGestao.Size = new System.Drawing.Size(130, 46);
             this.btnGestao.TabIndex = 2;
@@ -347,21 +346,6 @@
             this.lblFrase2.Text = "Use para anotações se necessario:";
             this.lblFrase2.Visible = false;
             // 
-            // btnRelatorios
-            // 
-            this.btnRelatorios.BackColor = System.Drawing.Color.Navy;
-            this.btnRelatorios.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnRelatorios.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnRelatorios.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRelatorios.ForeColor = System.Drawing.Color.White;
-            this.btnRelatorios.Location = new System.Drawing.Point(21, 146);
-            this.btnRelatorios.Name = "btnRelatorios";
-            this.btnRelatorios.Size = new System.Drawing.Size(127, 40);
-            this.btnRelatorios.TabIndex = 83;
-            this.btnRelatorios.Text = "Gerar Realtorios";
-            this.btnRelatorios.UseVisualStyleBackColor = false;
-            this.btnRelatorios.Click += new System.EventHandler(this.btnRelatorios_Click);
-            // 
             // lblAnotacoes
             // 
             this.lblAnotacoes.FormattingEnabled = true;
@@ -419,7 +403,6 @@
             this.Controls.Add(this.lblReBaixa);
             this.Controls.Add(this.txtRE);
             this.Controls.Add(this.lblAnotacoes);
-            this.Controls.Add(this.btnRelatorios);
             this.Controls.Add(this.lblFrase2);
             this.Controls.Add(this.PicBoxEnd);
             this.Controls.Add(this.lblFrase);
@@ -448,6 +431,7 @@
             this.Name = "TelaPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tela Principal";
+            this.Load += new System.EventHandler(this.TelaPrincipal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxBaixa)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxEnd)).EndInit();
@@ -482,7 +466,6 @@
         private System.Windows.Forms.Label lblFrase;
         private System.Windows.Forms.PictureBox PicBoxEnd;
         private System.Windows.Forms.Label lblFrase2;
-        private System.Windows.Forms.Button btnRelatorios;
         private System.Windows.Forms.ListBox lblAnotacoes;
         private System.Windows.Forms.Label lblReBaixa;
         private System.Windows.Forms.TextBox txtRE;

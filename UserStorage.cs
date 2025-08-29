@@ -25,7 +25,7 @@ namespace StorageProject
                     SELECT 1
                     FROM Funcionarios
                     WHERE ID_RegistroEmpresarial = @re
-                    AND Situacao = 'Ativo'";
+                    AND Situacao = 'Ativo' ";
 
                 using (var cmdVerifica = new SqlCommand(sqlVerificaReAtivo, conexao))
                 {
@@ -78,7 +78,7 @@ namespace StorageProject
                     ON f.ID_RegistroEmpresarial = u.ID_RegistroEmpresarial
                     WHERE u.Usuario = @usuario
                     AND u.Senha = @senha
-                    AND f.Situacao = 'Ativo';";
+                    AND f.Situacao = 'Ativo'";
 
                 using (var cmd = new SqlCommand(sqlAuth, conexao))
                 {

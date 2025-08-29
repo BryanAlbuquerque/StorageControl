@@ -58,9 +58,10 @@
             this.btnSalvar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSalvar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalvar.ForeColor = System.Drawing.Color.Black;
-            this.btnSalvar.Location = new System.Drawing.Point(498, 297);
+            this.btnSalvar.Location = new System.Drawing.Point(581, 274);
+            this.btnSalvar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(180, 40);
+            this.btnSalvar.Size = new System.Drawing.Size(210, 37);
             this.btnSalvar.TabIndex = 27;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = false;
@@ -71,9 +72,10 @@
             this.pictureBox3.BackColor = System.Drawing.Color.White;
             this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(488, 121);
+            this.pictureBox3.Location = new System.Drawing.Point(569, 112);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(35, 30);
+            this.pictureBox3.Size = new System.Drawing.Size(40, 28);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 38;
             this.pictureBox3.TabStop = false;
@@ -82,20 +84,22 @@
             // 
             this.txtRE.BackColor = System.Drawing.Color.White;
             this.txtRE.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRE.Location = new System.Drawing.Point(522, 121);
-            this.txtRE.MaximumSize = new System.Drawing.Size(200, 100);
+            this.txtRE.Location = new System.Drawing.Point(609, 112);
+            this.txtRE.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtRE.MaximumSize = new System.Drawing.Size(233, 93);
             this.txtRE.Multiline = true;
             this.txtRE.Name = "txtRE";
-            this.txtRE.Size = new System.Drawing.Size(166, 30);
+            this.txtRE.Size = new System.Drawing.Size(193, 28);
             this.txtRE.TabIndex = 40;
             // 
             // btnVoltar
             // 
             this.btnVoltar.BackColor = System.Drawing.Color.Transparent;
             this.btnVoltar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVoltar.Location = new System.Drawing.Point(351, 2);
+            this.btnVoltar.Location = new System.Drawing.Point(410, 2);
+            this.btnVoltar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(84, 27);
+            this.btnVoltar.Size = new System.Drawing.Size(98, 25);
             this.btnVoltar.TabIndex = 44;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = false;
@@ -107,7 +111,8 @@
             this.label4.BackColor = System.Drawing.Color.Navy;
             this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(7, 282);
+            this.label4.Location = new System.Drawing.Point(8, 260);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(332, 36);
             this.label4.TabIndex = 68;
@@ -117,7 +122,8 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(460, 55);
+            this.label2.Location = new System.Drawing.Point(537, 51);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(263, 37);
             this.label2.TabIndex = 66;
@@ -127,9 +133,11 @@
             // 
             this.listBox1.BackColor = System.Drawing.Color.Navy;
             this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 12;
             this.listBox1.Location = new System.Drawing.Point(1, 0);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(349, 420);
+            this.listBox1.Size = new System.Drawing.Size(406, 388);
             this.listBox1.TabIndex = 64;
             // 
             // pictureBox6
@@ -137,9 +145,10 @@
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(488, 246);
+            this.pictureBox6.Location = new System.Drawing.Point(569, 227);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(35, 30);
+            this.pictureBox6.Size = new System.Drawing.Size(40, 28);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 60;
             this.pictureBox6.TabStop = false;
@@ -149,9 +158,10 @@
             this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(488, 180);
+            this.pictureBox7.Location = new System.Drawing.Point(569, 166);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(35, 30);
+            this.pictureBox7.Size = new System.Drawing.Size(40, 28);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 59;
             this.pictureBox7.TabStop = false;
@@ -161,29 +171,32 @@
             this.txtUsuario.BackColor = System.Drawing.Color.White;
             this.txtUsuario.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsuario.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtUsuario.Location = new System.Drawing.Point(522, 180);
-            this.txtUsuario.MaximumSize = new System.Drawing.Size(200, 100);
+            this.txtUsuario.Location = new System.Drawing.Point(609, 166);
+            this.txtUsuario.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtUsuario.MaximumSize = new System.Drawing.Size(233, 93);
             this.txtUsuario.Multiline = true;
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(166, 30);
+            this.txtUsuario.Size = new System.Drawing.Size(193, 28);
             this.txtUsuario.TabIndex = 61;
             // 
             // txtSenha
             // 
             this.txtSenha.BackColor = System.Drawing.Color.White;
             this.txtSenha.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSenha.Location = new System.Drawing.Point(522, 246);
-            this.txtSenha.MaximumSize = new System.Drawing.Size(200, 100);
+            this.txtSenha.Location = new System.Drawing.Point(609, 227);
+            this.txtSenha.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtSenha.MaximumSize = new System.Drawing.Size(233, 93);
             this.txtSenha.Multiline = true;
             this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(166, 30);
+            this.txtSenha.Size = new System.Drawing.Size(193, 28);
             this.txtSenha.TabIndex = 62;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(485, 164);
+            this.label5.Location = new System.Drawing.Point(566, 151);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(58, 15);
             this.label5.TabIndex = 69;
@@ -193,7 +206,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(485, 228);
+            this.label1.Location = new System.Drawing.Point(566, 211);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(48, 15);
             this.label1.TabIndex = 70;
@@ -203,7 +217,8 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(485, 103);
+            this.label3.Location = new System.Drawing.Point(566, 95);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(29, 15);
             this.label3.TabIndex = 71;
@@ -215,7 +230,8 @@
             this.label6.BackColor = System.Drawing.Color.Navy;
             this.label6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(49, 180);
+            this.label6.Location = new System.Drawing.Point(57, 166);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(198, 37);
             this.label6.TabIndex = 72;
@@ -227,7 +243,8 @@
             this.label7.BackColor = System.Drawing.Color.Navy;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(50, 197);
+            this.label7.Location = new System.Drawing.Point(58, 182);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(158, 31);
             this.label7.TabIndex = 73;
@@ -237,19 +254,20 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Navy;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(10, 8);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 7);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(311, 202);
+            this.pictureBox1.Size = new System.Drawing.Size(363, 187);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 74;
             this.pictureBox1.TabStop = false;
             // 
             // CadastroForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(822, 405);
+            this.ClientSize = new System.Drawing.Size(871, 388);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label3);
@@ -267,6 +285,10 @@
             this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.listBox1);
+            this.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "CadastroForm";
             this.Text = "Cadastro";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

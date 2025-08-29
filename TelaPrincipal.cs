@@ -137,11 +137,9 @@ namespace StorageProject
             }
         }
 
-        private void btnRelatorios_Click(object sender, EventArgs e)
+        private void TelaPrincipal_Load(object sender, EventArgs e)
         {
-            Relatorios relatorios = new Relatorios();
-            relatorios.Show();
-            this.Hide();
+
         }
     }
 }

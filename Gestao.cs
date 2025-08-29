@@ -7,6 +7,12 @@ namespace StorageProject
 {
     public partial class Gestao : Form
     {
+        private bool _isAdmin;
+        public Gestao(bool isAdmin)
+        {
+            InitializeComponent();
+            _isAdmin = isAdmin;
+        }
 
         private GestaoDB DB = new GestaoDB();
         public Gestao()
@@ -19,6 +25,11 @@ namespace StorageProject
             this.WindowState = FormWindowState.Maximized;
             dataGridGestao.AutoGenerateColumns = false;
             dataGridGestao.DataSource = DB.CarregarDados();
+
+            if (_isAdmin)
+            {
+                MessageBox.Show("Bem-vindo, Administrador!");
+            }
 
         }
 
