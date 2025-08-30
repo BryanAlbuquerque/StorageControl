@@ -12,19 +12,8 @@ namespace StorageProject
         public string Usuario { get; set; } = "Storage@Admin";
         public string Senha { get; set; } = "Admin2025";
 
-        public bool adminAccess = false;
-
         public bool ValidarLogin(string usuario, string senha)
         {
-            if (Usuario == "Storage@Admin" && Senha == "Admin2025")
-            {
-                adminAccess = true;
-            }
-            else
-            {
-                MessageBox.Show("Credenciais não validas. Contate o suporte!");
-            }
-
             return usuario == Usuario && senha == Senha;
         }
     }

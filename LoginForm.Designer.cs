@@ -58,7 +58,7 @@
             this.btnLogin.Location = new System.Drawing.Point(537, 259);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(112, 30);
-            this.btnLogin.TabIndex = 18;
+            this.btnLogin.TabIndex = 8;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
@@ -80,7 +80,7 @@
             this.lblCadastro.Location = new System.Drawing.Point(591, 326);
             this.lblCadastro.Name = "lblCadastro";
             this.lblCadastro.Size = new System.Drawing.Size(111, 14);
-            this.lblCadastro.TabIndex = 22;
+            this.lblCadastro.TabIndex = 9;
             this.lblCadastro.TabStop = true;
             this.lblCadastro.Text = "Realizar Cadastro";
             this.lblCadastro.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblCadastro_LinkClicked);
@@ -119,7 +119,7 @@
             this.txtUsuario.Multiline = true;
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(166, 30);
-            this.txtUsuario.TabIndex = 47;
+            this.txtUsuario.TabIndex = 6;
             // 
             // txtSenha
             // 
@@ -130,7 +130,7 @@
             this.txtSenha.Multiline = true;
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(166, 30);
-            this.txtSenha.TabIndex = 48;
+            this.txtSenha.TabIndex = 7;
             // 
             // lblAdm
             // 
@@ -140,7 +140,7 @@
             this.lblAdm.Location = new System.Drawing.Point(705, 9);
             this.lblAdm.Name = "lblAdm";
             this.lblAdm.Size = new System.Drawing.Size(115, 15);
-            this.lblAdm.TabIndex = 50;
+            this.lblAdm.TabIndex = 10;
             this.lblAdm.TabStop = true;
             this.lblAdm.Text = "Login como ADM";
             this.lblAdm.VisitedLinkColor = System.Drawing.Color.Black;
@@ -153,7 +153,7 @@
             this.listBox1.Location = new System.Drawing.Point(1, 1);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(342, 407);
-            this.listBox1.TabIndex = 51;
+            this.listBox1.TabIndex = 1;
             // 
             // pictureBox1
             // 
@@ -173,7 +173,7 @@
             this.label2.Location = new System.Drawing.Point(455, 78);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(263, 37);
-            this.label2.TabIndex = 53;
+            this.label2.TabIndex = 4;
             this.label2.Text = "Storage Control";
             // 
             // label3
@@ -185,7 +185,7 @@
             this.label3.Location = new System.Drawing.Point(38, 36);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(263, 37);
-            this.label3.TabIndex = 54;
+            this.label3.TabIndex = 2;
             this.label3.Text = "Storage Control";
             // 
             // label4
@@ -197,7 +197,7 @@
             this.label4.Location = new System.Drawing.Point(33, 291);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(243, 44);
-            this.label4.TabIndex = 55;
+            this.label4.TabIndex = 3;
             this.label4.Text = "Garantia de controle e \r\nqualidade do seu estoque\r\n";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -255,6 +255,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.label7);
+            this.MaximizeBox = false;
             this.Name = "LoginForm";
             this.Text = "s";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

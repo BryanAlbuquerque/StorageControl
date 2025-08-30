@@ -13,31 +13,26 @@ namespace StorageProject
 
         public DataTable CarregarDados()
         {
-            DataTable dt = new DataTable();
-            using (SqlConnection conn = new SqlConnection(connectionString))
-            {
-                conn.Open();
-                string query =
-                    "SELECT Endereco, PalletID, DataEntrada, NomeInsumo, Fornecedor, Quantidade, ValorUnitario, ValorTotal, NumeroNotaFiscal, NumeroPedido, Consumo, QuantidadeAtual, ID_RegistroEmpresarial FROM Gestao";
-                SqlDataAdapter da = new SqlDataAdapter(query, conn);
-                da.Fill(dt);
+            SqlConnection conn = new SqlConnection(connectionString);
+            string query = @"SELECT Endereco, PalletID, DataEntrada, NomeInsumo, Fornecedor, Quantidade, ValorUnitario, ValorTotal, 
+                             NumeroNotaFiscal, NumeroPedido, Consumo, QuantidadeAtual, ID_RegistroEmpresarial FROM Gestao";
 
-            }
+            _adapter = new SqlDataAdapter(query, conn);
 
-            return dt;
-        }
-
-        public void AlteracoesAdmin()
-        {
-            // Gera INSERT/UPDATE/DELETE automaticamente
+            // cria automaticamente os comandos de Insert/Update/Delete
             SqlCommandBuilder builder = new SqlCommandBuilder(_adapter);
 
             _dt = new DataTable();
             _adapter.Fill(_dt);
 
+            return _dt;
+        }
+
+        public void AlteracoesAdmin()
+        {
             if (_adapter != null && _dt != null)
             {
-                _adapter.Update(_dt); // Aplica mudanças no banco
+                _adapter.Update(_dt); // aplica alterações do DataGridView
             }
         }
     }

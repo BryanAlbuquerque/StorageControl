@@ -62,6 +62,7 @@ namespace StorageProject
             }
         }
 
+        //Faz autenticação do usuário
         public static bool Autenticar(string usuario, string senha)
         {
             if (string.IsNullOrWhiteSpace(usuario) || string.IsNullOrWhiteSpace(senha))

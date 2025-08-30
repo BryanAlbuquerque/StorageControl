@@ -21,11 +21,11 @@ namespace StorageProject
         {
             Admin admin = new Admin();
 
-            if (admin.ValidarLogin(txtEmail.Text, txtSenha.Text))
+            if (admin.ValidarLogin(txtUsuario.Text, txtSenha.Text))
             {
                 MessageBox.Show("Login realizado com sucesso como Administrador!");
 
-                TelaPrincipal tela = new TelaPrincipal();
+                TelaPrincipal tela = new TelaPrincipal(true); // << informa que é admin
                 tela.Show();
                 this.Hide();
             }

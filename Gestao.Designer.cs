@@ -30,24 +30,24 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Gestao));
             this.dataGridGestao = new System.Windows.Forms.DataGridView();
-            this.clnEnd = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clnPL = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clnData = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clnNomeIn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clnForn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clnQtdeIni = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clnValorUni = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clnValorTotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clnNF = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clnNP = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clnCon = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clnQtdeAtual = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clnColaborador = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnVoltar = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnSalvar = new System.Windows.Forms.Button();
+            this.clnColaborador = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clnQtdeAtual = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clnCon = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clnNP = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clnNF = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clnValorTotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clnValorUni = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clnQtdeIni = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clnForn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clnNomeIn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clnData = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clnPL = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clnEnd = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridGestao)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -75,85 +75,6 @@
             this.dataGridGestao.Size = new System.Drawing.Size(1333, 118);
             this.dataGridGestao.TabIndex = 4;
             // 
-            // clnEnd
-            // 
-            this.clnEnd.DataPropertyName = "Endereco";
-            this.clnEnd.HeaderText = "ENDEREÇO";
-            this.clnEnd.Name = "clnEnd";
-            this.clnEnd.Width = 90;
-            // 
-            // clnPL
-            // 
-            this.clnPL.DataPropertyName = "PalletID";
-            this.clnPL.HeaderText = "PALLET ID";
-            this.clnPL.Name = "clnPL";
-            // 
-            // clnData
-            // 
-            this.clnData.DataPropertyName = "DataEntrada";
-            this.clnData.HeaderText = "DATA DE ENTRADA";
-            this.clnData.Name = "clnData";
-            // 
-            // clnNomeIn
-            // 
-            this.clnNomeIn.DataPropertyName = "NomeInsumo";
-            this.clnNomeIn.HeaderText = "NOME DO INSUMO";
-            this.clnNomeIn.Name = "clnNomeIn";
-            // 
-            // clnForn
-            // 
-            this.clnForn.DataPropertyName = "Fornecedor";
-            this.clnForn.HeaderText = "FORNECEDOR";
-            this.clnForn.Name = "clnForn";
-            // 
-            // clnQtdeIni
-            // 
-            this.clnQtdeIni.DataPropertyName = "Quantidade";
-            this.clnQtdeIni.HeaderText = "QUANTIDADE";
-            this.clnQtdeIni.Name = "clnQtdeIni";
-            // 
-            // clnValorUni
-            // 
-            this.clnValorUni.DataPropertyName = "ValorUnitario";
-            this.clnValorUni.HeaderText = "VALOR UNITÁRIO";
-            this.clnValorUni.Name = "clnValorUni";
-            // 
-            // clnValorTotal
-            // 
-            this.clnValorTotal.DataPropertyName = "ValorTotal";
-            this.clnValorTotal.HeaderText = "VALOR TOTAL";
-            this.clnValorTotal.Name = "clnValorTotal";
-            // 
-            // clnNF
-            // 
-            this.clnNF.DataPropertyName = "NumeroNotaFiscal";
-            this.clnNF.HeaderText = "NÚMERO DA NOTA FISCAL";
-            this.clnNF.Name = "clnNF";
-            // 
-            // clnNP
-            // 
-            this.clnNP.DataPropertyName = "NumeroPedido";
-            this.clnNP.HeaderText = "NÚMERO DO PEDIDO";
-            this.clnNP.Name = "clnNP";
-            // 
-            // clnCon
-            // 
-            this.clnCon.DataPropertyName = "Consumo";
-            this.clnCon.HeaderText = "CONSUMO";
-            this.clnCon.Name = "clnCon";
-            // 
-            // clnQtdeAtual
-            // 
-            this.clnQtdeAtual.DataPropertyName = "QuantidadeAtual";
-            this.clnQtdeAtual.HeaderText = "QUANTIDADE ATUAL";
-            this.clnQtdeAtual.Name = "clnQtdeAtual";
-            // 
-            // clnColaborador
-            // 
-            this.clnColaborador.DataPropertyName = "ID_RegistroEmpresarial";
-            this.clnColaborador.HeaderText = "RE DO COLABORADOR";
-            this.clnColaborador.Name = "clnColaborador";
-            // 
             // btnVoltar
             // 
             this.btnVoltar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -163,6 +84,7 @@
             this.btnVoltar.TabIndex = 30;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click_1);
             // 
             // listBox1
             // 
@@ -203,6 +125,86 @@
             this.btnSalvar.Text = "Salvar alterações";
             this.btnSalvar.UseVisualStyleBackColor = true;
             this.btnSalvar.Visible = false;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
+            // 
+            // clnColaborador
+            // 
+            this.clnColaborador.DataPropertyName = "ID_RegistroEmpresarial";
+            this.clnColaborador.HeaderText = "RE DO COLABORADOR";
+            this.clnColaborador.Name = "clnColaborador";
+            // 
+            // clnQtdeAtual
+            // 
+            this.clnQtdeAtual.DataPropertyName = "QuantidadeAtual";
+            this.clnQtdeAtual.HeaderText = "QUANTIDADE ATUAL";
+            this.clnQtdeAtual.Name = "clnQtdeAtual";
+            // 
+            // clnCon
+            // 
+            this.clnCon.DataPropertyName = "Consumo";
+            this.clnCon.HeaderText = "CONSUMO";
+            this.clnCon.Name = "clnCon";
+            // 
+            // clnNP
+            // 
+            this.clnNP.DataPropertyName = "NumeroPedido";
+            this.clnNP.HeaderText = "NÚMERO DO PEDIDO";
+            this.clnNP.Name = "clnNP";
+            // 
+            // clnNF
+            // 
+            this.clnNF.DataPropertyName = "NumeroNotaFiscal";
+            this.clnNF.HeaderText = "NÚMERO DA NOTA FISCAL";
+            this.clnNF.Name = "clnNF";
+            // 
+            // clnValorTotal
+            // 
+            this.clnValorTotal.DataPropertyName = "ValorTotal";
+            this.clnValorTotal.HeaderText = "VALOR TOTAL";
+            this.clnValorTotal.Name = "clnValorTotal";
+            // 
+            // clnValorUni
+            // 
+            this.clnValorUni.DataPropertyName = "ValorUnitario";
+            this.clnValorUni.HeaderText = "VALOR UNITÁRIO";
+            this.clnValorUni.Name = "clnValorUni";
+            // 
+            // clnQtdeIni
+            // 
+            this.clnQtdeIni.DataPropertyName = "Quantidade";
+            this.clnQtdeIni.HeaderText = "QUANTIDADE";
+            this.clnQtdeIni.Name = "clnQtdeIni";
+            // 
+            // clnForn
+            // 
+            this.clnForn.DataPropertyName = "Fornecedor";
+            this.clnForn.HeaderText = "FORNECEDOR";
+            this.clnForn.Name = "clnForn";
+            // 
+            // clnNomeIn
+            // 
+            this.clnNomeIn.DataPropertyName = "NomeInsumo";
+            this.clnNomeIn.HeaderText = "NOME DO INSUMO";
+            this.clnNomeIn.Name = "clnNomeIn";
+            // 
+            // clnData
+            // 
+            this.clnData.DataPropertyName = "DataEntrada";
+            this.clnData.HeaderText = "DATA DE ENTRADA";
+            this.clnData.Name = "clnData";
+            // 
+            // clnPL
+            // 
+            this.clnPL.DataPropertyName = "PalletID";
+            this.clnPL.HeaderText = "PALLET ID";
+            this.clnPL.Name = "clnPL";
+            // 
+            // clnEnd
+            // 
+            this.clnEnd.DataPropertyName = "Endereco";
+            this.clnEnd.HeaderText = "ENDEREÇO";
+            this.clnEnd.Name = "clnEnd";
+            this.clnEnd.Width = 90;
             // 
             // Gestao
             // 
@@ -231,6 +233,7 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.DataGridViewTextBoxColumn clnEnd;
         private System.Windows.Forms.DataGridViewTextBoxColumn clnPL;
         private System.Windows.Forms.DataGridViewTextBoxColumn clnData;
@@ -244,6 +247,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn clnCon;
         private System.Windows.Forms.DataGridViewTextBoxColumn clnQtdeAtual;
         private System.Windows.Forms.DataGridViewTextBoxColumn clnColaborador;
-        private System.Windows.Forms.Button btnSalvar;
     }
 }

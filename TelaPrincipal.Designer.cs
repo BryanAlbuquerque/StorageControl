@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaPrincipal));
             this.btnEntrada = new System.Windows.Forms.Button();
             this.btnGestao = new System.Windows.Forms.Button();
@@ -54,11 +55,11 @@
             this.lblFrase = new System.Windows.Forms.Label();
             this.PicBoxEnd = new System.Windows.Forms.PictureBox();
             this.lblFrase2 = new System.Windows.Forms.Label();
-            this.lblAnotacoes = new System.Windows.Forms.ListBox();
             this.lblReBaixa = new System.Windows.Forms.Label();
             this.txtRE = new System.Windows.Forms.TextBox();
             this.lblReEnd = new System.Windows.Forms.Label();
             this.txtReEND = new System.Windows.Forms.TextBox();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxBaixa)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxEnd)).BeginInit();
@@ -74,7 +75,7 @@
             this.btnEntrada.Location = new System.Drawing.Point(21, 208);
             this.btnEntrada.Name = "btnEntrada";
             this.btnEntrada.Size = new System.Drawing.Size(130, 36);
-            this.btnEntrada.TabIndex = 1;
+            this.btnEntrada.TabIndex = 6;
             this.btnEntrada.Text = "Entrada";
             this.btnEntrada.UseVisualStyleBackColor = false;
             this.btnEntrada.Click += new System.EventHandler(this.btnEntrada_Click);
@@ -89,7 +90,7 @@
             this.btnGestao.Location = new System.Drawing.Point(18, 142);
             this.btnGestao.Name = "btnGestao";
             this.btnGestao.Size = new System.Drawing.Size(130, 46);
-            this.btnGestao.TabIndex = 2;
+            this.btnGestao.TabIndex = 5;
             this.btnGestao.Text = "Gestão do Estoque";
             this.btnGestao.UseVisualStyleBackColor = false;
             this.btnGestao.Click += new System.EventHandler(this.btnGestao_Click);
@@ -104,7 +105,7 @@
             this.btnBaixa.Location = new System.Drawing.Point(21, 261);
             this.btnBaixa.Name = "btnBaixa";
             this.btnBaixa.Size = new System.Drawing.Size(130, 36);
-            this.btnBaixa.TabIndex = 3;
+            this.btnBaixa.TabIndex = 7;
             this.btnBaixa.Text = "Baixa";
             this.btnBaixa.UseVisualStyleBackColor = false;
             this.btnBaixa.Click += new System.EventHandler(this.btnBaixa_Click);
@@ -119,7 +120,7 @@
             this.btnEnd.Location = new System.Drawing.Point(18, 310);
             this.btnEnd.Name = "btnEnd";
             this.btnEnd.Size = new System.Drawing.Size(133, 36);
-            this.btnEnd.TabIndex = 4;
+            this.btnEnd.TabIndex = 8;
             this.btnEnd.Text = "Movimentação (Endereçamento)";
             this.btnEnd.UseVisualStyleBackColor = false;
             this.btnEnd.Click += new System.EventHandler(this.btnEnd_Click);
@@ -133,10 +134,9 @@
             this.btnVoltar.Location = new System.Drawing.Point(817, 12);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(102, 36);
-            this.btnVoltar.TabIndex = 0;
+            this.btnVoltar.TabIndex = 9;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = false;
-            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // listBox1
             // 
@@ -173,7 +173,7 @@
             this.txtBaixaPL.Location = new System.Drawing.Point(268, 229);
             this.txtBaixaPL.Name = "txtBaixaPL";
             this.txtBaixaPL.Size = new System.Drawing.Size(100, 20);
-            this.txtBaixaPL.TabIndex = 65;
+            this.txtBaixaPL.TabIndex = 11;
             this.txtBaixaPL.Visible = false;
             // 
             // btnEnviarBaixa
@@ -183,7 +183,7 @@
             this.btnEnviarBaixa.Location = new System.Drawing.Point(257, 329);
             this.btnEnviarBaixa.Name = "btnEnviarBaixa";
             this.btnEnviarBaixa.Size = new System.Drawing.Size(125, 26);
-            this.btnEnviarBaixa.TabIndex = 64;
+            this.btnEnviarBaixa.TabIndex = 13;
             this.btnEnviarBaixa.Text = "Enviar";
             this.btnEnviarBaixa.UseVisualStyleBackColor = false;
             this.btnEnviarBaixa.Visible = false;
@@ -205,7 +205,7 @@
             this.txtQtde.Location = new System.Drawing.Point(268, 288);
             this.txtQtde.Name = "txtQtde";
             this.txtQtde.Size = new System.Drawing.Size(100, 20);
-            this.txtQtde.TabIndex = 62;
+            this.txtQtde.TabIndex = 12;
             this.txtQtde.Visible = false;
             // 
             // lblPallet
@@ -247,7 +247,7 @@
             this.btnEnviarEnd.Location = new System.Drawing.Point(252, 320);
             this.btnEnviarEnd.Name = "btnEnviarEnd";
             this.btnEnviarEnd.Size = new System.Drawing.Size(124, 25);
-            this.btnEnviarEnd.TabIndex = 75;
+            this.btnEnviarEnd.TabIndex = 13;
             this.btnEnviarEnd.Text = "Enviar";
             this.btnEnviarEnd.UseVisualStyleBackColor = false;
             this.btnEnviarEnd.Visible = false;
@@ -258,7 +258,7 @@
             this.txtEnd.Location = new System.Drawing.Point(260, 285);
             this.txtEnd.Name = "txtEnd";
             this.txtEnd.Size = new System.Drawing.Size(100, 20);
-            this.txtEnd.TabIndex = 74;
+            this.txtEnd.TabIndex = 12;
             this.txtEnd.Visible = false;
             // 
             // txtEnderecoPL
@@ -266,7 +266,7 @@
             this.txtEnderecoPL.Location = new System.Drawing.Point(260, 227);
             this.txtEnderecoPL.Name = "txtEnderecoPL";
             this.txtEnderecoPL.Size = new System.Drawing.Size(100, 20);
-            this.txtEnderecoPL.TabIndex = 73;
+            this.txtEnderecoPL.TabIndex = 11;
             this.txtEnderecoPL.Visible = false;
             // 
             // lblEnd
@@ -346,15 +346,6 @@
             this.lblFrase2.Text = "Use para anotações se necessario:";
             this.lblFrase2.Visible = false;
             // 
-            // lblAnotacoes
-            // 
-            this.lblAnotacoes.FormattingEnabled = true;
-            this.lblAnotacoes.Location = new System.Drawing.Point(676, 134);
-            this.lblAnotacoes.Name = "lblAnotacoes";
-            this.lblAnotacoes.Size = new System.Drawing.Size(230, 199);
-            this.lblAnotacoes.TabIndex = 84;
-            this.lblAnotacoes.Visible = false;
-            // 
             // lblReBaixa
             // 
             this.lblReBaixa.AutoSize = true;
@@ -371,7 +362,7 @@
             this.txtRE.Location = new System.Drawing.Point(268, 185);
             this.txtRE.Name = "txtRE";
             this.txtRE.Size = new System.Drawing.Size(100, 20);
-            this.txtRE.TabIndex = 85;
+            this.txtRE.TabIndex = 10;
             this.txtRE.Visible = false;
             // 
             // lblReEnd
@@ -390,8 +381,13 @@
             this.txtReEND.Location = new System.Drawing.Point(259, 182);
             this.txtReEND.Name = "txtReEND";
             this.txtReEND.Size = new System.Drawing.Size(100, 20);
-            this.txtReEND.TabIndex = 87;
+            this.txtReEND.TabIndex = 10;
             this.txtReEND.Visible = false;
+            // 
+            // notifyIcon1
+            // 
+            this.notifyIcon1.Text = "notifyIcon1";
+            this.notifyIcon1.Visible = true;
             // 
             // TelaPrincipal
             // 
@@ -402,7 +398,6 @@
             this.Controls.Add(this.txtReEND);
             this.Controls.Add(this.lblReBaixa);
             this.Controls.Add(this.txtRE);
-            this.Controls.Add(this.lblAnotacoes);
             this.Controls.Add(this.lblFrase2);
             this.Controls.Add(this.PicBoxEnd);
             this.Controls.Add(this.lblFrase);
@@ -428,6 +423,7 @@
             this.Controls.Add(this.btnEntrada);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.listBox1);
+            this.MaximizeBox = false;
             this.Name = "TelaPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tela Principal";
@@ -466,10 +462,10 @@
         private System.Windows.Forms.Label lblFrase;
         private System.Windows.Forms.PictureBox PicBoxEnd;
         private System.Windows.Forms.Label lblFrase2;
-        private System.Windows.Forms.ListBox lblAnotacoes;
         private System.Windows.Forms.Label lblReBaixa;
         private System.Windows.Forms.TextBox txtRE;
         private System.Windows.Forms.Label lblReEnd;
         private System.Windows.Forms.TextBox txtReEND;
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
     }
 }

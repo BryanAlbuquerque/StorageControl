@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace StorageProject
 {
@@ -10,16 +11,25 @@ namespace StorageProject
             InitializeComponent();
         }
 
-        private void btnVoltar_Click(object sender, EventArgs e)
+        private bool _isAdmin;
+
+        public TelaPrincipal(bool isAdmin = false) // por padrão não-admin
         {
-            LoginForm Login = new LoginForm();
-            Login.Show();
-            this.Hide();
+            InitializeComponent();
+            _isAdmin = isAdmin;
+        }
+
+        private void TelaPrincipal_Load(object sender, EventArgs e)
+        {
+            if (_isAdmin)
+            {
+                MessageBox.Show("Bem-vindo! Você entrou como Administrador.");
+            }
         }
 
         private void btnGestao_Click(object sender, EventArgs e)
         {
-            Gestao gestao = new Gestao();
+            Gestao gestao = new Gestao(_isAdmin); // << passa info para a gestão
             gestao.Show();
             this.Hide();
         }
@@ -44,7 +54,7 @@ namespace StorageProject
             PicBoxBaixa.Visible = true;
             lblFrase.Visible = true;
             lblFrase2.Visible = true;
-            lblAnotacoes.Visible = true;
+            //lblAnotacoes.Visible = true;
             lblReBaixa.Visible = true;
 
             //Esconde os outros componentes
@@ -96,7 +106,7 @@ namespace StorageProject
             PicBoxEnd.Visible = true;
             lblFrase.Visible = true;
             lblFrase2.Visible = true;
-            lblAnotacoes.Visible = true;
+            //lblAnotacoes.Visible = true;
             lblReEnd.Visible = true;
 
             //Enconde os outros componentes
@@ -134,16 +144,6 @@ namespace StorageProject
             else 
             {
                 MessageBox.Show("");
-            }
-        }
-
-        private void TelaPrincipal_Load(object sender, EventArgs e)
-        {
-            Admin admin = new Admin();
-
-            if (admin.adminAccess == true)
-            {
-                MessageBox.Show("Bem vindo Administrador! ");
             }
         }
     }
