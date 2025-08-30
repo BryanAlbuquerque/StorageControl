@@ -23,8 +23,6 @@ namespace StorageProject
 
             if (admin.ValidarLogin(txtUsuario.Text, txtSenha.Text))
             {
-                MessageBox.Show("Login realizado com sucesso como Administrador!");
-
                 TelaPrincipal tela = new TelaPrincipal(true); // << informa que é admin
                 tela.Show();
                 this.Hide();
@@ -33,6 +31,13 @@ namespace StorageProject
             {
                 MessageBox.Show("Erro! Email ou senha incorretos.");
             }
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            LoginForm loginForm = new LoginForm();  
+            loginForm.Show();
+            this.Close();
         }
     }
 }

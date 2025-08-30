@@ -146,5 +146,12 @@ namespace StorageProject
                 MessageBox.Show("");
             }
         }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            LoginForm login = new LoginForm();
+            login.Show();
+            this.Hide();
+        }
     }
 }

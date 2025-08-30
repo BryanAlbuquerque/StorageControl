@@ -257,7 +257,7 @@
             this.Controls.Add(this.label7);
             this.MaximizeBox = false;
             this.Name = "LoginForm";
-            this.Text = "s";
+            this.Text = "Login";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
