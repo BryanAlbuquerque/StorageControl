@@ -139,7 +139,12 @@ namespace StorageProject
 
         private void TelaPrincipal_Load(object sender, EventArgs e)
         {
+            Admin admin = new Admin();
 
+            if (admin.adminAccess == true)
+            {
+                MessageBox.Show("Bem vindo Administrador! ");
+            }
         }
     }
 }

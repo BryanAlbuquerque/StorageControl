@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,29 +7,25 @@ using System.Windows.Forms;
 
 namespace StorageProject
 {
-    public partial class Admin : Form
+    public class Admin
     {
-        public Admin()
-        {
-            InitializeComponent();
-        }
+        public string Usuario { get; set; } = "Storage@Admin";
+        public string Senha { get; set; } = "Admin2025";
 
-        private void btnLogin_Click(object sender, EventArgs e)
-        {
-            Adm admin = new Adm();
+        public bool adminAccess = false;
 
-            if (admin.ValidarLogin(txtEmail.Text, txtSenha.Text))
+        public bool ValidarLogin(string usuario, string senha)
+        {
+            if (Usuario == "Storage@Admin" && Senha == "Admin2025")
             {
-                MessageBox.Show("Login realizado com sucesso como Administrador!");
-
-                Gestao gestao = new Gestao(true); // true = admin
-                gestao.Show();
-                this.Hide();
+                adminAccess = true;
             }
             else
             {
-                MessageBox.Show("Erro! Email ou senha incorretos.");
+                MessageBox.Show("Credenciais não validas. Contate o suporte!");
             }
+
+            return usuario == Usuario && senha == Senha;
         }
     }
 }

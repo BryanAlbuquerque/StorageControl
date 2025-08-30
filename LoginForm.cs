@@ -37,7 +37,7 @@ namespace StorageProject
 
         private void lblAdm_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Admin adm = new Admin();
+            AdminForm adm = new AdminForm();
             adm.Show();
             this.Hide();
         }
