@@ -6,3 +6,6 @@ Projeto em Andamento sendo feito usando **C# .NET com Visual Studio e Windowns f
 
 ## Pasta Querys SQL Server
 **Está armazenado as querys usadas pra formar o Banco de dados**.
+
+## Pasta Diagrama
+**Futuramente vai abrigar todos os diagramas de casos de uso, Diagramas de classe etc.. por enquanto desenvolvento os itens.
