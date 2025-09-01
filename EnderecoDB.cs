@@ -44,7 +44,7 @@ namespace StorageProject
             using (var conexao = new SqlConnection(connectionString)) 
             { 
                 string query = @"
-                INSERT INTO Historico_Enderecos (ID_RegistroEmpresarial, PalletID, Endereco, Data_Atual)
+                INSERT INTO Historico_Enderecos (ID_RegistroEmpresarial, PalletID, Endereco, Data_Realizada)
                   VALUES (@re, @palletId, @endereco, GETDATE())";
 
                 using (var comando = new SqlCommand(query, conexao)) 

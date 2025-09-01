@@ -203,6 +203,7 @@
       <DependentUpon>Gestao.cs</DependentUpon>
     </Compile>
     <Compile Include="GestaoDB.cs" />
+    <Compile Include="HistoricoDB.cs" />
     <Compile Include="Historicos.cs">
       <SubType>Form</SubType>
     </Compile>

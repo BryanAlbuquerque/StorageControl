@@ -35,19 +35,19 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnSalvar = new System.Windows.Forms.Button();
-            this.clnColaborador = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clnQtdeAtual = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clnCon = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clnNP = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clnNF = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clnValorTotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clnValorUni = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clnQtdeIni = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clnForn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clnNomeIn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clnData = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clnPL = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clnEnd = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clnPL = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clnData = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clnNomeIn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clnForn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clnQtdeIni = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clnValorUni = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clnValorTotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clnNF = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clnNP = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clnCon = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clnQtdeAtual = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clnColaborador = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridGestao)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -127,65 +127,19 @@
             this.btnSalvar.Visible = false;
             this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
-            // clnColaborador
+            // clnEnd
             // 
-            this.clnColaborador.DataPropertyName = "ID_RegistroEmpresarial";
-            this.clnColaborador.HeaderText = "RE DO COLABORADOR";
-            this.clnColaborador.Name = "clnColaborador";
+            this.clnEnd.DataPropertyName = "Endereco";
+            this.clnEnd.HeaderText = "ENDEREÇO";
+            this.clnEnd.Name = "clnEnd";
+            this.clnEnd.Width = 110;
             // 
-            // clnQtdeAtual
+            // clnPL
             // 
-            this.clnQtdeAtual.DataPropertyName = "QuantidadeAtual";
-            this.clnQtdeAtual.HeaderText = "QUANTIDADE ATUAL";
-            this.clnQtdeAtual.Name = "clnQtdeAtual";
-            // 
-            // clnCon
-            // 
-            this.clnCon.DataPropertyName = "Consumo";
-            this.clnCon.HeaderText = "CONSUMO";
-            this.clnCon.Name = "clnCon";
-            // 
-            // clnNP
-            // 
-            this.clnNP.DataPropertyName = "NumeroPedido";
-            this.clnNP.HeaderText = "NÚMERO DO PEDIDO";
-            this.clnNP.Name = "clnNP";
-            // 
-            // clnNF
-            // 
-            this.clnNF.DataPropertyName = "NumeroNotaFiscal";
-            this.clnNF.HeaderText = "NÚMERO DA NOTA FISCAL";
-            this.clnNF.Name = "clnNF";
-            // 
-            // clnValorTotal
-            // 
-            this.clnValorTotal.DataPropertyName = "ValorTotal";
-            this.clnValorTotal.HeaderText = "VALOR TOTAL";
-            this.clnValorTotal.Name = "clnValorTotal";
-            // 
-            // clnValorUni
-            // 
-            this.clnValorUni.DataPropertyName = "ValorUnitario";
-            this.clnValorUni.HeaderText = "VALOR UNITÁRIO";
-            this.clnValorUni.Name = "clnValorUni";
-            // 
-            // clnQtdeIni
-            // 
-            this.clnQtdeIni.DataPropertyName = "Quantidade";
-            this.clnQtdeIni.HeaderText = "QUANTIDADE";
-            this.clnQtdeIni.Name = "clnQtdeIni";
-            // 
-            // clnForn
-            // 
-            this.clnForn.DataPropertyName = "Fornecedor";
-            this.clnForn.HeaderText = "FORNECEDOR";
-            this.clnForn.Name = "clnForn";
-            // 
-            // clnNomeIn
-            // 
-            this.clnNomeIn.DataPropertyName = "NomeInsumo";
-            this.clnNomeIn.HeaderText = "NOME DO INSUMO";
-            this.clnNomeIn.Name = "clnNomeIn";
+            this.clnPL.DataPropertyName = "PalletID";
+            this.clnPL.HeaderText = "PALLET ID";
+            this.clnPL.Name = "clnPL";
+            this.clnPL.Width = 90;
             // 
             // clnData
             // 
@@ -193,18 +147,66 @@
             this.clnData.HeaderText = "DATA DE ENTRADA";
             this.clnData.Name = "clnData";
             // 
-            // clnPL
+            // clnNomeIn
             // 
-            this.clnPL.DataPropertyName = "PalletID";
-            this.clnPL.HeaderText = "PALLET ID";
-            this.clnPL.Name = "clnPL";
+            this.clnNomeIn.DataPropertyName = "NomeInsumo";
+            this.clnNomeIn.HeaderText = "NOME DO INSUMO";
+            this.clnNomeIn.Name = "clnNomeIn";
             // 
-            // clnEnd
+            // clnForn
             // 
-            this.clnEnd.DataPropertyName = "Endereco";
-            this.clnEnd.HeaderText = "ENDEREÇO";
-            this.clnEnd.Name = "clnEnd";
-            this.clnEnd.Width = 90;
+            this.clnForn.DataPropertyName = "Fornecedor";
+            this.clnForn.HeaderText = "FORNECEDOR";
+            this.clnForn.Name = "clnForn";
+            // 
+            // clnQtdeIni
+            // 
+            this.clnQtdeIni.DataPropertyName = "Quantidade";
+            this.clnQtdeIni.HeaderText = "QUANTIDADE";
+            this.clnQtdeIni.Name = "clnQtdeIni";
+            // 
+            // clnValorUni
+            // 
+            this.clnValorUni.DataPropertyName = "ValorUnitario";
+            this.clnValorUni.HeaderText = "VALOR UNITÁRIO";
+            this.clnValorUni.Name = "clnValorUni";
+            // 
+            // clnValorTotal
+            // 
+            this.clnValorTotal.DataPropertyName = "ValorTotal";
+            this.clnValorTotal.HeaderText = "VALOR TOTAL";
+            this.clnValorTotal.Name = "clnValorTotal";
+            // 
+            // clnNF
+            // 
+            this.clnNF.DataPropertyName = "NumeroNotaFiscal";
+            this.clnNF.HeaderText = "NÚMERO DA NOTA FISCAL";
+            this.clnNF.Name = "clnNF";
+            // 
+            // clnNP
+            // 
+            this.clnNP.DataPropertyName = "NumeroPedido";
+            this.clnNP.HeaderText = "NÚMERO DO PEDIDO";
+            this.clnNP.Name = "clnNP";
+            // 
+            // clnCon
+            // 
+            this.clnCon.DataPropertyName = "Consumo";
+            this.clnCon.HeaderText = "CONSUMO";
+            this.clnCon.Name = "clnCon";
+            this.clnCon.Width = 90;
+            // 
+            // clnQtdeAtual
+            // 
+            this.clnQtdeAtual.DataPropertyName = "QuantidadeAtual";
+            this.clnQtdeAtual.HeaderText = "QUANTIDADE ATUAL";
+            this.clnQtdeAtual.Name = "clnQtdeAtual";
+            // 
+            // clnColaborador
+            // 
+            this.clnColaborador.DataPropertyName = "ID_RegistroEmpresarial";
+            this.clnColaborador.HeaderText = "RE DO COLABORADOR";
+            this.clnColaborador.Name = "clnColaborador";
             // 
             // Gestao
             // 

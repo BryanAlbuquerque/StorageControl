@@ -52,18 +52,19 @@ namespace StorageProject
             }
         }
 
-        public static bool BaixasRealizadas(int re, int palletID, int quantidade)
+        public static bool BaixasRealizadas(int re, int palletID, string setor, int quantidade)
         {
             using (var conexao = new SqlConnection(connectionString))
             {
                 string query = @"
-                   INSERT INTO Baixas_Realizadas (ID_RegistroEmpresarial, PalletID, Quantidade, Data_Atual)
-                   VALUES (@re, @palletId, @quantidade, GETDATE())";
+                   INSERT INTO Baixas_Realizadas (ID_RegistroEmpresarial, PalletID, Setor_Solicitante, Quantidade, Data_Realizada)
+                   VALUES (@re, @palletId, @setor, @quantidade, GETDATE())";
 
                 using (var comando = new SqlCommand(query, conexao))
                 {
                     comando.Parameters.AddWithValue("@re", re);
                     comando.Parameters.AddWithValue("@palletId", palletID);
+                    comando.Parameters.AddWithValue("@setor", setor);
                     comando.Parameters.AddWithValue("@quantidade", quantidade);
                     try
                     {

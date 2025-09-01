@@ -56,8 +56,9 @@ namespace StorageProject
             PicBoxBaixa.Visible = true;
             lblFrase.Visible = true;
             lblFrase2.Visible = true;
-            //lblAnotacoes.Visible = true;
             lblReBaixa.Visible = true;
+            lblSetor.Visible = true;
+            txtSetor.Visible = true;
 
             //Esconde os outros componentes
             lblTituloEnd.Visible = false;
@@ -74,6 +75,7 @@ namespace StorageProject
         private void btnEnviarBaixa_Click(object sender, EventArgs e)
         {
             int PalletID = int.Parse(txtBaixaPL.Text);
+            string Setor = txtSetor.Text;
             int Quantidade = int.Parse(txtQtde.Text);
             int RE = int.Parse(txtRE.Text);
 
@@ -83,7 +85,7 @@ namespace StorageProject
             }
             
             bool sucessoBaixa = BaixasDB.Baixas(PalletID, Quantidade);
-            bool sucessoHistorico = BaixasDB.BaixasRealizadas(RE, PalletID, Quantidade);
+            bool sucessoHistorico = BaixasDB.BaixasRealizadas(RE, PalletID, Setor, Quantidade);
 
             if (sucessoBaixa && sucessoHistorico)
             {
@@ -108,7 +110,6 @@ namespace StorageProject
             PicBoxEnd.Visible = true;
             lblFrase.Visible = true;
             lblFrase2.Visible = true;
-            //lblAnotacoes.Visible = true;
             lblReEnd.Visible = true;
 
             //Enconde os outros componentes
@@ -121,6 +122,8 @@ namespace StorageProject
             btnEnviarBaixa.Visible = false;
             PicBoxBaixa.Visible = false;
             lblReBaixa.Visible = false;
+            lblSetor.Visible = false;
+            txtSetor.Visible = false;
         }
 
         private void btnEnviarEnd_Click(object sender, EventArgs e)

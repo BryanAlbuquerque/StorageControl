@@ -6,7 +6,7 @@ namespace StorageProject
     internal class GestaoDB
     {
         private static string connectionString =
-            "Server=DESKTOP-BRYAN\\SQLEXPRESS;Database=Storage;Trusted_Connection=True;TrustServerCertificate=true;";
+            "Server=DESKTOP-BRYAN\\SQLEXPRESS;Database=Storage;Trusted_Connection=True;TrustServerCertificate=true";
 
         private SqlDataAdapter _adapter;
         private DataTable _dt;
