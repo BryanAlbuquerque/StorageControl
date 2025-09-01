@@ -26,7 +26,7 @@ namespace StorageProject
                 dataGridGestao.ReadOnly = false;
                 dataGridGestao.AllowUserToAddRows = true;
                 dataGridGestao.AllowUserToDeleteRows = true;
-                MessageBox.Show("Gestão liberada para edição pelo Administrador!");
+                MessageBox.Show("Edição liberada para Administrador! ");
             }
             else
             {

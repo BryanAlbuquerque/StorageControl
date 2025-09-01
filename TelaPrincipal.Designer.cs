@@ -60,6 +60,7 @@
             this.lblReEnd = new System.Windows.Forms.Label();
             this.txtReEND = new System.Windows.Forms.TextBox();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.btnHistorico = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxBaixa)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxEnd)).BeginInit();
@@ -72,7 +73,7 @@
             this.btnEntrada.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnEntrada.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEntrada.ForeColor = System.Drawing.Color.White;
-            this.btnEntrada.Location = new System.Drawing.Point(21, 208);
+            this.btnEntrada.Location = new System.Drawing.Point(21, 150);
             this.btnEntrada.Name = "btnEntrada";
             this.btnEntrada.Size = new System.Drawing.Size(130, 36);
             this.btnEntrada.TabIndex = 6;
@@ -87,7 +88,7 @@
             this.btnGestao.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnGestao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGestao.ForeColor = System.Drawing.Color.White;
-            this.btnGestao.Location = new System.Drawing.Point(18, 142);
+            this.btnGestao.Location = new System.Drawing.Point(18, 84);
             this.btnGestao.Name = "btnGestao";
             this.btnGestao.Size = new System.Drawing.Size(130, 46);
             this.btnGestao.TabIndex = 5;
@@ -102,7 +103,7 @@
             this.btnBaixa.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnBaixa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBaixa.ForeColor = System.Drawing.Color.White;
-            this.btnBaixa.Location = new System.Drawing.Point(21, 261);
+            this.btnBaixa.Location = new System.Drawing.Point(21, 203);
             this.btnBaixa.Name = "btnBaixa";
             this.btnBaixa.Size = new System.Drawing.Size(130, 36);
             this.btnBaixa.TabIndex = 7;
@@ -117,7 +118,7 @@
             this.btnEnd.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnEnd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEnd.ForeColor = System.Drawing.Color.White;
-            this.btnEnd.Location = new System.Drawing.Point(18, 310);
+            this.btnEnd.Location = new System.Drawing.Point(18, 252);
             this.btnEnd.Name = "btnEnd";
             this.btnEnd.Size = new System.Drawing.Size(133, 36);
             this.btnEnd.TabIndex = 8;
@@ -390,11 +391,28 @@
             this.notifyIcon1.Text = "notifyIcon1";
             this.notifyIcon1.Visible = true;
             // 
+            // btnHistorico
+            // 
+            this.btnHistorico.BackColor = System.Drawing.Color.Navy;
+            this.btnHistorico.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHistorico.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnHistorico.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHistorico.ForeColor = System.Drawing.Color.White;
+            this.btnHistorico.Location = new System.Drawing.Point(18, 309);
+            this.btnHistorico.Name = "btnHistorico";
+            this.btnHistorico.Size = new System.Drawing.Size(133, 36);
+            this.btnHistorico.TabIndex = 89;
+            this.btnHistorico.Text = "Históricos";
+            this.btnHistorico.UseVisualStyleBackColor = false;
+            this.btnHistorico.Visible = false;
+            this.btnHistorico.Click += new System.EventHandler(this.btnHistorico_Click);
+            // 
             // TelaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(931, 577);
+            this.Controls.Add(this.btnHistorico);
             this.Controls.Add(this.lblReEnd);
             this.Controls.Add(this.txtReEND);
             this.Controls.Add(this.lblReBaixa);
@@ -468,5 +486,6 @@
         private System.Windows.Forms.Label lblReEnd;
         private System.Windows.Forms.TextBox txtReEND;
         private System.Windows.Forms.NotifyIcon notifyIcon1;
+        private System.Windows.Forms.Button btnHistorico;
     }
 }

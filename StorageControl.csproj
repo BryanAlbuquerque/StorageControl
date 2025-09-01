@@ -203,6 +203,12 @@
       <DependentUpon>Gestao.cs</DependentUpon>
     </Compile>
     <Compile Include="GestaoDB.cs" />
+    <Compile Include="Historicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Historicos.Designer.cs">
+      <DependentUpon>Historicos.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -229,6 +235,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Gestao.resx">
       <DependentUpon>Gestao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historicos.resx">
+      <DependentUpon>Historicos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>

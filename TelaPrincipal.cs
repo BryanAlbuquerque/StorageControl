@@ -24,6 +24,8 @@ namespace StorageProject
             if (_isAdmin)
             {
                 MessageBox.Show("Bem-vindo! Você entrou como Administrador.");
+
+                btnHistorico.Visible = true; // Exibe o botão Histórico
             }
         }
 
@@ -151,6 +153,13 @@ namespace StorageProject
         {
             LoginForm login = new LoginForm();
             login.Show();
+            this.Hide();
+        }
+
+        private void btnHistorico_Click(object sender, EventArgs e)
+        {
+            Historicos historicos = new Historicos();
+            historicos.Show();
             this.Hide();
         }
     }
