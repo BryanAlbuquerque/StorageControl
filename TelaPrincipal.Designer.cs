@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaPrincipal));
             this.btnEntrada = new System.Windows.Forms.Button();
             this.btnGestao = new System.Windows.Forms.Button();
@@ -59,7 +58,6 @@
             this.txtRE = new System.Windows.Forms.TextBox();
             this.lblReEnd = new System.Windows.Forms.Label();
             this.txtReEND = new System.Windows.Forms.TextBox();
-            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.btnHistorico = new System.Windows.Forms.Button();
             this.lblSetor = new System.Windows.Forms.Label();
             this.txtSetor = new System.Windows.Forms.TextBox();
@@ -184,7 +182,7 @@
             // 
             this.btnEnviarBaixa.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.btnEnviarBaixa.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEnviarBaixa.Location = new System.Drawing.Point(259, 352);
+            this.btnEnviarBaixa.Location = new System.Drawing.Point(258, 357);
             this.btnEnviarBaixa.Name = "btnEnviarBaixa";
             this.btnEnviarBaixa.Size = new System.Drawing.Size(125, 26);
             this.btnEnviarBaixa.TabIndex = 13;
@@ -197,7 +195,7 @@
             // 
             this.lblQtde.AutoSize = true;
             this.lblQtde.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQtde.Location = new System.Drawing.Point(267, 297);
+            this.lblQtde.Location = new System.Drawing.Point(267, 309);
             this.lblQtde.Name = "lblQtde";
             this.lblQtde.Size = new System.Drawing.Size(101, 18);
             this.lblQtde.TabIndex = 63;
@@ -206,7 +204,7 @@
             // 
             // txtQtde
             // 
-            this.txtQtde.Location = new System.Drawing.Point(270, 319);
+            this.txtQtde.Location = new System.Drawing.Point(270, 331);
             this.txtQtde.Name = "txtQtde";
             this.txtQtde.Size = new System.Drawing.Size(100, 20);
             this.txtQtde.TabIndex = 12;
@@ -248,7 +246,7 @@
             // 
             this.btnEnviarEnd.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.btnEnviarEnd.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEnviarEnd.Location = new System.Drawing.Point(252, 332);
+            this.btnEnviarEnd.Location = new System.Drawing.Point(507, 333);
             this.btnEnviarEnd.Name = "btnEnviarEnd";
             this.btnEnviarEnd.Size = new System.Drawing.Size(124, 25);
             this.btnEnviarEnd.TabIndex = 13;
@@ -259,7 +257,7 @@
             // 
             // txtEnd
             // 
-            this.txtEnd.Location = new System.Drawing.Point(260, 297);
+            this.txtEnd.Location = new System.Drawing.Point(507, 307);
             this.txtEnd.Name = "txtEnd";
             this.txtEnd.Size = new System.Drawing.Size(100, 20);
             this.txtEnd.TabIndex = 12;
@@ -267,9 +265,9 @@
             // 
             // txtEnderecoPL
             // 
-            this.txtEnderecoPL.Location = new System.Drawing.Point(260, 246);
+            this.txtEnderecoPL.Location = new System.Drawing.Point(506, 249);
             this.txtEnderecoPL.Name = "txtEnderecoPL";
-            this.txtEnderecoPL.Size = new System.Drawing.Size(100, 20);
+            this.txtEnderecoPL.Size = new System.Drawing.Size(112, 20);
             this.txtEnderecoPL.TabIndex = 11;
             this.txtEnderecoPL.Visible = false;
             // 
@@ -277,7 +275,7 @@
             // 
             this.lblEnd.AutoSize = true;
             this.lblEnd.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEnd.Location = new System.Drawing.Point(256, 274);
+            this.lblEnd.Location = new System.Drawing.Point(504, 281);
             this.lblEnd.Name = "lblEnd";
             this.lblEnd.Size = new System.Drawing.Size(86, 18);
             this.lblEnd.TabIndex = 72;
@@ -288,7 +286,7 @@
             // 
             this.lblPallet2.AutoSize = true;
             this.lblPallet2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPallet2.Location = new System.Drawing.Point(258, 225);
+            this.lblPallet2.Location = new System.Drawing.Point(503, 228);
             this.lblPallet2.Name = "lblPallet2";
             this.lblPallet2.Size = new System.Drawing.Size(70, 18);
             this.lblPallet2.TabIndex = 71;
@@ -299,7 +297,7 @@
             // 
             this.lblTituloEnd.AutoSize = true;
             this.lblTituloEnd.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTituloEnd.Location = new System.Drawing.Point(232, 146);
+            this.lblTituloEnd.Location = new System.Drawing.Point(489, 154);
             this.lblTituloEnd.Name = "lblTituloEnd";
             this.lblTituloEnd.Size = new System.Drawing.Size(231, 18);
             this.lblTituloEnd.TabIndex = 70;
@@ -373,7 +371,7 @@
             // 
             this.lblReEnd.AutoSize = true;
             this.lblReEnd.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblReEnd.Location = new System.Drawing.Point(258, 173);
+            this.lblReEnd.Location = new System.Drawing.Point(503, 179);
             this.lblReEnd.Name = "lblReEnd";
             this.lblReEnd.Size = new System.Drawing.Size(36, 18);
             this.lblReEnd.TabIndex = 88;
@@ -382,16 +380,11 @@
             // 
             // txtReEND
             // 
-            this.txtReEND.Location = new System.Drawing.Point(259, 194);
+            this.txtReEND.Location = new System.Drawing.Point(506, 200);
             this.txtReEND.Name = "txtReEND";
             this.txtReEND.Size = new System.Drawing.Size(100, 20);
             this.txtReEND.TabIndex = 10;
             this.txtReEND.Visible = false;
-            // 
-            // notifyIcon1
-            // 
-            this.notifyIcon1.Text = "notifyIcon1";
-            this.notifyIcon1.Visible = true;
             // 
             // btnHistorico
             // 
@@ -413,7 +406,7 @@
             // 
             this.lblSetor.AutoSize = true;
             this.lblSetor.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSetor.Location = new System.Drawing.Point(265, 252);
+            this.lblSetor.Location = new System.Drawing.Point(267, 261);
             this.lblSetor.Name = "lblSetor";
             this.lblSetor.Size = new System.Drawing.Size(137, 18);
             this.lblSetor.TabIndex = 91;
@@ -422,7 +415,7 @@
             // 
             // txtSetor
             // 
-            this.txtSetor.Location = new System.Drawing.Point(268, 274);
+            this.txtSetor.Location = new System.Drawing.Point(270, 282);
             this.txtSetor.Name = "txtSetor";
             this.txtSetor.Size = new System.Drawing.Size(100, 20);
             this.txtSetor.TabIndex = 90;
@@ -508,7 +501,6 @@
         private System.Windows.Forms.TextBox txtRE;
         private System.Windows.Forms.Label lblReEnd;
         private System.Windows.Forms.TextBox txtReEND;
-        private System.Windows.Forms.NotifyIcon notifyIcon1;
         private System.Windows.Forms.Button btnHistorico;
         private System.Windows.Forms.Label lblSetor;
         private System.Windows.Forms.TextBox txtSetor;

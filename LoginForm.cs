@@ -40,5 +40,10 @@ namespace StorageProject
                 MessageBox.Show("Usuário ou senha incorretos, ou conta inativa!");
             }
         }
+
+        private void guna2GradientCircleButton1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

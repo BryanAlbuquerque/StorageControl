@@ -11,9 +11,14 @@ namespace StorageProject
         {
             InitializeComponent();
         }
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            LoginForm loginForm = new LoginForm();
+            loginForm.Show();
+            this.Close();
+        }
 
-        // Evento que realiza o cadastro usando o UserStorage
-        private void btnSalvar_Click(object sender, EventArgs e)
+        private void btnSalvar_Click_1(object sender, EventArgs e)
         {
             string usuario = txtUsuario.Text.Trim();
             string senha = txtSenha.Text;
@@ -46,13 +51,6 @@ namespace StorageProject
             LoginForm login = new LoginForm();
             login.Show();
             this.Hide();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            LoginForm loginForm = new LoginForm();
-            loginForm.Show();
-            this.Close();
         }
     }
 }
