@@ -184,7 +184,7 @@
             // 
             this.btnEnviarBaixa.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.btnEnviarBaixa.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEnviarBaixa.Location = new System.Drawing.Point(259, 360);
+            this.btnEnviarBaixa.Location = new System.Drawing.Point(259, 352);
             this.btnEnviarBaixa.Name = "btnEnviarBaixa";
             this.btnEnviarBaixa.Size = new System.Drawing.Size(125, 26);
             this.btnEnviarBaixa.TabIndex = 13;
@@ -248,7 +248,7 @@
             // 
             this.btnEnviarEnd.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.btnEnviarEnd.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEnviarEnd.Location = new System.Drawing.Point(526, 345);
+            this.btnEnviarEnd.Location = new System.Drawing.Point(252, 332);
             this.btnEnviarEnd.Name = "btnEnviarEnd";
             this.btnEnviarEnd.Size = new System.Drawing.Size(124, 25);
             this.btnEnviarEnd.TabIndex = 13;
@@ -259,7 +259,7 @@
             // 
             // txtEnd
             // 
-            this.txtEnd.Location = new System.Drawing.Point(534, 310);
+            this.txtEnd.Location = new System.Drawing.Point(260, 297);
             this.txtEnd.Name = "txtEnd";
             this.txtEnd.Size = new System.Drawing.Size(100, 20);
             this.txtEnd.TabIndex = 12;
@@ -267,7 +267,7 @@
             // 
             // txtEnderecoPL
             // 
-            this.txtEnderecoPL.Location = new System.Drawing.Point(534, 252);
+            this.txtEnderecoPL.Location = new System.Drawing.Point(260, 246);
             this.txtEnderecoPL.Name = "txtEnderecoPL";
             this.txtEnderecoPL.Size = new System.Drawing.Size(100, 20);
             this.txtEnderecoPL.TabIndex = 11;
@@ -277,7 +277,7 @@
             // 
             this.lblEnd.AutoSize = true;
             this.lblEnd.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEnd.Location = new System.Drawing.Point(530, 287);
+            this.lblEnd.Location = new System.Drawing.Point(256, 274);
             this.lblEnd.Name = "lblEnd";
             this.lblEnd.Size = new System.Drawing.Size(86, 18);
             this.lblEnd.TabIndex = 72;
@@ -288,7 +288,7 @@
             // 
             this.lblPallet2.AutoSize = true;
             this.lblPallet2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPallet2.Location = new System.Drawing.Point(532, 231);
+            this.lblPallet2.Location = new System.Drawing.Point(258, 225);
             this.lblPallet2.Name = "lblPallet2";
             this.lblPallet2.Size = new System.Drawing.Size(70, 18);
             this.lblPallet2.TabIndex = 71;
@@ -299,7 +299,7 @@
             // 
             this.lblTituloEnd.AutoSize = true;
             this.lblTituloEnd.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTituloEnd.Location = new System.Drawing.Point(506, 159);
+            this.lblTituloEnd.Location = new System.Drawing.Point(232, 146);
             this.lblTituloEnd.Name = "lblTituloEnd";
             this.lblTituloEnd.Size = new System.Drawing.Size(231, 18);
             this.lblTituloEnd.TabIndex = 70;
@@ -373,7 +373,7 @@
             // 
             this.lblReEnd.AutoSize = true;
             this.lblReEnd.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblReEnd.Location = new System.Drawing.Point(532, 186);
+            this.lblReEnd.Location = new System.Drawing.Point(258, 173);
             this.lblReEnd.Name = "lblReEnd";
             this.lblReEnd.Size = new System.Drawing.Size(36, 18);
             this.lblReEnd.TabIndex = 88;
@@ -382,7 +382,7 @@
             // 
             // txtReEND
             // 
-            this.txtReEND.Location = new System.Drawing.Point(533, 207);
+            this.txtReEND.Location = new System.Drawing.Point(259, 194);
             this.txtReEND.Name = "txtReEND";
             this.txtReEND.Size = new System.Drawing.Size(100, 20);
             this.txtReEND.TabIndex = 10;

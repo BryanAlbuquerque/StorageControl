@@ -58,10 +58,10 @@
             this.btnSalvar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSalvar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalvar.ForeColor = System.Drawing.Color.Black;
-            this.btnSalvar.Location = new System.Drawing.Point(555, 283);
+            this.btnSalvar.Location = new System.Drawing.Point(605, 285);
             this.btnSalvar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(210, 37);
+            this.btnSalvar.Size = new System.Drawing.Size(104, 33);
             this.btnSalvar.TabIndex = 8;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = false;
@@ -89,7 +89,7 @@
             this.txtRE.MaximumSize = new System.Drawing.Size(233, 93);
             this.txtRE.Multiline = true;
             this.txtRE.Name = "txtRE";
-            this.txtRE.Size = new System.Drawing.Size(193, 28);
+            this.txtRE.Size = new System.Drawing.Size(158, 28);
             this.txtRE.TabIndex = 5;
             // 
             // btnVoltar
@@ -176,7 +176,7 @@
             this.txtUsuario.MaximumSize = new System.Drawing.Size(233, 93);
             this.txtUsuario.Multiline = true;
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(193, 28);
+            this.txtUsuario.Size = new System.Drawing.Size(158, 28);
             this.txtUsuario.TabIndex = 6;
             // 
             // txtSenha
@@ -188,7 +188,7 @@
             this.txtSenha.MaximumSize = new System.Drawing.Size(233, 93);
             this.txtSenha.Multiline = true;
             this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(193, 28);
+            this.txtSenha.Size = new System.Drawing.Size(158, 28);
             this.txtSenha.TabIndex = 7;
             // 
             // label5

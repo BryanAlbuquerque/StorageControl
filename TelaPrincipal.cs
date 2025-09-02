@@ -49,27 +49,34 @@ namespace StorageProject
             lblTituloBaixa.Visible = true;
             lblQtde.Visible = true;
             lblPallet.Visible = true;
+            lblReBaixa.Visible = true;
+            lblSetor.Visible = true;
+
             txtQtde.Visible = true;
             txtBaixaPL.Visible = true;
             txtRE.Visible = true;
-            btnEnviarBaixa.Visible = true;
-            PicBoxBaixa.Visible = true;
+            txtSetor.Visible = true;
+
             lblFrase.Visible = true;
             lblFrase2.Visible = true;
-            lblReBaixa.Visible = true;
-            lblSetor.Visible = true;
-            txtSetor.Visible = true;
+            PicBoxBaixa.Visible = true;
+
+            btnEnviarBaixa.Visible = true;
+            
 
             //Esconde os outros componentes
             lblTituloEnd.Visible = false;
             lblPallet2.Visible = false;
             lblEnd.Visible = false;
+            lblReEnd.Visible = false;
+
             txtEnderecoPL.Visible = false;
             txtEnd.Visible = false;
             txtReEND.Visible = false;
+
             btnEnviarEnd.Visible = false;
             PicBoxEnd.Visible = false;
-            lblReEnd.Visible = false;
+            
         }
 
         private void btnEnviarBaixa_Click(object sender, EventArgs e)
@@ -103,27 +110,33 @@ namespace StorageProject
             lblTituloEnd.Visible = true;
             lblPallet2.Visible = true;
             lblEnd.Visible = true;
+            lblReEnd.Visible = true;
+
             txtEnderecoPL.Visible = true;
             txtEnd.Visible = true;
             txtReEND.Visible = true;
-            btnEnviarEnd.Visible = true;
+
             PicBoxEnd.Visible = true;
             lblFrase.Visible = true;
             lblFrase2.Visible = true;
-            lblReEnd.Visible = true;
+
+            btnEnviarEnd.Visible = true;
 
             //Enconde os outros componentes
             lblTituloBaixa.Visible = false;
             lblQtde.Visible = false;
             lblPallet.Visible = false;
+            lblSetor.Visible = false;
+            lblReBaixa.Visible = false;
+
             txtQtde.Visible = false;
             txtBaixaPL.Visible = false;
             txtRE.Visible = false;
-            btnEnviarBaixa.Visible = false;
-            PicBoxBaixa.Visible = false;
-            lblReBaixa.Visible = false;
-            lblSetor.Visible = false;
             txtSetor.Visible = false;
+
+            PicBoxBaixa.Visible = false;
+
+            btnEnviarBaixa.Visible = false;
         }
 
         private void btnEnviarEnd_Click(object sender, EventArgs e)

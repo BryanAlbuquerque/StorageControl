@@ -139,7 +139,7 @@
             this.label7.BackColor = System.Drawing.SystemColors.Control;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(225, 315);
+            this.label7.Location = new System.Drawing.Point(220, 319);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(350, 31);
             this.label7.TabIndex = 67;
