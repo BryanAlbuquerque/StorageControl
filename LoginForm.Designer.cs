@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
-            this.btnLogin = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.lblCadastro = new System.Windows.Forms.LinkLabel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -37,7 +36,6 @@
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.lblAdm = new System.Windows.Forms.LinkLabel();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -45,23 +43,12 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.btnLogin = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btnLogin
-            // 
-            this.btnLogin.BackColor = System.Drawing.SystemColors.Menu;
-            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLogin.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.Location = new System.Drawing.Point(537, 259);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(112, 30);
-            this.btnLogin.TabIndex = 8;
-            this.btnLogin.Text = "Login";
-            this.btnLogin.UseVisualStyleBackColor = false;
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // label1
             // 
@@ -146,15 +133,6 @@
             this.lblAdm.VisitedLinkColor = System.Drawing.Color.Black;
             this.lblAdm.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblAdm_LinkClicked);
             // 
-            // listBox1
-            // 
-            this.listBox1.BackColor = System.Drawing.Color.Navy;
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(1, 1);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(342, 407);
-            this.listBox1.TabIndex = 1;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Navy;
@@ -233,19 +211,47 @@
             this.label7.TabIndex = 58;
             this.label7.Text = "_____________________";
             // 
+            // btnLogin
+            // 
+            this.btnLogin.BackColor = System.Drawing.Color.White;
+            this.btnLogin.BorderColor = System.Drawing.Color.White;
+            this.btnLogin.BorderRadius = 10;
+            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLogin.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnLogin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnLogin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnLogin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnLogin.FillColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnLogin.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.ForeColor = System.Drawing.Color.Black;
+            this.btnLogin.Location = new System.Drawing.Point(524, 259);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(129, 26);
+            this.btnLogin.TabIndex = 8;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click_1);
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.FillColor = System.Drawing.Color.Navy;
+            this.guna2Panel1.Location = new System.Drawing.Point(2, 1);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(357, 419);
+            this.guna2Panel1.TabIndex = 60;
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(832, 405);
+            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.lblAdm);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox5);
@@ -253,8 +259,8 @@
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.lblCadastro);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.label7);
+            this.Controls.Add(this.guna2Panel1);
             this.MaximizeBox = false;
             this.Name = "LoginForm";
             this.Text = "Login";
@@ -267,7 +273,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.LinkLabel lblCadastro;
         private System.Windows.Forms.PictureBox pictureBox2;
@@ -275,7 +280,6 @@
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.LinkLabel lblAdm;
-        private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -283,6 +287,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private Guna.UI2.WinForms.Guna2Button btnLogin;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
     }
 }
 
