@@ -16,8 +16,7 @@ namespace StorageProject
         {
             InitializeComponent();
         }
-
-        private void btnLogin_Click(object sender, EventArgs e)
+        private void btnLogin_Click_1(object sender, EventArgs e)
         {
             Admin admin = new Admin();
 
@@ -34,10 +33,15 @@ namespace StorageProject
         }
 
         private void btnVoltar_Click(object sender, EventArgs e)
-        {
-            LoginForm loginForm = new LoginForm();  
+        { 
+            LoginForm loginForm = new LoginForm();
             loginForm.Show();
             this.Close();
+        }
+
+        private void guna2GradientCircleButton1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

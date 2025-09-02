@@ -82,15 +82,15 @@
             // 
             this.lblAdm.AutoSize = true;
             this.lblAdm.DisabledLinkColor = System.Drawing.Color.Gold;
-            this.lblAdm.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAdm.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAdm.ForeColor = System.Drawing.Color.Black;
             this.lblAdm.LinkColor = System.Drawing.Color.Blue;
-            this.lblAdm.Location = new System.Drawing.Point(539, 351);
+            this.lblAdm.Location = new System.Drawing.Point(533, 350);
             this.lblAdm.Name = "lblAdm";
-            this.lblAdm.Size = new System.Drawing.Size(115, 15);
+            this.lblAdm.Size = new System.Drawing.Size(117, 14);
             this.lblAdm.TabIndex = 10;
             this.lblAdm.TabStop = true;
-            this.lblAdm.Text = "Login como ADM";
+            this.lblAdm.Text = "Logar como Admin";
             this.lblAdm.VisitedLinkColor = System.Drawing.Color.Black;
             this.lblAdm.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblAdm_LinkClicked);
             // 
@@ -219,7 +219,7 @@
             this.txtUsuario.PlaceholderText = "";
             this.txtUsuario.SelectedText = "";
             this.txtUsuario.Size = new System.Drawing.Size(198, 26);
-            this.txtUsuario.TabIndex = 61;
+            this.txtUsuario.TabIndex = 6;
             // 
             // guna2PictureBox1
             // 
@@ -260,7 +260,7 @@
             this.txtSenha.PlaceholderText = "";
             this.txtSenha.SelectedText = "";
             this.txtSenha.Size = new System.Drawing.Size(198, 26);
-            this.txtSenha.TabIndex = 64;
+            this.txtSenha.TabIndex = 7;
             // 
             // guna2BorderlessForm1
             // 
@@ -285,7 +285,7 @@
             this.guna2GradientCircleButton1.Name = "guna2GradientCircleButton1";
             this.guna2GradientCircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2GradientCircleButton1.Size = new System.Drawing.Size(63, 49);
-            this.guna2GradientCircleButton1.TabIndex = 65;
+            this.guna2GradientCircleButton1.TabIndex = 11;
             this.guna2GradientCircleButton1.Text = "Fechar";
             this.guna2GradientCircleButton1.Click += new System.EventHandler(this.guna2GradientCircleButton1_Click);
             // 

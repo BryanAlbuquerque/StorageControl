@@ -45,11 +45,11 @@
             this.lblRE = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label4 = new System.Windows.Forms.Label();
             this.btnSalvar = new Guna.UI2.WinForms.Guna2Button();
             this.label8 = new System.Windows.Forms.Label();
             this.btnVoltar = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GradientCircleButton1 = new Guna.UI2.WinForms.Guna2GradientCircleButton();
-            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -123,7 +123,7 @@
             this.txtSenha.PlaceholderText = "";
             this.txtSenha.SelectedText = "";
             this.txtSenha.Size = new System.Drawing.Size(198, 26);
-            this.txtSenha.TabIndex = 80;
+            this.txtSenha.TabIndex = 8;
             // 
             // guna2PictureBox2
             // 
@@ -164,7 +164,7 @@
             this.txtUsuario.PlaceholderText = "";
             this.txtUsuario.SelectedText = "";
             this.txtUsuario.Size = new System.Drawing.Size(198, 26);
-            this.txtUsuario.TabIndex = 77;
+            this.txtUsuario.TabIndex = 7;
             // 
             // label1
             // 
@@ -214,7 +214,7 @@
             this.txtRE.PlaceholderText = "";
             this.txtRE.SelectedText = "";
             this.txtRE.Size = new System.Drawing.Size(198, 26);
-            this.txtRE.TabIndex = 82;
+            this.txtRE.TabIndex = 6;
             // 
             // lblRE
             // 
@@ -243,6 +243,19 @@
             this.guna2Panel1.Size = new System.Drawing.Size(403, 419);
             this.guna2Panel1.TabIndex = 84;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Navy;
+            this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(13, 275);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(332, 36);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Faça seu cadastro para melhor controle \r\ne monitoramento das atividade\r\n";
+            // 
             // btnSalvar
             // 
             this.btnSalvar.BackColor = System.Drawing.Color.White;
@@ -259,7 +272,7 @@
             this.btnSalvar.Location = new System.Drawing.Point(596, 304);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(129, 26);
-            this.btnSalvar.TabIndex = 85;
+            this.btnSalvar.TabIndex = 9;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click_1);
             // 
@@ -291,7 +304,7 @@
             this.btnVoltar.Location = new System.Drawing.Point(409, 2);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(98, 26);
-            this.btnVoltar.TabIndex = 87;
+            this.btnVoltar.TabIndex = 10;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
@@ -311,21 +324,8 @@
             this.guna2GradientCircleButton1.Name = "guna2GradientCircleButton1";
             this.guna2GradientCircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2GradientCircleButton1.Size = new System.Drawing.Size(63, 49);
-            this.guna2GradientCircleButton1.TabIndex = 88;
+            this.guna2GradientCircleButton1.TabIndex = 11;
             this.guna2GradientCircleButton1.Text = "Fechar";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Navy;
-            this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(13, 275);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(332, 36);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Faça seu cadastro para melhor controle \r\ne monitoramento das atividade\r\n";
             // 
             // CadastroForm
             // 
