@@ -46,21 +46,6 @@
             this.lblReBaixa = new System.Windows.Forms.Label();
             this.lblReEnd = new System.Windows.Forms.Label();
             this.lblSetor = new System.Windows.Forms.Label();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.btnHistorico = new Guna.UI2.WinForms.Guna2Button();
-            this.btnEnd = new Guna.UI2.WinForms.Guna2Button();
-            this.btnBaixa = new Guna.UI2.WinForms.Guna2Button();
-            this.btnEntrada = new Guna.UI2.WinForms.Guna2Button();
-            this.btnGestao = new Guna.UI2.WinForms.Guna2Button();
-            this.Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.Panel4 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.btnEnviarEnd = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnEnviarBaixa = new Guna.UI2.WinForms.Guna2GradientButton();
             this.txtRE = new Guna.UI2.WinForms.Guna2TextBox();
@@ -73,14 +58,21 @@
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.btnFechar = new Guna.UI2.WinForms.Guna2GradientButton();
             this.txtNotas = new Guna.UI2.WinForms.Guna2TextBox();
+            this.btnEnd = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btnBaixa = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btnEntrada = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btnVoltar = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btnGestao = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btnHistorico = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxBaixa)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxEnd)).BeginInit();
             this.guna2Panel1.SuspendLayout();
-            this.Panel1.SuspendLayout();
-            this.Panel2.SuspendLayout();
-            this.Panel3.SuspendLayout();
-            this.Panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // label8
@@ -256,275 +248,6 @@
             this.lblSetor.Text = "Setor Solcitante";
             this.lblSetor.Visible = false;
             // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.BorderRadius = 10;
-            this.guna2Panel1.Controls.Add(this.guna2GradientButton1);
-            this.guna2Panel1.Controls.Add(this.btnHistorico);
-            this.guna2Panel1.Controls.Add(this.btnEnd);
-            this.guna2Panel1.Controls.Add(this.btnBaixa);
-            this.guna2Panel1.Controls.Add(this.btnEntrada);
-            this.guna2Panel1.Controls.Add(this.btnGestao);
-            this.guna2Panel1.Controls.Add(this.Panel1);
-            this.guna2Panel1.Controls.Add(this.Panel2);
-            this.guna2Panel1.Controls.Add(this.Panel3);
-            this.guna2Panel1.Controls.Add(this.Panel4);
-            this.guna2Panel1.FillColor = System.Drawing.Color.Navy;
-            this.guna2Panel1.Location = new System.Drawing.Point(-3, -4);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(200, 590);
-            this.guna2Panel1.TabIndex = 92;
-            // 
-            // guna2GradientButton1
-            // 
-            this.guna2GradientButton1.BackColor = System.Drawing.Color.Navy;
-            this.guna2GradientButton1.BorderRadius = 10;
-            this.guna2GradientButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2GradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton1.FillColor = System.Drawing.Color.LightGray;
-            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.Navy;
-            this.guna2GradientButton1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(7, 9);
-            this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.Size = new System.Drawing.Size(90, 25);
-            this.guna2GradientButton1.TabIndex = 98;
-            this.guna2GradientButton1.Text = "Voltar";
-            this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
-            // 
-            // btnHistorico
-            // 
-            this.btnHistorico.BackColor = System.Drawing.Color.Navy;
-            this.btnHistorico.BorderRadius = 10;
-            this.btnHistorico.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.btnHistorico.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnHistorico.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnHistorico.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnHistorico.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnHistorico.FillColor = System.Drawing.Color.DarkSlateGray;
-            this.btnHistorico.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHistorico.ForeColor = System.Drawing.Color.Black;
-            this.btnHistorico.Location = new System.Drawing.Point(11, 512);
-            this.btnHistorico.Name = "btnHistorico";
-            this.btnHistorico.Padding = new System.Windows.Forms.Padding(0, 10, 0, 10);
-            this.btnHistorico.Size = new System.Drawing.Size(180, 48);
-            this.btnHistorico.TabIndex = 97;
-            this.btnHistorico.Text = "Histórico";
-            this.btnHistorico.Visible = false;
-            this.btnHistorico.Click += new System.EventHandler(this.btnHistorico_Click_1);
-            // 
-            // btnEnd
-            // 
-            this.btnEnd.BackColor = System.Drawing.Color.Navy;
-            this.btnEnd.BorderRadius = 10;
-            this.btnEnd.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.btnEnd.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnEnd.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnEnd.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnEnd.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnEnd.FillColor = System.Drawing.Color.DarkSlateGray;
-            this.btnEnd.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEnd.ForeColor = System.Drawing.Color.Black;
-            this.btnEnd.Location = new System.Drawing.Point(11, 329);
-            this.btnEnd.Name = "btnEnd";
-            this.btnEnd.Padding = new System.Windows.Forms.Padding(0, 10, 0, 10);
-            this.btnEnd.Size = new System.Drawing.Size(180, 48);
-            this.btnEnd.TabIndex = 96;
-            this.btnEnd.Text = "Endereçamento";
-            this.btnEnd.Click += new System.EventHandler(this.btnEnd_Click_1);
-            this.btnEnd.MouseEnter += new System.EventHandler(this.btnEnd_MouseEnter);
-            // 
-            // btnBaixa
-            // 
-            this.btnBaixa.BackColor = System.Drawing.Color.Navy;
-            this.btnBaixa.BorderRadius = 10;
-            this.btnBaixa.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.btnBaixa.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnBaixa.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnBaixa.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnBaixa.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnBaixa.FillColor = System.Drawing.Color.DarkSlateGray;
-            this.btnBaixa.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBaixa.ForeColor = System.Drawing.Color.Black;
-            this.btnBaixa.Location = new System.Drawing.Point(11, 255);
-            this.btnBaixa.Name = "btnBaixa";
-            this.btnBaixa.Padding = new System.Windows.Forms.Padding(0, 10, 0, 10);
-            this.btnBaixa.Size = new System.Drawing.Size(180, 48);
-            this.btnBaixa.TabIndex = 95;
-            this.btnBaixa.Text = "Baixa";
-            this.btnBaixa.Click += new System.EventHandler(this.btnBaixa_Click_1);
-            this.btnBaixa.MouseEnter += new System.EventHandler(this.btnBaixa_MouseEnter);
-            // 
-            // btnEntrada
-            // 
-            this.btnEntrada.BackColor = System.Drawing.Color.Navy;
-            this.btnEntrada.BorderRadius = 10;
-            this.btnEntrada.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.btnEntrada.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnEntrada.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnEntrada.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnEntrada.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnEntrada.FillColor = System.Drawing.Color.DarkSlateGray;
-            this.btnEntrada.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEntrada.ForeColor = System.Drawing.Color.Black;
-            this.btnEntrada.Location = new System.Drawing.Point(11, 181);
-            this.btnEntrada.Name = "btnEntrada";
-            this.btnEntrada.Padding = new System.Windows.Forms.Padding(0, 10, 0, 10);
-            this.btnEntrada.Size = new System.Drawing.Size(180, 44);
-            this.btnEntrada.TabIndex = 94;
-            this.btnEntrada.Text = "Entrada";
-            this.btnEntrada.Click += new System.EventHandler(this.btnEntrada_Click_1);
-            this.btnEntrada.MouseEnter += new System.EventHandler(this.btnEntrada_MouseEnter);
-            // 
-            // btnGestao
-            // 
-            this.btnGestao.BackColor = System.Drawing.Color.Navy;
-            this.btnGestao.BorderRadius = 10;
-            this.btnGestao.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.btnGestao.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnGestao.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnGestao.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnGestao.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnGestao.FillColor = System.Drawing.Color.DarkSlateGray;
-            this.btnGestao.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F);
-            this.btnGestao.ForeColor = System.Drawing.Color.Black;
-            this.btnGestao.Location = new System.Drawing.Point(11, 102);
-            this.btnGestao.Name = "btnGestao";
-            this.btnGestao.Padding = new System.Windows.Forms.Padding(0, 10, 0, 10);
-            this.btnGestao.Size = new System.Drawing.Size(180, 48);
-            this.btnGestao.TabIndex = 93;
-            this.btnGestao.Text = "Gestão do Estoque";
-            this.btnGestao.Click += new System.EventHandler(this.btnGestao_Click_1);
-            this.btnGestao.MouseEnter += new System.EventHandler(this.btnGestao_MouseEnter);
-            // 
-            // Panel1
-            // 
-            this.Panel1.BorderRadius = 50;
-            this.Panel1.Controls.Add(this.guna2Button1);
-            this.Panel1.FillColor = System.Drawing.SystemColors.Control;
-            this.Panel1.Location = new System.Drawing.Point(-1, 93);
-            this.Panel1.Name = "Panel1";
-            this.Panel1.Size = new System.Drawing.Size(201, 69);
-            this.Panel1.TabIndex = 99;
-            this.Panel1.Visible = false;
-            // 
-            // guna2Button1
-            // 
-            this.guna2Button1.BackColor = System.Drawing.Color.Navy;
-            this.guna2Button1.BorderRadius = 10;
-            this.guna2Button1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2Button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button1.Location = new System.Drawing.Point(11, 512);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Padding = new System.Windows.Forms.Padding(0, 10, 0, 10);
-            this.guna2Button1.Size = new System.Drawing.Size(180, 48);
-            this.guna2Button1.TabIndex = 97;
-            this.guna2Button1.Text = "Histórico";
-            this.guna2Button1.Visible = false;
-            // 
-            // Panel2
-            // 
-            this.Panel2.BorderRadius = 50;
-            this.Panel2.Controls.Add(this.guna2Button2);
-            this.Panel2.FillColor = System.Drawing.SystemColors.Control;
-            this.Panel2.Location = new System.Drawing.Point(3, 173);
-            this.Panel2.Name = "Panel2";
-            this.Panel2.Size = new System.Drawing.Size(197, 62);
-            this.Panel2.TabIndex = 100;
-            this.Panel2.Visible = false;
-            // 
-            // guna2Button2
-            // 
-            this.guna2Button2.BackColor = System.Drawing.Color.Navy;
-            this.guna2Button2.BorderRadius = 10;
-            this.guna2Button2.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2Button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button2.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button2.Location = new System.Drawing.Point(11, 512);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Padding = new System.Windows.Forms.Padding(0, 10, 0, 10);
-            this.guna2Button2.Size = new System.Drawing.Size(180, 48);
-            this.guna2Button2.TabIndex = 97;
-            this.guna2Button2.Text = "Histórico";
-            this.guna2Button2.Visible = false;
-            // 
-            // Panel3
-            // 
-            this.Panel3.BorderRadius = 50;
-            this.Panel3.Controls.Add(this.guna2Button3);
-            this.Panel3.FillColor = System.Drawing.SystemColors.Control;
-            this.Panel3.Location = new System.Drawing.Point(3, 248);
-            this.Panel3.Name = "Panel3";
-            this.Panel3.Size = new System.Drawing.Size(197, 62);
-            this.Panel3.TabIndex = 101;
-            this.Panel3.Visible = false;
-            // 
-            // guna2Button3
-            // 
-            this.guna2Button3.BackColor = System.Drawing.Color.Navy;
-            this.guna2Button3.BorderRadius = 10;
-            this.guna2Button3.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button3.FillColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2Button3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button3.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button3.Location = new System.Drawing.Point(11, 512);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Padding = new System.Windows.Forms.Padding(0, 10, 0, 10);
-            this.guna2Button3.Size = new System.Drawing.Size(180, 48);
-            this.guna2Button3.TabIndex = 97;
-            this.guna2Button3.Text = "Histórico";
-            this.guna2Button3.Visible = false;
-            // 
-            // Panel4
-            // 
-            this.Panel4.BorderRadius = 50;
-            this.Panel4.Controls.Add(this.guna2Button4);
-            this.Panel4.FillColor = System.Drawing.SystemColors.Control;
-            this.Panel4.Location = new System.Drawing.Point(3, 323);
-            this.Panel4.Name = "Panel4";
-            this.Panel4.Size = new System.Drawing.Size(197, 62);
-            this.Panel4.TabIndex = 102;
-            this.Panel4.Visible = false;
-            // 
-            // guna2Button4
-            // 
-            this.guna2Button4.BackColor = System.Drawing.Color.Navy;
-            this.guna2Button4.BorderRadius = 10;
-            this.guna2Button4.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button4.FillColor = System.Drawing.Color.DarkOliveGreen;
-            this.guna2Button4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button4.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button4.Location = new System.Drawing.Point(11, 512);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Padding = new System.Windows.Forms.Padding(0, 10, 0, 10);
-            this.guna2Button4.Size = new System.Drawing.Size(180, 48);
-            this.guna2Button4.TabIndex = 97;
-            this.guna2Button4.Text = "Histórico";
-            this.guna2Button4.Visible = false;
-            // 
             // btnEnviarEnd
             // 
             this.btnEnviarEnd.BorderRadius = 10;
@@ -544,7 +267,7 @@
             this.btnEnviarEnd.TabIndex = 93;
             this.btnEnviarEnd.Text = "Enviar";
             this.btnEnviarEnd.Visible = false;
-            this.btnEnviarEnd.Click += new System.EventHandler(this.btnEnviarEnd_Click_1);
+            this.btnEnviarEnd.Click += new System.EventHandler(this.btnEnviarEnd_Click);
             // 
             // btnEnviarBaixa
             // 
@@ -565,7 +288,7 @@
             this.btnEnviarBaixa.TabIndex = 94;
             this.btnEnviarBaixa.Text = "Enviar";
             this.btnEnviarBaixa.Visible = false;
-            this.btnEnviarBaixa.Click += new System.EventHandler(this.btnEnviarBaixa_Click_1);
+            this.btnEnviarBaixa.Click += new System.EventHandler(this.btnEnviarBaixa_Click);
             // 
             // txtRE
             // 
@@ -757,12 +480,199 @@
             this.txtNotas.Visible = false;
             this.txtNotas.MouseHover += new System.EventHandler(this.guna2TextBox1_MouseHover);
             // 
+            // btnEnd
+            // 
+            this.btnEnd.BackColor = System.Drawing.Color.Navy;
+            this.btnEnd.BorderColor = System.Drawing.Color.Navy;
+            this.btnEnd.BorderRadius = 15;
+            this.btnEnd.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnEnd.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnEnd.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnEnd.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnEnd.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnEnd.FillColor = System.Drawing.Color.Navy;
+            this.btnEnd.FillColor2 = System.Drawing.Color.Red;
+            this.btnEnd.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEnd.ForeColor = System.Drawing.Color.White;
+            this.btnEnd.Location = new System.Drawing.Point(8, 366);
+            this.btnEnd.Name = "btnEnd";
+            this.btnEnd.Size = new System.Drawing.Size(180, 45);
+            this.btnEnd.TabIndex = 107;
+            this.btnEnd.Text = "Endereçamento";
+            this.btnEnd.Click += new System.EventHandler(this.btnEnd_Click);
+            this.btnEnd.MouseEnter += new System.EventHandler(this.btnEnd_MouseEnter);
+            // 
+            // btnBaixa
+            // 
+            this.btnBaixa.BackColor = System.Drawing.Color.Navy;
+            this.btnBaixa.BorderColor = System.Drawing.Color.Navy;
+            this.btnBaixa.BorderRadius = 15;
+            this.btnBaixa.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnBaixa.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnBaixa.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnBaixa.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnBaixa.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnBaixa.FillColor = System.Drawing.Color.Navy;
+            this.btnBaixa.FillColor2 = System.Drawing.Color.Red;
+            this.btnBaixa.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBaixa.ForeColor = System.Drawing.Color.White;
+            this.btnBaixa.Location = new System.Drawing.Point(9, 291);
+            this.btnBaixa.Name = "btnBaixa";
+            this.btnBaixa.Size = new System.Drawing.Size(180, 45);
+            this.btnBaixa.TabIndex = 106;
+            this.btnBaixa.Text = "Baixa";
+            this.btnBaixa.Click += new System.EventHandler(this.btnBaixa_Click);
+            this.btnBaixa.MouseEnter += new System.EventHandler(this.btnBaixa_MouseEnter);
+            // 
+            // btnEntrada
+            // 
+            this.btnEntrada.BackColor = System.Drawing.Color.Navy;
+            this.btnEntrada.BorderColor = System.Drawing.Color.Navy;
+            this.btnEntrada.BorderRadius = 15;
+            this.btnEntrada.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnEntrada.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnEntrada.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnEntrada.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnEntrada.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnEntrada.FillColor = System.Drawing.Color.Navy;
+            this.btnEntrada.FillColor2 = System.Drawing.Color.Red;
+            this.btnEntrada.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEntrada.ForeColor = System.Drawing.Color.White;
+            this.btnEntrada.Location = new System.Drawing.Point(7, 217);
+            this.btnEntrada.Name = "btnEntrada";
+            this.btnEntrada.Size = new System.Drawing.Size(180, 45);
+            this.btnEntrada.TabIndex = 105;
+            this.btnEntrada.Text = "Entrada";
+            this.btnEntrada.Click += new System.EventHandler(this.btnEntrada_Click);
+            this.btnEntrada.MouseEnter += new System.EventHandler(this.btnEntrada_MouseEnter);
+            // 
+            // btnVoltar
+            // 
+            this.btnVoltar.BackColor = System.Drawing.Color.Navy;
+            this.btnVoltar.BorderRadius = 10;
+            this.btnVoltar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnVoltar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnVoltar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnVoltar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnVoltar.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnVoltar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnVoltar.FillColor = System.Drawing.Color.LightGray;
+            this.btnVoltar.FillColor2 = System.Drawing.Color.Navy;
+            this.btnVoltar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVoltar.ForeColor = System.Drawing.Color.White;
+            this.btnVoltar.Location = new System.Drawing.Point(12, 4);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(90, 25);
+            this.btnVoltar.TabIndex = 98;
+            this.btnVoltar.Text = "Voltar";
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click_1);
+            // 
+            // btnGestao
+            // 
+            this.btnGestao.BackColor = System.Drawing.Color.Navy;
+            this.btnGestao.BorderColor = System.Drawing.Color.Navy;
+            this.btnGestao.BorderRadius = 15;
+            this.btnGestao.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnGestao.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnGestao.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnGestao.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnGestao.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnGestao.FillColor = System.Drawing.Color.Navy;
+            this.btnGestao.FillColor2 = System.Drawing.Color.Red;
+            this.btnGestao.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGestao.ForeColor = System.Drawing.Color.White;
+            this.btnGestao.Location = new System.Drawing.Point(8, 143);
+            this.btnGestao.Name = "btnGestao";
+            this.btnGestao.Size = new System.Drawing.Size(180, 45);
+            this.btnGestao.TabIndex = 104;
+            this.btnGestao.Text = "Gestão do Estoque";
+            this.btnGestao.Click += new System.EventHandler(this.btnGestao_Click);
+            this.btnGestao.MouseEnter += new System.EventHandler(this.btnGestao_MouseEnter);
+            // 
+            // btnHistorico
+            // 
+            this.btnHistorico.BackColor = System.Drawing.Color.Navy;
+            this.btnHistorico.BorderColor = System.Drawing.Color.Navy;
+            this.btnHistorico.BorderRadius = 15;
+            this.btnHistorico.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnHistorico.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnHistorico.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnHistorico.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnHistorico.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnHistorico.FillColor = System.Drawing.Color.LightBlue;
+            this.btnHistorico.FillColor2 = System.Drawing.Color.Navy;
+            this.btnHistorico.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHistorico.ForeColor = System.Drawing.Color.White;
+            this.btnHistorico.Location = new System.Drawing.Point(12, 509);
+            this.btnHistorico.Name = "btnHistorico";
+            this.btnHistorico.Size = new System.Drawing.Size(180, 45);
+            this.btnHistorico.TabIndex = 108;
+            this.btnHistorico.Text = "Histórico";
+            this.btnHistorico.Visible = false;
+            this.btnHistorico.Click += new System.EventHandler(this.btnHistorico_Click);
+            this.btnHistorico.MouseEnter += new System.EventHandler(this.btnHistorico_MouseEnter);
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BackColor = System.Drawing.Color.Navy;
+            this.guna2Panel1.Controls.Add(this.Panel2);
+            this.guna2Panel1.Controls.Add(this.Panel1);
+            this.guna2Panel1.Controls.Add(this.btnEnd);
+            this.guna2Panel1.Controls.Add(this.btnBaixa);
+            this.guna2Panel1.Controls.Add(this.Panel3);
+            this.guna2Panel1.Controls.Add(this.Panel4);
+            this.guna2Panel1.Location = new System.Drawing.Point(-1, -1);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(195, 591);
+            this.guna2Panel1.TabIndex = 109;
+            // 
+            // Panel1
+            // 
+            this.Panel1.BackColor = System.Drawing.Color.White;
+            this.Panel1.BorderRadius = 20;
+            this.Panel1.Location = new System.Drawing.Point(4, 136);
+            this.Panel1.Name = "Panel1";
+            this.Panel1.Size = new System.Drawing.Size(191, 62);
+            this.Panel1.TabIndex = 110;
+            this.Panel1.Visible = false;
+            // 
+            // Panel2
+            // 
+            this.Panel2.BackColor = System.Drawing.Color.White;
+            this.Panel2.Location = new System.Drawing.Point(4, 210);
+            this.Panel2.Name = "Panel2";
+            this.Panel2.Size = new System.Drawing.Size(191, 62);
+            this.Panel2.TabIndex = 111;
+            this.Panel2.Visible = false;
+            // 
+            // Panel3
+            // 
+            this.Panel3.BackColor = System.Drawing.Color.White;
+            this.Panel3.Location = new System.Drawing.Point(3, 283);
+            this.Panel3.Name = "Panel3";
+            this.Panel3.Size = new System.Drawing.Size(191, 62);
+            this.Panel3.TabIndex = 112;
+            this.Panel3.Visible = false;
+            // 
+            // Panel4
+            // 
+            this.Panel4.BackColor = System.Drawing.Color.White;
+            this.Panel4.Location = new System.Drawing.Point(3, 357);
+            this.Panel4.Name = "Panel4";
+            this.Panel4.Size = new System.Drawing.Size(191, 62);
+            this.Panel4.TabIndex = 113;
+            this.Panel4.Visible = false;
+            // 
             // TelaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(931, 577);
+            this.Controls.Add(this.btnHistorico);
+            this.Controls.Add(this.btnGestao);
+            this.Controls.Add(this.btnEntrada);
+            this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.txtNotas);
             this.Controls.Add(this.btnFechar);
             this.Controls.Add(this.txtEnd);
@@ -789,8 +699,8 @@
             this.Controls.Add(this.lblPallet);
             this.Controls.Add(this.lblQtde);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.label3);
+            this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "TelaPrincipal";
@@ -802,10 +712,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxBaixa)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxEnd)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
-            this.Panel1.ResumeLayout(false);
-            this.Panel2.ResumeLayout(false);
-            this.Panel3.ResumeLayout(false);
-            this.Panel4.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -828,32 +734,28 @@
         private System.Windows.Forms.Label lblReBaixa;
         private System.Windows.Forms.Label lblReEnd;
         private System.Windows.Forms.Label lblSetor;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2Button btnGestao;
         private Guna.UI2.WinForms.Guna2GradientButton btnEnviarEnd;
         private Guna.UI2.WinForms.Guna2GradientButton btnEnviarBaixa;
         private Guna.UI2.WinForms.Guna2TextBox txtRE;
         private Guna.UI2.WinForms.Guna2TextBox txtSetor;
         private Guna.UI2.WinForms.Guna2TextBox txtBaixaPL;
         private Guna.UI2.WinForms.Guna2TextBox txtQtde;
-        private Guna.UI2.WinForms.Guna2Button btnEntrada;
-        private Guna.UI2.WinForms.Guna2Button btnBaixa;
-        private Guna.UI2.WinForms.Guna2Button btnEnd;
-        private Guna.UI2.WinForms.Guna2Button btnHistorico;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
         private Guna.UI2.WinForms.Guna2TextBox txtReEND;
         private Guna.UI2.WinForms.Guna2TextBox txtEnderecoPL;
         private Guna.UI2.WinForms.Guna2TextBox txtEnd;
         private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
         private Guna.UI2.WinForms.Guna2GradientButton btnFechar;
-        private Guna.UI2.WinForms.Guna2Panel Panel1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Panel Panel2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private Guna.UI2.WinForms.Guna2Panel Panel3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
-        private Guna.UI2.WinForms.Guna2Panel Panel4;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private Guna.UI2.WinForms.Guna2TextBox txtNotas;
+        private Guna.UI2.WinForms.Guna2GradientButton btnVoltar;
+        private Guna.UI2.WinForms.Guna2GradientButton btnEntrada;
+        private Guna.UI2.WinForms.Guna2GradientButton btnBaixa;
+        private Guna.UI2.WinForms.Guna2GradientButton btnEnd;
+        private Guna.UI2.WinForms.Guna2GradientButton btnGestao;
+        private Guna.UI2.WinForms.Guna2GradientButton btnHistorico;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2Panel Panel1;
+        private Guna.UI2.WinForms.Guna2Panel Panel2;
+        private Guna.UI2.WinForms.Guna2Panel Panel3;
+        private Guna.UI2.WinForms.Guna2Panel Panel4;
     }
 }

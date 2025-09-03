@@ -44,5 +44,10 @@ namespace StorageProject
                 MessageBox.Show("Erro! Email ou senha incorretos.");
             }
         }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

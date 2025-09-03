@@ -15,31 +15,45 @@ namespace StorageProject
         {
             InitializeComponent();
         }
-
-        private void TelaPrincipal_Load(object sender, EventArgs e)
+        private void btnHistorico_Click_1(object sender, EventArgs e)
         {
-            if (SessaoUsuario.IsAdmin)
-            {
-                MessageBox.Show("Você esta logado como Administrador! ");
-                btnHistorico.Visible = true; 
-            }
+            Historicos historicos = new Historicos();
+            historicos.Show();
+            this.Hide();
         }
 
-        private void btnGestao_Click_1(object sender, EventArgs e)
+        private void btnFechar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+        private void TelaPrincipal_MouseHover(object sender, EventArgs e)
+        {
+            btnGestao.BackColor = System.Drawing.Color.Navy;
+            btnEntrada.BackColor = System.Drawing.Color.Navy;
+            btnBaixa.BackColor = System.Drawing.Color.Navy;
+            btnEnd.BackColor = System.Drawing.Color.Navy;
+        }
+
+        private void guna2TextBox1_MouseHover(object sender, EventArgs e)
+        {
+            txtNotas.Multiline = true;
+        }
+
+        private void btnGestao_Click(object sender, EventArgs e)
         {
             Gestao gestao = new Gestao();
             gestao.Show();
-            this.Hide(); 
+            this.Hide();
         }
 
-        private void btnEntrada_Click_1(object sender, EventArgs e)
+        private void btnEntrada_Click(object sender, EventArgs e)
         {
             Entrada entrada = new Entrada();
             entrada.Show();
             this.Hide();
         }
 
-        private void btnBaixa_Click_1(object sender, EventArgs e)
+        private void btnBaixa_Click(object sender, EventArgs e)
         {
             //Visibilidade para o botão Baixa
             lblTituloBaixa.Visible = true;
@@ -75,7 +89,7 @@ namespace StorageProject
             PicBoxEnd.Visible = false;
         }
 
-        private void btnEnviarBaixa_Click_1(object sender, EventArgs e)
+        private void btnEnviarBaixa_Click(object sender, EventArgs e)
         {
             int PalletID = int.Parse(txtBaixaPL.Text);
             string Setor = txtSetor.Text;
@@ -100,7 +114,7 @@ namespace StorageProject
             }
         }
 
-        private void btnEnd_Click_1(object sender, EventArgs e)
+        private void btnEnd_Click(object sender, EventArgs e)
         {
             //Visibilidade do botão de endereçamento
             lblTituloEnd.Visible = true;
@@ -136,7 +150,7 @@ namespace StorageProject
             btnEnviarBaixa.Visible = false;
         }
 
-        private void btnEnviarEnd_Click_1(object sender, EventArgs e)
+        private void btnEnviarEnd_Click(object sender, EventArgs e)
         {
             int RE = int.Parse(txtReEND.Text);
             int PalletID = int.Parse(txtEnderecoPL.Text);
@@ -162,105 +176,88 @@ namespace StorageProject
             }
         }
 
-        private void btnHistorico_Click_1(object sender, EventArgs e)
-        {
-            Historicos historicos = new Historicos();
-            historicos.Show();
-            this.Hide();
-        }
-
-        private void guna2GradientButton1_Click(object sender, EventArgs e)
+        private void btnVoltar_Click_1(object sender, EventArgs e)
         {
             LoginForm login = new LoginForm();
             login.Show();
             this.Hide();
         }
 
-        private void btnFechar_Click(object sender, EventArgs e)
+        private void TelaPrincipal_Load(object sender, EventArgs e)
         {
-            Application.Exit();
+            if (SessaoUsuario.IsAdmin)
+            {
+                MessageBox.Show("Você esta logado como Administrador! ");
+                btnHistorico.Visible = true;
+            }
         }
 
-        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        private void btnHistorico_Click(object sender, EventArgs e)
         {
-
+            Historicos historicos = new Historicos();
+            historicos.Show();
+            this.Hide();
         }
+
         private void btnGestao_MouseEnter(object sender, EventArgs e)
         {
             Panel1.Visible = true;
+            btnGestao.BackColor = System.Drawing.Color.White;
 
             Panel2.Visible = false;
             Panel3.Visible = false;
             Panel4.Visible = false;
-
             btnEntrada.BackColor = System.Drawing.Color.Navy;
             btnBaixa.BackColor = System.Drawing.Color.Navy;
             btnEnd.BackColor = System.Drawing.Color.Navy;
-
-            btnGestao.BackColor = System.Drawing.Color.White;
         }
 
         private void btnEntrada_MouseEnter(object sender, EventArgs e)
         {
             Panel2.Visible = true;
+            btnEntrada.BackColor = System.Drawing.Color.White;
 
-            Panel1. Visible = false;
+            Panel1.Visible = false;
             Panel3.Visible = false;
             Panel4.Visible = false;
-
             btnGestao.BackColor = System.Drawing.Color.Navy;
             btnBaixa.BackColor = System.Drawing.Color.Navy;
             btnEnd.BackColor = System.Drawing.Color.Navy;
-
-            btnEntrada.BackColor = System.Drawing.Color.White;
         }
 
         private void btnBaixa_MouseEnter(object sender, EventArgs e)
         {
             Panel3.Visible = true;
+            btnBaixa.BackColor = System.Drawing.Color.White;
 
             Panel1.Visible = false;
             Panel2.Visible = false;
             Panel4.Visible = false;
-
+            btnEnd.BackColor = System.Drawing.Color.Navy;
             btnGestao.BackColor = System.Drawing.Color.Navy;
             btnEntrada.BackColor = System.Drawing.Color.Navy;
-            btnEnd.BackColor = System.Drawing.Color.Navy;
 
-            btnBaixa.BackColor = System.Drawing.Color.White;
         }
 
         private void btnEnd_MouseEnter(object sender, EventArgs e)
         {
             Panel4.Visible = true;
+            btnEnd.BackColor = System.Drawing.Color.White;
 
             Panel1.Visible = false;
-            Panel3.Visible = false;
             Panel2.Visible = false;
-
+            Panel3.Visible = false;
+            btnBaixa.BackColor = System.Drawing.Color.Navy;
             btnGestao.BackColor = System.Drawing.Color.Navy;
             btnEntrada.BackColor = System.Drawing.Color.Navy;
-            btnBaixa.BackColor = System.Drawing.Color.Navy;
-
-            btnEnd.BackColor = System.Drawing.Color.White;
         }
 
-        private void TelaPrincipal_MouseHover(object sender, EventArgs e)
+        private void btnHistorico_MouseEnter(object sender, EventArgs e)
         {
             Panel1.Visible = false;
             Panel2.Visible = false;
             Panel3.Visible = false;
             Panel4.Visible = false;
-            btnGestao.BackColor = System.Drawing.Color.Navy;
-            btnEntrada.BackColor = System.Drawing.Color.Navy;
-            btnBaixa.BackColor = System.Drawing.Color.Navy;
-            btnEnd.BackColor = System.Drawing.Color.Navy;
         }
-
-        private void guna2TextBox1_MouseHover(object sender, EventArgs e)
-        {
-            txtNotas.Multiline = true;
-        }
-
     }
 }
