@@ -267,11 +267,11 @@
             this.btnFechar.FillColor2 = System.Drawing.Color.Navy;
             this.btnFechar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFechar.ForeColor = System.Drawing.Color.White;
-            this.btnFechar.Location = new System.Drawing.Point(739, 5);
+            this.btnFechar.Location = new System.Drawing.Point(782, 5);
             this.btnFechar.Name = "btnFechar";
-            this.btnFechar.Size = new System.Drawing.Size(88, 25);
+            this.btnFechar.Size = new System.Drawing.Size(45, 25);
             this.btnFechar.TabIndex = 64;
-            this.btnFechar.Text = "Fechar";
+            this.btnFechar.Text = "X";
             this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
             // btnLogin

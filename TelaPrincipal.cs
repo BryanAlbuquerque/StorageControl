@@ -28,22 +28,21 @@ namespace StorageProject
                 btnHistorico.Visible = true; // Exibe o botão Histórico
             }
         }
-
-        private void btnGestao_Click(object sender, EventArgs e)
+        private void btnGestao_Click_1(object sender, EventArgs e)
         {
             Gestao gestao = new Gestao(_isAdmin); // << passa info para a gestão
             gestao.Show();
-            this.Hide();
+            this.Hide(); 
         }
 
-        private void btnEntrada_Click(object sender, EventArgs e)
+        private void btnEntrada_Click_1(object sender, EventArgs e)
         {
             Entrada entrada = new Entrada();
             entrada.Show();
             this.Hide();
         }
 
-        private void btnBaixa_Click(object sender, EventArgs e)
+        private void btnBaixa_Click_1(object sender, EventArgs e)
         {
             //Visibilidade para o botão Baixa
             lblTituloBaixa.Visible = true;
@@ -62,7 +61,7 @@ namespace StorageProject
             PicBoxBaixa.Visible = true;
 
             btnEnviarBaixa.Visible = true;
-            
+
 
             //Esconde os outros componentes
             lblTituloEnd.Visible = false;
@@ -76,10 +75,9 @@ namespace StorageProject
 
             btnEnviarEnd.Visible = false;
             PicBoxEnd.Visible = false;
-            
         }
 
-        private void btnEnviarBaixa_Click(object sender, EventArgs e)
+        private void btnEnviarBaixa_Click_1(object sender, EventArgs e)
         {
             int PalletID = int.Parse(txtBaixaPL.Text);
             string Setor = txtSetor.Text;
@@ -90,7 +88,7 @@ namespace StorageProject
             {
                 MessageBox.Show("Erro Existem espaços em Branco!");
             }
-            
+
             bool sucessoBaixa = BaixasDB.Baixas(PalletID, Quantidade);
             bool sucessoHistorico = BaixasDB.BaixasRealizadas(RE, PalletID, Setor, Quantidade);
 
@@ -104,7 +102,7 @@ namespace StorageProject
             }
         }
 
-        private void btnEnd_Click(object sender, EventArgs e)
+        private void btnEnd_Click_1(object sender, EventArgs e)
         {
             //Visibilidade do botão de endereçamento
             lblTituloEnd.Visible = true;
@@ -139,7 +137,7 @@ namespace StorageProject
             btnEnviarBaixa.Visible = false;
         }
 
-        private void btnEnviarEnd_Click(object sender, EventArgs e)
+        private void btnEnviarEnd_Click_1(object sender, EventArgs e)
         {
             int RE = int.Parse(txtReEND.Text);
             int PalletID = int.Parse(txtEnderecoPL.Text);
@@ -159,24 +157,29 @@ namespace StorageProject
             {
                 MessageBox.Show("Endereçamento Realizado!");
             }
-            else 
+            else
             {
                 MessageBox.Show("");
             }
         }
 
-        private void btnVoltar_Click(object sender, EventArgs e)
+        private void btnHistorico_Click_1(object sender, EventArgs e)
+        {
+            Historicos historicos = new Historicos();
+            historicos.Show();
+            this.Hide();
+        }
+
+        private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
             LoginForm login = new LoginForm();
             login.Show();
             this.Hide();
         }
 
-        private void btnHistorico_Click(object sender, EventArgs e)
+        private void btnFechar_Click(object sender, EventArgs e)
         {
-            Historicos historicos = new Historicos();
-            historicos.Show();
-            this.Hide();
+            Application.Exit();
         }
     }
 }

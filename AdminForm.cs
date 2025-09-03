@@ -28,7 +28,7 @@ namespace StorageProject
             Application.Exit();
         }
 
-        private void btnLogin_Click(object sender, EventArgs e)
+        private void btnLogin_Click_1(object sender, EventArgs e)
         {
             Admin admin = new Admin();
 

@@ -238,7 +238,7 @@
             this.guna2Panel1.BorderRadius = 2;
             this.guna2Panel1.Controls.Add(this.label4);
             this.guna2Panel1.FillColor = System.Drawing.Color.Navy;
-            this.guna2Panel1.Location = new System.Drawing.Point(0, -1);
+            this.guna2Panel1.Location = new System.Drawing.Point(-2, -1);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(363, 445);
             this.guna2Panel1.TabIndex = 84;
@@ -281,11 +281,11 @@
             this.btnFechar.FillColor2 = System.Drawing.Color.Red;
             this.btnFechar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFechar.ForeColor = System.Drawing.Color.White;
-            this.btnFechar.Location = new System.Drawing.Point(740, 4);
+            this.btnFechar.Location = new System.Drawing.Point(780, 4);
             this.btnFechar.Name = "btnFechar";
-            this.btnFechar.Size = new System.Drawing.Size(85, 25);
+            this.btnFechar.Size = new System.Drawing.Size(45, 25);
             this.btnFechar.TabIndex = 87;
-            this.btnFechar.Text = "Fechar";
+            this.btnFechar.Text = "X";
             this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
             // btnVoltar
@@ -297,7 +297,7 @@
             this.btnVoltar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnVoltar.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnVoltar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnVoltar.FillColor = System.Drawing.Color.Red;
+            this.btnVoltar.FillColor = System.Drawing.Color.LightGray;
             this.btnVoltar.FillColor2 = System.Drawing.Color.Navy;
             this.btnVoltar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVoltar.ForeColor = System.Drawing.Color.White;
