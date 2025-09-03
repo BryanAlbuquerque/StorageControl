@@ -17,4 +17,10 @@ namespace StorageProject
             return usuario == Usuario && senha == Senha;
         }
     }
+
+    //Controla o Usuario logado
+    public static class SessaoUsuario
+    {
+        public static bool IsAdmin { get; set; } = false;
+    }
 }

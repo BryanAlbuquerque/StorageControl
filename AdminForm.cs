@@ -34,7 +34,8 @@ namespace StorageProject
 
             if (admin.ValidarLogin(txtUsuario.Text, txtSenha.Text))
             {
-                TelaPrincipal tela = new TelaPrincipal(true); // << informa que é admin
+                SessaoUsuario.IsAdmin = true; // marca que é admin
+                TelaPrincipal tela = new TelaPrincipal();
                 tela.Show();
                 this.Hide();
             }

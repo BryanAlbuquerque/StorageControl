@@ -11,26 +11,23 @@ namespace StorageProject
             InitializeComponent();
         }
 
-        private bool _isAdmin;
-
         public TelaPrincipal(bool isAdmin = false) // por padrão não-admin
         {
             InitializeComponent();
-            _isAdmin = isAdmin;
         }
 
         private void TelaPrincipal_Load(object sender, EventArgs e)
         {
-            if (_isAdmin)
+            if (SessaoUsuario.IsAdmin)
             {
-                MessageBox.Show("Bem-vindo! Você entrou como Administrador.");
-
-                btnHistorico.Visible = true; // Exibe o botão Histórico
+                MessageBox.Show("Você esta logado como Administrador! ");
+                btnHistorico.Visible = true; 
             }
         }
+
         private void btnGestao_Click_1(object sender, EventArgs e)
         {
-            Gestao gestao = new Gestao(_isAdmin); // << passa info para a gestão
+            Gestao gestao = new Gestao();
             gestao.Show();
             this.Hide(); 
         }

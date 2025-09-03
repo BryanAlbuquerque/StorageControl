@@ -10,6 +10,7 @@ namespace StorageProject
         public Entrada()
         {
             InitializeComponent();
+
         }
 
 
@@ -67,7 +68,6 @@ namespace StorageProject
             TelaPrincipal telaPrincipal = new TelaPrincipal();
             telaPrincipal.Show();
             this.Hide();
-
         }
     }
 }

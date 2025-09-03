@@ -91,7 +91,7 @@
             this.txtSenha.PlaceholderText = "";
             this.txtSenha.SelectedText = "";
             this.txtSenha.Size = new System.Drawing.Size(198, 26);
-            this.txtSenha.TabIndex = 75;
+            this.txtSenha.TabIndex = 7;
             // 
             // guna2PictureBox2
             // 
@@ -132,7 +132,7 @@
             this.txtUsuario.PlaceholderText = "";
             this.txtUsuario.SelectedText = "";
             this.txtUsuario.Size = new System.Drawing.Size(200, 26);
-            this.txtUsuario.TabIndex = 72;
+            this.txtUsuario.TabIndex = 6;
             // 
             // label1
             // 
@@ -177,7 +177,7 @@
             this.btnVoltar.Location = new System.Drawing.Point(349, 4);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(104, 25);
-            this.btnVoltar.TabIndex = 93;
+            this.btnVoltar.TabIndex = 9;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click_1);
             // 
@@ -197,7 +197,7 @@
             this.btnFechar.Location = new System.Drawing.Point(778, 5);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(49, 25);
-            this.btnFechar.TabIndex = 92;
+            this.btnFechar.TabIndex = 10;
             this.btnFechar.Text = "X";
             this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
@@ -217,7 +217,7 @@
             this.btnLogin.Location = new System.Drawing.Point(519, 279);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(104, 25);
-            this.btnLogin.TabIndex = 94;
+            this.btnLogin.TabIndex = 8;
             this.btnLogin.Text = "Login";
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click_1);
             // 

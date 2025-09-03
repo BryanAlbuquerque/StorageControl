@@ -20,7 +20,7 @@ namespace StorageProject
             dataGridGestao.AutoGenerateColumns = true;
             dataGridGestao.DataSource = DB.CarregarDados();
 
-            if (_isAdmin)
+            if (SessaoUsuario.IsAdmin)
             {
                 btnSalvar.Visible = true;
                 dataGridGestao.ReadOnly = false;
@@ -53,7 +53,7 @@ namespace StorageProject
 
         private void btnVoltar_Click_1(object sender, EventArgs e)
         {
-            TelaPrincipal telaPrincipal = new TelaPrincipal(_isAdmin);
+            TelaPrincipal telaPrincipal = new TelaPrincipal();
             telaPrincipal.Show();
             this.Hide();
         }
