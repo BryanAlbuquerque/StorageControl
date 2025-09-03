@@ -36,14 +36,14 @@
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.txtUsuario = new Guna.UI2.WinForms.Guna2TextBox();
-            this.btnLogin = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
-            this.guna2GradientCircleButton1 = new Guna.UI2.WinForms.Guna2GradientCircleButton();
-            this.btnVoltar = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.btnVoltar = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btnFechar = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btnLogin = new Guna.UI2.WinForms.Guna2GradientButton();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2CustomGradientPanel1.SuspendLayout();
@@ -84,7 +84,7 @@
             this.txtSenha.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSenha.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtSenha.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSenha.Location = new System.Drawing.Point(446, 223);
+            this.txtSenha.Location = new System.Drawing.Point(446, 228);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.PlaceholderText = "";
             this.txtSenha.SelectedText = "";
@@ -95,7 +95,7 @@
             // 
             this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
             this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(410, 223);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(410, 228);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
             this.guna2PictureBox2.Size = new System.Drawing.Size(30, 26);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -132,31 +132,11 @@
             this.txtUsuario.Size = new System.Drawing.Size(200, 26);
             this.txtUsuario.TabIndex = 72;
             // 
-            // btnLogin
-            // 
-            this.btnLogin.BackColor = System.Drawing.Color.White;
-            this.btnLogin.BorderColor = System.Drawing.Color.White;
-            this.btnLogin.BorderRadius = 10;
-            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLogin.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnLogin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnLogin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnLogin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnLogin.FillColor = System.Drawing.SystemColors.ScrollBar;
-            this.btnLogin.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.ForeColor = System.Drawing.Color.Black;
-            this.btnLogin.Location = new System.Drawing.Point(464, 268);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(129, 26);
-            this.btnLogin.TabIndex = 68;
-            this.btnLogin.Text = "Login";
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click_1);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(407, 205);
+            this.label1.Location = new System.Drawing.Point(407, 210);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(48, 15);
             this.label1.TabIndex = 70;
@@ -178,46 +158,6 @@
             this.guna2BorderlessForm1.ContainerControl = this;
             this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
             this.guna2BorderlessForm1.TransparentWhileDrag = true;
-            // 
-            // guna2GradientCircleButton1
-            // 
-            this.guna2GradientCircleButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2GradientCircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientCircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientCircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientCircleButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientCircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientCircleButton1.FillColor = System.Drawing.Color.Red;
-            this.guna2GradientCircleButton1.FillColor2 = System.Drawing.Color.Blue;
-            this.guna2GradientCircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2GradientCircleButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientCircleButton1.Location = new System.Drawing.Point(758, 6);
-            this.guna2GradientCircleButton1.Name = "guna2GradientCircleButton1";
-            this.guna2GradientCircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2GradientCircleButton1.Size = new System.Drawing.Size(63, 49);
-            this.guna2GradientCircleButton1.TabIndex = 90;
-            this.guna2GradientCircleButton1.Text = "Fechar";
-            this.guna2GradientCircleButton1.Click += new System.EventHandler(this.guna2GradientCircleButton1_Click);
-            // 
-            // btnVoltar
-            // 
-            this.btnVoltar.BackColor = System.Drawing.Color.White;
-            this.btnVoltar.BorderColor = System.Drawing.Color.White;
-            this.btnVoltar.BorderRadius = 10;
-            this.btnVoltar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnVoltar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnVoltar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnVoltar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnVoltar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnVoltar.FillColor = System.Drawing.SystemColors.ScrollBar;
-            this.btnVoltar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVoltar.ForeColor = System.Drawing.Color.Black;
-            this.btnVoltar.Location = new System.Drawing.Point(250, 6);
-            this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(98, 26);
-            this.btnVoltar.TabIndex = 89;
-            this.btnVoltar.Text = "Voltar";
-            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // guna2CustomGradientPanel1
             // 
@@ -243,18 +183,77 @@
             this.guna2PictureBox3.TabIndex = 0;
             this.guna2PictureBox3.TabStop = false;
             // 
+            // btnVoltar
+            // 
+            this.btnVoltar.BorderRadius = 10;
+            this.btnVoltar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnVoltar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnVoltar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnVoltar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnVoltar.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnVoltar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnVoltar.FillColor = System.Drawing.Color.Red;
+            this.btnVoltar.FillColor2 = System.Drawing.Color.Navy;
+            this.btnVoltar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVoltar.ForeColor = System.Drawing.Color.White;
+            this.btnVoltar.Location = new System.Drawing.Point(247, 4);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(104, 25);
+            this.btnVoltar.TabIndex = 93;
+            this.btnVoltar.Text = "Voltar";
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click_1);
+            // 
+            // btnFechar
+            // 
+            this.btnFechar.BorderRadius = 10;
+            this.btnFechar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnFechar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnFechar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnFechar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnFechar.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnFechar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnFechar.FillColor = System.Drawing.Color.Blue;
+            this.btnFechar.FillColor2 = System.Drawing.Color.Red;
+            this.btnFechar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFechar.ForeColor = System.Drawing.Color.White;
+            this.btnFechar.Location = new System.Drawing.Point(742, 5);
+            this.btnFechar.Name = "btnFechar";
+            this.btnFechar.Size = new System.Drawing.Size(85, 25);
+            this.btnFechar.TabIndex = 92;
+            this.btnFechar.Text = "Fechar";
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
+            // 
+            // btnLogin
+            // 
+            this.btnLogin.BorderRadius = 10;
+            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLogin.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnLogin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnLogin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnLogin.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnLogin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnLogin.FillColor = System.Drawing.Color.Red;
+            this.btnLogin.FillColor2 = System.Drawing.Color.Navy;
+            this.btnLogin.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.ForeColor = System.Drawing.Color.White;
+            this.btnLogin.Location = new System.Drawing.Point(480, 269);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(104, 25);
+            this.btnLogin.TabIndex = 94;
+            this.btnLogin.Text = "Login";
+            // 
             // AdminForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(833, 450);
-            this.Controls.Add(this.guna2GradientCircleButton1);
+            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.btnVoltar);
+            this.Controls.Add(this.btnFechar);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.guna2PictureBox2);
             this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.txtUsuario);
-            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label2);
@@ -281,13 +280,13 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2TextBox txtUsuario;
-        private Guna.UI2.WinForms.Guna2Button btnLogin;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label5;
         private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
-        private Guna.UI2.WinForms.Guna2GradientCircleButton guna2GradientCircleButton1;
-        private Guna.UI2.WinForms.Guna2Button btnVoltar;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
+        private Guna.UI2.WinForms.Guna2GradientButton btnVoltar;
+        private Guna.UI2.WinForms.Guna2GradientButton btnFechar;
+        private Guna.UI2.WinForms.Guna2GradientButton btnLogin;
     }
 }

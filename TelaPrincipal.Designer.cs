@@ -34,7 +34,6 @@
             this.btnBaixa = new System.Windows.Forms.Button();
             this.btnEnd = new System.Windows.Forms.Button();
             this.btnVoltar = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtBaixaPL = new System.Windows.Forms.TextBox();
@@ -61,9 +60,12 @@
             this.btnHistorico = new System.Windows.Forms.Button();
             this.lblSetor = new System.Windows.Forms.Label();
             this.txtSetor = new System.Windows.Forms.TextBox();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxBaixa)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxEnd)).BeginInit();
+            this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnEntrada
@@ -73,7 +75,7 @@
             this.btnEntrada.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnEntrada.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEntrada.ForeColor = System.Drawing.Color.White;
-            this.btnEntrada.Location = new System.Drawing.Point(21, 150);
+            this.btnEntrada.Location = new System.Drawing.Point(36, 324);
             this.btnEntrada.Name = "btnEntrada";
             this.btnEntrada.Size = new System.Drawing.Size(130, 36);
             this.btnEntrada.TabIndex = 6;
@@ -88,7 +90,7 @@
             this.btnGestao.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnGestao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGestao.ForeColor = System.Drawing.Color.White;
-            this.btnGestao.Location = new System.Drawing.Point(18, 84);
+            this.btnGestao.Location = new System.Drawing.Point(33, 258);
             this.btnGestao.Name = "btnGestao";
             this.btnGestao.Size = new System.Drawing.Size(130, 46);
             this.btnGestao.TabIndex = 5;
@@ -103,7 +105,7 @@
             this.btnBaixa.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnBaixa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBaixa.ForeColor = System.Drawing.Color.White;
-            this.btnBaixa.Location = new System.Drawing.Point(21, 203);
+            this.btnBaixa.Location = new System.Drawing.Point(36, 377);
             this.btnBaixa.Name = "btnBaixa";
             this.btnBaixa.Size = new System.Drawing.Size(130, 36);
             this.btnBaixa.TabIndex = 7;
@@ -118,7 +120,7 @@
             this.btnEnd.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnEnd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEnd.ForeColor = System.Drawing.Color.White;
-            this.btnEnd.Location = new System.Drawing.Point(18, 252);
+            this.btnEnd.Location = new System.Drawing.Point(33, 426);
             this.btnEnd.Name = "btnEnd";
             this.btnEnd.Size = new System.Drawing.Size(133, 36);
             this.btnEnd.TabIndex = 8;
@@ -139,16 +141,6 @@
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = false;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
-            // 
-            // listBox1
-            // 
-            this.listBox1.BackColor = System.Drawing.Color.Navy;
-            this.listBox1.Enabled = false;
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(-1, 0);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(167, 576);
-            this.listBox1.TabIndex = 5;
             // 
             // label8
             // 
@@ -225,7 +217,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(196, 64);
+            this.label3.Location = new System.Drawing.Point(200, 64);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(592, 18);
             this.label3.TabIndex = 68;
@@ -393,7 +385,7 @@
             this.btnHistorico.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnHistorico.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHistorico.ForeColor = System.Drawing.Color.White;
-            this.btnHistorico.Location = new System.Drawing.Point(18, 309);
+            this.btnHistorico.Location = new System.Drawing.Point(33, 483);
             this.btnHistorico.Name = "btnHistorico";
             this.btnHistorico.Size = new System.Drawing.Size(133, 36);
             this.btnHistorico.TabIndex = 89;
@@ -421,6 +413,40 @@
             this.txtSetor.TabIndex = 90;
             this.txtSetor.Visible = false;
             // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BorderRadius = 2;
+            this.guna2Panel1.Controls.Add(this.guna2Button1);
+            this.guna2Panel1.Controls.Add(this.btnEnd);
+            this.guna2Panel1.Controls.Add(this.btnHistorico);
+            this.guna2Panel1.Controls.Add(this.btnEntrada);
+            this.guna2Panel1.Controls.Add(this.btnGestao);
+            this.guna2Panel1.Controls.Add(this.btnBaixa);
+            this.guna2Panel1.FillColor = System.Drawing.Color.Navy;
+            this.guna2Panel1.Location = new System.Drawing.Point(-3, -4);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(200, 590);
+            this.guna2Panel1.TabIndex = 92;
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.BackColor = System.Drawing.Color.Navy;
+            this.guna2Button1.BorderRadius = 20;
+            this.guna2Button1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.Gold;
+            this.guna2Button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button1.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button1.Location = new System.Drawing.Point(13, 97);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Padding = new System.Windows.Forms.Padding(0, 10, 0, 10);
+            this.guna2Button1.Size = new System.Drawing.Size(180, 48);
+            this.guna2Button1.TabIndex = 93;
+            this.guna2Button1.Text = "Gestão do Estoque";
+            // 
             // TelaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -428,7 +454,6 @@
             this.ClientSize = new System.Drawing.Size(931, 577);
             this.Controls.Add(this.lblSetor);
             this.Controls.Add(this.txtSetor);
-            this.Controls.Add(this.btnHistorico);
             this.Controls.Add(this.lblReEnd);
             this.Controls.Add(this.txtReEND);
             this.Controls.Add(this.lblReBaixa);
@@ -452,12 +477,8 @@
             this.Controls.Add(this.txtQtde);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.btnEnd);
-            this.Controls.Add(this.btnBaixa);
-            this.Controls.Add(this.btnGestao);
-            this.Controls.Add(this.btnEntrada);
             this.Controls.Add(this.btnVoltar);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.guna2Panel1);
             this.MaximizeBox = false;
             this.Name = "TelaPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -466,6 +487,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxBaixa)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxEnd)).EndInit();
+            this.guna2Panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -477,7 +499,6 @@
         private System.Windows.Forms.Button btnBaixa;
         private System.Windows.Forms.Button btnEnd;
         private System.Windows.Forms.Button btnVoltar;
-        private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox txtBaixaPL;
@@ -504,5 +525,7 @@
         private System.Windows.Forms.Button btnHistorico;
         private System.Windows.Forms.Label lblSetor;
         private System.Windows.Forms.TextBox txtSetor;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
     }
 }

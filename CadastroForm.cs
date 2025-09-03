@@ -11,14 +11,20 @@ namespace StorageProject
         {
             InitializeComponent();
         }
-        private void btnVoltar_Click(object sender, EventArgs e)
+
+        private void btnFechar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnVoltar_Click_1(object sender, EventArgs e)
         {
             LoginForm loginForm = new LoginForm();
             loginForm.Show();
             this.Close();
         }
 
-        private void btnSalvar_Click_1(object sender, EventArgs e)
+        private void btnSalvar_Click(object sender, EventArgs e)
         {
             string usuario = txtUsuario.Text.Trim();
             string senha = txtSenha.Text;

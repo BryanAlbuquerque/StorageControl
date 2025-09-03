@@ -40,14 +40,16 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.btnLogin = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.txtUsuario = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.txtSenha = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
-            this.guna2GradientCircleButton1 = new Guna.UI2.WinForms.Guna2GradientCircleButton();
+            this.btnFechar = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btnLogin = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.radOlhoFechado = new Guna.UI2.WinForms.Guna2ImageRadioButton();
+            this.radOlhoAberto = new Guna.UI2.WinForms.Guna2ImageRadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -100,7 +102,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(12, 90);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(317, 171);
+            this.pictureBox1.Size = new System.Drawing.Size(304, 171);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 52;
             this.pictureBox1.TabStop = false;
@@ -166,31 +168,11 @@
             this.label7.BackColor = System.Drawing.SystemColors.Control;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(426, 288);
+            this.label7.Location = new System.Drawing.Point(426, 277);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(350, 31);
             this.label7.TabIndex = 58;
             this.label7.Text = "_____________________";
-            // 
-            // btnLogin
-            // 
-            this.btnLogin.BackColor = System.Drawing.Color.White;
-            this.btnLogin.BorderColor = System.Drawing.Color.White;
-            this.btnLogin.BorderRadius = 10;
-            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLogin.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnLogin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnLogin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnLogin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnLogin.FillColor = System.Drawing.SystemColors.ScrollBar;
-            this.btnLogin.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.ForeColor = System.Drawing.Color.Black;
-            this.btnLogin.Location = new System.Drawing.Point(525, 259);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(129, 26);
-            this.btnLogin.TabIndex = 8;
-            this.btnLogin.Text = "Login";
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click_1);
             // 
             // guna2Panel1
             // 
@@ -199,7 +181,7 @@
             this.guna2Panel1.FillColor = System.Drawing.Color.Navy;
             this.guna2Panel1.Location = new System.Drawing.Point(-1, -1);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(357, 419);
+            this.guna2Panel1.Size = new System.Drawing.Size(343, 419);
             this.guna2Panel1.TabIndex = 60;
             // 
             // txtUsuario
@@ -213,6 +195,7 @@
             this.txtUsuario.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtUsuario.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtUsuario.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtUsuario.ForeColor = System.Drawing.Color.Black;
             this.txtUsuario.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtUsuario.Location = new System.Drawing.Point(505, 167);
             this.txtUsuario.Name = "txtUsuario";
@@ -254,9 +237,11 @@
             this.txtSenha.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtSenha.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSenha.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtSenha.ForeColor = System.Drawing.Color.Black;
             this.txtSenha.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSenha.Location = new System.Drawing.Point(507, 214);
             this.txtSenha.Name = "txtSenha";
+            this.txtSenha.PasswordChar = '*';
             this.txtSenha.PlaceholderText = "";
             this.txtSenha.SelectedText = "";
             this.txtSenha.Size = new System.Drawing.Size(198, 26);
@@ -269,25 +254,71 @@
             this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
             this.guna2BorderlessForm1.TransparentWhileDrag = true;
             // 
-            // guna2GradientCircleButton1
+            // btnFechar
             // 
-            this.guna2GradientCircleButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2GradientCircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientCircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientCircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientCircleButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientCircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientCircleButton1.FillColor = System.Drawing.Color.Blue;
-            this.guna2GradientCircleButton1.FillColor2 = System.Drawing.Color.Red;
-            this.guna2GradientCircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2GradientCircleButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientCircleButton1.Location = new System.Drawing.Point(766, 1);
-            this.guna2GradientCircleButton1.Name = "guna2GradientCircleButton1";
-            this.guna2GradientCircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2GradientCircleButton1.Size = new System.Drawing.Size(63, 49);
-            this.guna2GradientCircleButton1.TabIndex = 11;
-            this.guna2GradientCircleButton1.Text = "Fechar";
-            this.guna2GradientCircleButton1.Click += new System.EventHandler(this.guna2GradientCircleButton1_Click);
+            this.btnFechar.BorderRadius = 10;
+            this.btnFechar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnFechar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnFechar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnFechar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnFechar.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnFechar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnFechar.FillColor = System.Drawing.Color.Red;
+            this.btnFechar.FillColor2 = System.Drawing.Color.Navy;
+            this.btnFechar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFechar.ForeColor = System.Drawing.Color.White;
+            this.btnFechar.Location = new System.Drawing.Point(739, 5);
+            this.btnFechar.Name = "btnFechar";
+            this.btnFechar.Size = new System.Drawing.Size(88, 25);
+            this.btnFechar.TabIndex = 64;
+            this.btnFechar.Text = "Fechar";
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
+            // 
+            // btnLogin
+            // 
+            this.btnLogin.BorderRadius = 10;
+            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLogin.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnLogin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnLogin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnLogin.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnLogin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnLogin.FillColor = System.Drawing.Color.Red;
+            this.btnLogin.FillColor2 = System.Drawing.Color.Navy;
+            this.btnLogin.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.ForeColor = System.Drawing.Color.White;
+            this.btnLogin.Location = new System.Drawing.Point(536, 260);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(104, 25);
+            this.btnLogin.TabIndex = 8;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            // 
+            // radOlhoFechado
+            // 
+            this.radOlhoFechado.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            this.radOlhoFechado.Image = ((System.Drawing.Image)(resources.GetObject("radOlhoFechado.Image")));
+            this.radOlhoFechado.ImageOffset = new System.Drawing.Point(0, 0);
+            this.radOlhoFechado.ImageRotate = 0F;
+            this.radOlhoFechado.ImageSize = new System.Drawing.Size(50, 50);
+            this.radOlhoFechado.Location = new System.Drawing.Point(711, 213);
+            this.radOlhoFechado.Name = "radOlhoFechado";
+            this.radOlhoFechado.Size = new System.Drawing.Size(35, 27);
+            this.radOlhoFechado.TabIndex = 65;
+            this.radOlhoFechado.Click += new System.EventHandler(this.radOlhoFechado_Click);
+            // 
+            // radOlhoAberto
+            // 
+            this.radOlhoAberto.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            this.radOlhoAberto.Image = ((System.Drawing.Image)(resources.GetObject("radOlhoAberto.Image")));
+            this.radOlhoAberto.ImageOffset = new System.Drawing.Point(0, 0);
+            this.radOlhoAberto.ImageRotate = 0F;
+            this.radOlhoAberto.ImageSize = new System.Drawing.Size(30, 30);
+            this.radOlhoAberto.Location = new System.Drawing.Point(711, 214);
+            this.radOlhoAberto.Name = "radOlhoAberto";
+            this.radOlhoAberto.Size = new System.Drawing.Size(35, 27);
+            this.radOlhoAberto.TabIndex = 66;
+            this.radOlhoAberto.Click += new System.EventHandler(this.radOlhoAberto_Click);
             // 
             // LoginForm
             // 
@@ -295,12 +326,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(832, 405);
-            this.Controls.Add(this.guna2GradientCircleButton1);
+            this.Controls.Add(this.radOlhoFechado);
+            this.Controls.Add(this.btnLogin);
+            this.Controls.Add(this.btnFechar);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.guna2PictureBox2);
             this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.txtUsuario);
-            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
@@ -311,6 +343,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.guna2Panel1);
+            this.Controls.Add(this.radOlhoAberto);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "LoginForm";
@@ -336,14 +369,16 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private Guna.UI2.WinForms.Guna2Button btnLogin;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2TextBox txtUsuario;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
         private Guna.UI2.WinForms.Guna2TextBox txtSenha;
         private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
-        private Guna.UI2.WinForms.Guna2GradientCircleButton guna2GradientCircleButton1;
+        private Guna.UI2.WinForms.Guna2GradientButton btnFechar;
+        private Guna.UI2.WinForms.Guna2GradientButton btnLogin;
+        private Guna.UI2.WinForms.Guna2ImageRadioButton radOlhoFechado;
+        private Guna.UI2.WinForms.Guna2ImageRadioButton radOlhoAberto;
     }
 }
 

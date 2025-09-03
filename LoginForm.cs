@@ -24,7 +24,13 @@ namespace StorageProject
             adm.Show();
             this.Hide();
         }
-        private void btnLogin_Click_1(object sender, EventArgs e)
+
+        private void btnFechar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
         {
             string usuario = txtUsuario.Text.Trim();
             string senha = txtSenha.Text;
@@ -41,9 +47,18 @@ namespace StorageProject
             }
         }
 
-        private void guna2GradientCircleButton1_Click(object sender, EventArgs e)
+        private void radOlhoFechado_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            radOlhoAberto.Visible = true;
+            radOlhoFechado.Visible = false;
+        }
+
+        private void radOlhoAberto_Click(object sender, EventArgs e)
+        {
+            radOlhoFechado.Visible = true;
+            radOlhoAberto.Visible = false;
+
+            txtSenha.UseSystemPasswordChar = true;
         }
     }
 }

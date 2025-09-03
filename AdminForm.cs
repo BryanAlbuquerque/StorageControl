@@ -16,7 +16,19 @@ namespace StorageProject
         {
             InitializeComponent();
         }
-        private void btnLogin_Click_1(object sender, EventArgs e)
+        private void btnVoltar_Click_1(object sender, EventArgs e)
+        {
+            LoginForm loginForm = new LoginForm();
+            loginForm.Show();
+            this.Close();
+        }
+
+        private void btnFechar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
         {
             Admin admin = new Admin();
 
@@ -30,18 +42,6 @@ namespace StorageProject
             {
                 MessageBox.Show("Erro! Email ou senha incorretos.");
             }
-        }
-
-        private void btnVoltar_Click(object sender, EventArgs e)
-        { 
-            LoginForm loginForm = new LoginForm();
-            loginForm.Show();
-            this.Close();
-        }
-
-        private void guna2GradientCircleButton1_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
     }
 }
