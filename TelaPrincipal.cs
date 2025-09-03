@@ -56,6 +56,7 @@ namespace StorageProject
             lblFrase.Visible = true;
             lblFrase2.Visible = true;
             PicBoxBaixa.Visible = true;
+            txtNotas.Visible = true;
 
             btnEnviarBaixa.Visible = true;
 
@@ -114,6 +115,7 @@ namespace StorageProject
             PicBoxEnd.Visible = true;
             lblFrase.Visible = true;
             lblFrase2.Visible = true;
+            txtNotas.Visible = true;
 
             btnEnviarEnd.Visible = true;
 
@@ -178,5 +180,87 @@ namespace StorageProject
         {
             Application.Exit();
         }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+        private void btnGestao_MouseEnter(object sender, EventArgs e)
+        {
+            Panel1.Visible = true;
+
+            Panel2.Visible = false;
+            Panel3.Visible = false;
+            Panel4.Visible = false;
+
+            btnEntrada.BackColor = System.Drawing.Color.Navy;
+            btnBaixa.BackColor = System.Drawing.Color.Navy;
+            btnEnd.BackColor = System.Drawing.Color.Navy;
+
+            btnGestao.BackColor = System.Drawing.Color.White;
+        }
+
+        private void btnEntrada_MouseEnter(object sender, EventArgs e)
+        {
+            Panel2.Visible = true;
+
+            Panel1. Visible = false;
+            Panel3.Visible = false;
+            Panel4.Visible = false;
+
+            btnGestao.BackColor = System.Drawing.Color.Navy;
+            btnBaixa.BackColor = System.Drawing.Color.Navy;
+            btnEnd.BackColor = System.Drawing.Color.Navy;
+
+            btnEntrada.BackColor = System.Drawing.Color.White;
+        }
+
+        private void btnBaixa_MouseEnter(object sender, EventArgs e)
+        {
+            Panel3.Visible = true;
+
+            Panel1.Visible = false;
+            Panel2.Visible = false;
+            Panel4.Visible = false;
+
+            btnGestao.BackColor = System.Drawing.Color.Navy;
+            btnEntrada.BackColor = System.Drawing.Color.Navy;
+            btnEnd.BackColor = System.Drawing.Color.Navy;
+
+            btnBaixa.BackColor = System.Drawing.Color.White;
+        }
+
+        private void btnEnd_MouseEnter(object sender, EventArgs e)
+        {
+            Panel4.Visible = true;
+
+            Panel1.Visible = false;
+            Panel3.Visible = false;
+            Panel2.Visible = false;
+
+            btnGestao.BackColor = System.Drawing.Color.Navy;
+            btnEntrada.BackColor = System.Drawing.Color.Navy;
+            btnBaixa.BackColor = System.Drawing.Color.Navy;
+
+            btnEnd.BackColor = System.Drawing.Color.White;
+        }
+
+        private void TelaPrincipal_MouseHover(object sender, EventArgs e)
+        {
+            Panel1.Visible = false;
+            Panel2.Visible = false;
+            Panel3.Visible = false;
+            Panel4.Visible = false;
+            btnGestao.BackColor = System.Drawing.Color.Navy;
+            btnEntrada.BackColor = System.Drawing.Color.Navy;
+            btnBaixa.BackColor = System.Drawing.Color.Navy;
+            btnEnd.BackColor = System.Drawing.Color.Navy;
+        }
+
+        private void guna2TextBox1_MouseHover(object sender, EventArgs e)
+        {
+            txtNotas.Multiline = true;
+        }
+
     }
 }
