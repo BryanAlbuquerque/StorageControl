@@ -11,12 +11,7 @@ namespace StorageProject
             InitializeComponent();
         }
 
-        private void btnVoltar_Click_1(object sender, EventArgs e)
-        {
-            TelaPrincipal telaPrincipal = new TelaPrincipal();
-            telaPrincipal.Show();
-            this.Close();
-        }
+  
 
         private void Historicos_Load(object sender, EventArgs e)
         {
@@ -28,16 +23,28 @@ namespace StorageProject
 
         }
 
-        private void btnBaixas_Click(object sender, EventArgs e)
+        private void btnBaixas_Click_1(object sender, EventArgs e)
         {
             dataGridBaixa.Visible = true;
             dataGridEndereco.Visible = false;
         }
 
-        private void btnHistorico_Click(object sender, EventArgs e)
+        private void btnHistorico_Click_1(object sender, EventArgs e)
         {
             dataGridEndereco.Visible = true;
             dataGridBaixa.Visible = false;
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            TelaPrincipal telaPrincipal = new TelaPrincipal();
+            telaPrincipal.Show();
+            this.Close();
+        }
+
+        private void btnFechar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

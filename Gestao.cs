@@ -37,8 +37,14 @@ namespace StorageProject
             }
         }
 
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            TelaPrincipal telaPrincipal = new TelaPrincipal();
+            telaPrincipal.Show();
+            this.Hide();
+        }
 
-        private void btnSalvar_Click(object sender, EventArgs e)
+        private void btnSalvar_Click_1(object sender, EventArgs e)
         {
             try
             {
@@ -49,13 +55,6 @@ namespace StorageProject
             {
                 MessageBox.Show("Erro ao salvar alterações: " + ex.Message);
             }
-        }
-
-        private void btnVoltar_Click_1(object sender, EventArgs e)
-        {
-            TelaPrincipal telaPrincipal = new TelaPrincipal();
-            telaPrincipal.Show();
-            this.Hide();
         }
     }
 }

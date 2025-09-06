@@ -35,7 +35,11 @@ namespace StorageProject
             string usuario = txtUsuario.Text.Trim();
             string senha = txtSenha.Text;
 
-            if (UserStorage.Autenticar(usuario, senha))
+            if (string.IsNullOrEmpty(usuario) || string.IsNullOrEmpty(senha))
+            {
+                MessageBox.Show("Erro! preencha todos os campos!");
+            }
+            else if(UserStorage.Autenticar(usuario, senha))
             {
                 TelaPrincipal tela = new TelaPrincipal();
                 tela.Show();

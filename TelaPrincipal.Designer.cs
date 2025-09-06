@@ -99,7 +99,7 @@
             // 
             this.lblQtde.AutoSize = true;
             this.lblQtde.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQtde.Location = new System.Drawing.Point(265, 329);
+            this.lblQtde.Location = new System.Drawing.Point(452, 254);
             this.lblQtde.Name = "lblQtde";
             this.lblQtde.Size = new System.Drawing.Size(101, 18);
             this.lblQtde.TabIndex = 63;
@@ -110,7 +110,7 @@
             // 
             this.lblPallet.AutoSize = true;
             this.lblPallet.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPallet.Location = new System.Drawing.Point(265, 213);
+            this.lblPallet.Location = new System.Drawing.Point(451, 193);
             this.lblPallet.Name = "lblPallet";
             this.lblPallet.Size = new System.Drawing.Size(70, 18);
             this.lblPallet.TabIndex = 67;
@@ -131,7 +131,7 @@
             // 
             this.lblTituloBaixa.AutoSize = true;
             this.lblTituloBaixa.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTituloBaixa.Location = new System.Drawing.Point(249, 126);
+            this.lblTituloBaixa.Location = new System.Drawing.Point(319, 160);
             this.lblTituloBaixa.Name = "lblTituloBaixa";
             this.lblTituloBaixa.Size = new System.Drawing.Size(234, 22);
             this.lblTituloBaixa.TabIndex = 69;
@@ -142,7 +142,7 @@
             // 
             this.lblEnd.AutoSize = true;
             this.lblEnd.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEnd.Location = new System.Drawing.Point(264, 283);
+            this.lblEnd.Location = new System.Drawing.Point(337, 268);
             this.lblEnd.Name = "lblEnd";
             this.lblEnd.Size = new System.Drawing.Size(86, 18);
             this.lblEnd.TabIndex = 72;
@@ -153,7 +153,7 @@
             // 
             this.lblPallet2.AutoSize = true;
             this.lblPallet2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPallet2.Location = new System.Drawing.Point(263, 230);
+            this.lblPallet2.Location = new System.Drawing.Point(336, 215);
             this.lblPallet2.Name = "lblPallet2";
             this.lblPallet2.Size = new System.Drawing.Size(70, 18);
             this.lblPallet2.TabIndex = 71;
@@ -164,7 +164,7 @@
             // 
             this.lblTituloEnd.AutoSize = true;
             this.lblTituloEnd.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTituloEnd.Location = new System.Drawing.Point(249, 156);
+            this.lblTituloEnd.Location = new System.Drawing.Point(322, 141);
             this.lblTituloEnd.Name = "lblTituloEnd";
             this.lblTituloEnd.Size = new System.Drawing.Size(264, 22);
             this.lblTituloEnd.TabIndex = 70;
@@ -219,7 +219,7 @@
             // 
             this.lblReBaixa.AutoSize = true;
             this.lblReBaixa.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblReBaixa.Location = new System.Drawing.Point(267, 159);
+            this.lblReBaixa.Location = new System.Drawing.Point(254, 196);
             this.lblReBaixa.Name = "lblReBaixa";
             this.lblReBaixa.Size = new System.Drawing.Size(36, 18);
             this.lblReBaixa.TabIndex = 86;
@@ -230,7 +230,7 @@
             // 
             this.lblReEnd.AutoSize = true;
             this.lblReEnd.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblReEnd.Location = new System.Drawing.Point(263, 181);
+            this.lblReEnd.Location = new System.Drawing.Point(336, 166);
             this.lblReEnd.Name = "lblReEnd";
             this.lblReEnd.Size = new System.Drawing.Size(36, 18);
             this.lblReEnd.TabIndex = 88;
@@ -241,7 +241,7 @@
             // 
             this.lblSetor.AutoSize = true;
             this.lblSetor.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSetor.Location = new System.Drawing.Point(267, 275);
+            this.lblSetor.Location = new System.Drawing.Point(254, 252);
             this.lblSetor.Name = "lblSetor";
             this.lblSetor.Size = new System.Drawing.Size(137, 18);
             this.lblSetor.TabIndex = 91;
@@ -261,7 +261,7 @@
             this.btnEnviarEnd.FillColor2 = System.Drawing.Color.Navy;
             this.btnEnviarEnd.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEnviarEnd.ForeColor = System.Drawing.Color.White;
-            this.btnEnviarEnd.Location = new System.Drawing.Point(294, 341);
+            this.btnEnviarEnd.Location = new System.Drawing.Point(377, 330);
             this.btnEnviarEnd.Name = "btnEnviarEnd";
             this.btnEnviarEnd.Size = new System.Drawing.Size(104, 25);
             this.btnEnviarEnd.TabIndex = 93;
@@ -282,7 +282,7 @@
             this.btnEnviarBaixa.FillColor2 = System.Drawing.Color.Navy;
             this.btnEnviarBaixa.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEnviarBaixa.ForeColor = System.Drawing.Color.White;
-            this.btnEnviarBaixa.Location = new System.Drawing.Point(300, 384);
+            this.btnEnviarBaixa.Location = new System.Drawing.Point(377, 319);
             this.btnEnviarBaixa.Name = "btnEnviarBaixa";
             this.btnEnviarBaixa.Size = new System.Drawing.Size(104, 25);
             this.btnEnviarBaixa.TabIndex = 94;
@@ -301,8 +301,9 @@
             this.txtRE.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtRE.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtRE.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtRE.ForeColor = System.Drawing.Color.Black;
             this.txtRE.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtRE.Location = new System.Drawing.Point(268, 177);
+            this.txtRE.Location = new System.Drawing.Point(255, 214);
             this.txtRE.Name = "txtRE";
             this.txtRE.PlaceholderText = "";
             this.txtRE.SelectedText = "";
@@ -321,8 +322,9 @@
             this.txtSetor.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtSetor.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSetor.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtSetor.ForeColor = System.Drawing.Color.Black;
             this.txtSetor.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSetor.Location = new System.Drawing.Point(265, 296);
+            this.txtSetor.Location = new System.Drawing.Point(255, 273);
             this.txtSetor.Name = "txtSetor";
             this.txtSetor.PlaceholderText = "";
             this.txtSetor.SelectedText = "";
@@ -341,8 +343,9 @@
             this.txtBaixaPL.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtBaixaPL.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtBaixaPL.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtBaixaPL.ForeColor = System.Drawing.Color.Black;
             this.txtBaixaPL.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtBaixaPL.Location = new System.Drawing.Point(268, 237);
+            this.txtBaixaPL.Location = new System.Drawing.Point(457, 214);
             this.txtBaixaPL.Name = "txtBaixaPL";
             this.txtBaixaPL.PlaceholderText = "";
             this.txtBaixaPL.SelectedText = "";
@@ -361,8 +364,9 @@
             this.txtQtde.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtQtde.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtQtde.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtQtde.ForeColor = System.Drawing.Color.Black;
             this.txtQtde.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtQtde.Location = new System.Drawing.Point(266, 345);
+            this.txtQtde.Location = new System.Drawing.Point(457, 273);
             this.txtQtde.Name = "txtQtde";
             this.txtQtde.PlaceholderText = "";
             this.txtQtde.SelectedText = "";
@@ -381,8 +385,9 @@
             this.txtReEND.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtReEND.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtReEND.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtReEND.ForeColor = System.Drawing.Color.Black;
             this.txtReEND.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtReEND.Location = new System.Drawing.Point(267, 201);
+            this.txtReEND.Location = new System.Drawing.Point(340, 186);
             this.txtReEND.Name = "txtReEND";
             this.txtReEND.PlaceholderText = "";
             this.txtReEND.SelectedText = "";
@@ -401,8 +406,9 @@
             this.txtEnderecoPL.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtEnderecoPL.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEnderecoPL.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtEnderecoPL.ForeColor = System.Drawing.Color.Black;
             this.txtEnderecoPL.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtEnderecoPL.Location = new System.Drawing.Point(266, 251);
+            this.txtEnderecoPL.Location = new System.Drawing.Point(339, 236);
             this.txtEnderecoPL.Name = "txtEnderecoPL";
             this.txtEnderecoPL.PlaceholderText = "";
             this.txtEnderecoPL.SelectedText = "";
@@ -421,8 +427,9 @@
             this.txtEnd.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtEnd.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEnd.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtEnd.ForeColor = System.Drawing.Color.Black;
             this.txtEnd.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtEnd.Location = new System.Drawing.Point(267, 304);
+            this.txtEnd.Location = new System.Drawing.Point(340, 289);
             this.txtEnd.Name = "txtEnd";
             this.txtEnd.PlaceholderText = "";
             this.txtEnd.SelectedText = "";

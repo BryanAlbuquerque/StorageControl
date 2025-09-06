@@ -448,14 +448,13 @@
             this.btnEnviar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnEnviar.FillColor = System.Drawing.Color.Red;
             this.btnEnviar.FillColor2 = System.Drawing.Color.Navy;
-            this.btnEnviar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEnviar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F);
             this.btnEnviar.ForeColor = System.Drawing.Color.White;
             this.btnEnviar.Location = new System.Drawing.Point(307, 420);
             this.btnEnviar.Name = "btnEnviar";
             this.btnEnviar.Size = new System.Drawing.Size(154, 25);
             this.btnEnviar.TabIndex = 114;
             this.btnEnviar.Text = "Enviar";
-            this.btnEnviar.Visible = false;
             this.btnEnviar.Click += new System.EventHandler(this.btnEnviar_Click_1);
             // 
             // guna2Panel1

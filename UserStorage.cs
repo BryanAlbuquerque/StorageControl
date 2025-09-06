@@ -2,8 +2,7 @@
 using System.Data;
 using Microsoft.Data.SqlClient;
 
-namespace StorageProject
-{
+namespace StorageProject{
     public static class UserStorage
     {
         private static readonly string connectionString =

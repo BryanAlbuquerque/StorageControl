@@ -39,7 +39,15 @@ namespace StorageProject
 
 
 
-            if (string.IsNullOrEmpty(txtNome.Text))
+            if (string.IsNullOrEmpty(nome) ||
+                string.IsNullOrEmpty(fornecedor) ||
+                string.IsNullOrEmpty(txtQtde.Text) ||
+                string.IsNullOrEmpty(valorUnitario) ||
+                string.IsNullOrEmpty(valorTotal) ||
+                string.IsNullOrEmpty(txtNF.Text) ||
+                string.IsNullOrEmpty(numeroPedido) ||
+                string.IsNullOrEmpty(txtPL.Text) ||
+                string.IsNullOrEmpty(txtReColab.Text))
             {
                 MessageBox.Show("Erro! Existem espaços em branco!");
             }
@@ -66,6 +74,8 @@ namespace StorageProject
 
         private void Entrada_Load(object sender, EventArgs e)
         {
+
+            dtData.Value = DateTime.Now;
             MessageBox.Show("Qualquer erro de preencimento é necessario" +
                 " contatar aos Adiminstradores para realizar as alterações!");
         }

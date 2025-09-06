@@ -43,11 +43,11 @@
             this.clnCon = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clnQtdeAtual = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clnColaborador = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnVoltar = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnSalvar = new System.Windows.Forms.Button();
+            this.btnVoltar = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btnSalvar = new Guna.UI2.WinForms.Guna2GradientButton();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridGestao)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -70,7 +70,7 @@
             this.clnCon,
             this.clnQtdeAtual,
             this.clnColaborador});
-            this.dataGridGestao.Location = new System.Drawing.Point(99, 49);
+            this.dataGridGestao.Location = new System.Drawing.Point(99, 62);
             this.dataGridGestao.Name = "dataGridGestao";
             this.dataGridGestao.Size = new System.Drawing.Size(1333, 118);
             this.dataGridGestao.TabIndex = 4;
@@ -156,17 +156,6 @@
             this.clnColaborador.HeaderText = "RE DO COLABORADOR";
             this.clnColaborador.Name = "clnColaborador";
             // 
-            // btnVoltar
-            // 
-            this.btnVoltar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVoltar.Location = new System.Drawing.Point(1337, 9);
-            this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(93, 27);
-            this.btnVoltar.TabIndex = 30;
-            this.btnVoltar.Text = "Voltar";
-            this.btnVoltar.UseVisualStyleBackColor = true;
-            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click_1);
-            // 
             // listBox1
             // 
             this.listBox1.BackColor = System.Drawing.Color.Navy;
@@ -180,7 +169,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(189, 9);
+            this.label1.Location = new System.Drawing.Point(202, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(229, 28);
             this.label1.TabIndex = 32;
@@ -191,32 +180,63 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(104, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(79, 42);
+            this.pictureBox1.Size = new System.Drawing.Size(108, 56);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 33;
             this.pictureBox1.TabStop = false;
             // 
+            // btnVoltar
+            // 
+            this.btnVoltar.BackColor = System.Drawing.Color.Navy;
+            this.btnVoltar.BorderRadius = 10;
+            this.btnVoltar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnVoltar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnVoltar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnVoltar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnVoltar.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnVoltar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnVoltar.FillColor = System.Drawing.Color.LightGray;
+            this.btnVoltar.FillColor2 = System.Drawing.Color.Navy;
+            this.btnVoltar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVoltar.ForeColor = System.Drawing.Color.White;
+            this.btnVoltar.Location = new System.Drawing.Point(2, 2);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(90, 25);
+            this.btnVoltar.TabIndex = 99;
+            this.btnVoltar.Text = "Voltar";
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
+            // 
             // btnSalvar
             // 
+            this.btnSalvar.BackColor = System.Drawing.Color.White;
+            this.btnSalvar.BorderColor = System.Drawing.Color.Navy;
+            this.btnSalvar.BorderRadius = 15;
+            this.btnSalvar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnSalvar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnSalvar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnSalvar.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnSalvar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnSalvar.FillColor = System.Drawing.Color.Navy;
+            this.btnSalvar.FillColor2 = System.Drawing.Color.Red;
             this.btnSalvar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvar.Location = new System.Drawing.Point(1148, 9);
+            this.btnSalvar.ForeColor = System.Drawing.Color.White;
+            this.btnSalvar.Location = new System.Drawing.Point(1238, 4);
             this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(163, 34);
-            this.btnSalvar.TabIndex = 34;
+            this.btnSalvar.Size = new System.Drawing.Size(190, 42);
+            this.btnSalvar.TabIndex = 105;
             this.btnSalvar.Text = "Salvar alterações";
-            this.btnSalvar.UseVisualStyleBackColor = true;
             this.btnSalvar.Visible = false;
-            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click_1);
             // 
             // Gestao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1433, 672);
-            this.Controls.Add(this.btnSalvar);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.btnVoltar);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dataGridGestao);
             this.Controls.Add(this.listBox1);
             this.MinimizeBox = false;
@@ -231,11 +251,9 @@
 
         #endregion
         public System.Windows.Forms.DataGridView dataGridGestao;
-        private System.Windows.Forms.Button btnVoltar;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.DataGridViewTextBoxColumn clnEnd;
         private System.Windows.Forms.DataGridViewTextBoxColumn clnPL;
         private System.Windows.Forms.DataGridViewTextBoxColumn clnData;
@@ -249,5 +267,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn clnCon;
         private System.Windows.Forms.DataGridViewTextBoxColumn clnQtdeAtual;
         private System.Windows.Forms.DataGridViewTextBoxColumn clnColaborador;
+        private Guna.UI2.WinForms.Guna2GradientButton btnVoltar;
+        private Guna.UI2.WinForms.Guna2GradientButton btnSalvar;
     }
 }
