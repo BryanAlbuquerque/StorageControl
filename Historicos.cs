@@ -16,7 +16,7 @@ namespace StorageProject
         private void Historicos_Load(object sender, EventArgs e)
         {
             dataGridBaixa.AutoGenerateColumns = true;
-            dataGridBaixa.DataSource = HistoricoDB.CarregarDados();
+            dataGridBaixa.DataSource = HistoricoDB.CarregarDadosBaixas();
 
             dataGridEndereco.AutoGenerateColumns = true;
             dataGridEndereco.DataSource = HistoricoDB.CarregarDadosEnderecos();

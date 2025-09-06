@@ -11,7 +11,7 @@ namespace StorageProject
         private SqlDataAdapter _adapter;
         private DataTable _dt;
 
-        public DataTable CarregarDados()
+        public DataTable CarregarDadosBaixas()
         {
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
