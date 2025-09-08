@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\bryan\\Documents\\StorageControl\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|C:\\Users\\bryan\\Documents\\StorageControl\\telaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|solutionrelative:telaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|c:\\users\\bryan\\documents\\storagecontrol\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|c:\\users\\bryan\\documents\\storagecontrol\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|C:\\Users\\bryan\\Documents\\StorageControl\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|solutionrelative:admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|C:\\Users\\bryan\\Documents\\StorageControl\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,14 +75,6 @@
       "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|solutionrelative:baixasdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|C:\\Users\\bryan\\Documents\\StorageControl\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|solutionrelative:admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|C:\\Users\\bryan\\Documents\\StorageControl\\telaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|solutionrelative:telaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|C:\\Users\\bryan\\Documents\\StorageControl\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|solutionrelative:adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -94,11 +98,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "UserStorage.cs",
               "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\UserStorage.cs",
               "RelativeDocumentMoniker": "UserStorage.cs",
@@ -111,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\LoginForm.cs",
               "RelativeDocumentMoniker": "LoginForm.cs",
@@ -125,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LoginForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\LoginForm.cs",
               "RelativeDocumentMoniker": "LoginForm.cs",
@@ -138,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "CadastroForm.cs",
               "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\CadastroForm.cs",
               "RelativeDocumentMoniker": "CadastroForm.cs",
@@ -147,12 +151,11 @@
               "ViewState": "AgIAABkAAAAAAAAAAAAAwAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T15:20:10.463Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "CadastroForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\CadastroForm.cs",
               "RelativeDocumentMoniker": "CadastroForm.cs",
@@ -160,25 +163,25 @@
               "RelativeToolTip": "CadastroForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T15:20:08.623Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 3,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\Admin.cs",
               "RelativeDocumentMoniker": "Admin.cs",
               "ToolTip": "C:\\Users\\bryan\\Documents\\StorageControl\\Admin.cs",
               "RelativeToolTip": "Admin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvxYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-29T21:54:27.53Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "AdminForm.cs",
               "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\AdminForm.cs",
               "RelativeDocumentMoniker": "AdminForm.cs",
@@ -187,12 +190,11 @@
               "ViewState": "AgIAACQAAAAAAAAAAAArwC0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-29T21:36:29.029Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "AdminForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\AdminForm.cs",
               "RelativeDocumentMoniker": "AdminForm.cs",
@@ -200,12 +202,11 @@
               "RelativeToolTip": "AdminForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-30T01:25:03.717Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "BaixasDB.cs",
               "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\BaixasDB.cs",
               "RelativeDocumentMoniker": "BaixasDB.cs",
@@ -218,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "EnderecoDB.cs",
               "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\EnderecoDB.cs",
               "RelativeDocumentMoniker": "EnderecoDB.cs",
@@ -231,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "TelaPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\TelaPrincipal.cs",
               "RelativeDocumentMoniker": "TelaPrincipal.cs",
@@ -240,11 +241,12 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAALsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T15:20:29.599Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 0,
               "Title": "TelaPrincipal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\TelaPrincipal.cs",
               "RelativeDocumentMoniker": "TelaPrincipal.cs",
@@ -252,11 +254,12 @@
               "RelativeToolTip": "TelaPrincipal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T15:20:27.699Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "EntradaDB.cs",
               "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\EntradaDB.cs",
               "RelativeDocumentMoniker": "EntradaDB.cs",
@@ -269,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Entrada.cs",
               "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\Entrada.cs",
               "RelativeDocumentMoniker": "Entrada.cs",
@@ -278,12 +281,11 @@
               "ViewState": "AgIAACwAAAAAAAAAAAAIwDUAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T16:26:28.721Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Entrada.cs [Design]",
               "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\Entrada.cs",
               "RelativeDocumentMoniker": "Entrada.cs",
@@ -291,12 +293,11 @@
               "RelativeToolTip": "Entrada.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T16:26:25.829Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "GestaoDB.cs",
               "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\GestaoDB.cs",
               "RelativeDocumentMoniker": "GestaoDB.cs",
@@ -309,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Gestao.cs",
               "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\Gestao.cs",
               "RelativeDocumentMoniker": "Gestao.cs",
@@ -318,12 +319,11 @@
               "ViewState": "AgIAAA0AAAAAAAAAAAAqwBQAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T15:20:42.679Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Gestao.cs [Design]",
               "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\Gestao.cs",
               "RelativeDocumentMoniker": "Gestao.cs",
@@ -331,12 +331,11 @@
               "RelativeToolTip": "Gestao.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T15:20:36.716Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "HistoricoDB.cs",
               "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\HistoricoDB.cs",
               "RelativeDocumentMoniker": "HistoricoDB.cs",
@@ -349,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Historicos.cs",
               "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\Historicos.cs",
               "RelativeDocumentMoniker": "Historicos.cs",
@@ -358,12 +357,11 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-01T16:50:34.772Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Historicos.cs [Design]",
               "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\Historicos.cs",
               "RelativeDocumentMoniker": "Historicos.cs",
@@ -371,8 +369,7 @@
               "RelativeToolTip": "Historicos.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-01T16:50:32.055Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -381,6 +378,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\bryan\\Documents\\StorageControl\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T14:13:55.087Z",
+              "EditorCaption": ""
             }
           ]
         }
