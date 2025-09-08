@@ -12,5 +12,5 @@ Está incluso os diagramas de **Casos de Uso, Classes, Atividades, e (MER).**
 
 
 ## **Imagens do Sistema**
-![Login](Sistema/Login.jpg)
+![Login](https://github.com/BryanAlbuquerque/StorageControl/blob/d53db175d0558410682c2811634df07a264d1bdb/Sistema/Login.JPG)
 
