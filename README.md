@@ -9,3 +9,4 @@ Projeto usando **C# .NET com Visual Studio e Windowns forms** e aplicando os fun
 
 ## Pasta Diagramas
 Está incluso os diagramas de **Casos de Uso, Classes, Atividades, e (MER).**
+(C:\Users\bryan\Documents\StorageControl\Diagramas)
