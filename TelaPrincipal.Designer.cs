@@ -714,7 +714,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tela Principal";
             this.Load += new System.EventHandler(this.TelaPrincipal_Load);
-            this.MouseHover += new System.EventHandler(this.TelaPrincipal_MouseHover);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxBaixa)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicBoxEnd)).EndInit();

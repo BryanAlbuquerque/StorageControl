@@ -243,7 +243,7 @@
             this.guna2Panel1.FillColor = System.Drawing.Color.Navy;
             this.guna2Panel1.Location = new System.Drawing.Point(-2, -1);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(363, 445);
+            this.guna2Panel1.Size = new System.Drawing.Size(363, 420);
             this.guna2Panel1.TabIndex = 84;
             // 
             // label4
@@ -336,7 +336,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(830, 443);
+            this.ClientSize = new System.Drawing.Size(830, 400);
             this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.btnFechar);

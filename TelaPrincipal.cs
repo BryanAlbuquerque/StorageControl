@@ -26,13 +26,6 @@ namespace StorageProject
         {
             Application.Exit();
         }
-        private void TelaPrincipal_MouseHover(object sender, EventArgs e)
-        {
-            btnGestao.BackColor = System.Drawing.Color.Navy;
-            btnEntrada.BackColor = System.Drawing.Color.Navy;
-            btnBaixa.BackColor = System.Drawing.Color.Navy;
-            btnEnd.BackColor = System.Drawing.Color.Navy;
-        }
 
         private void guna2TextBox1_MouseHover(object sender, EventArgs e)
         {

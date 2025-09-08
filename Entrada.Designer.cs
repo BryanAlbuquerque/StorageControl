@@ -450,7 +450,7 @@
             this.btnEnviar.FillColor2 = System.Drawing.Color.Navy;
             this.btnEnviar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F);
             this.btnEnviar.ForeColor = System.Drawing.Color.White;
-            this.btnEnviar.Location = new System.Drawing.Point(307, 420);
+            this.btnEnviar.Location = new System.Drawing.Point(318, 430);
             this.btnEnviar.Name = "btnEnviar";
             this.btnEnviar.Size = new System.Drawing.Size(154, 25);
             this.btnEnviar.TabIndex = 114;
@@ -469,7 +469,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(803, 464);
+            this.ClientSize = new System.Drawing.Size(811, 467);
             this.Controls.Add(this.btnEnviar);
             this.Controls.Add(this.txtReColab);
             this.Controls.Add(this.txtPL);
