@@ -13,4 +13,11 @@ Está incluso os diagramas de **Casos de Uso, Classes, Atividades, e (MER).**
 
 ## **Imagens do Sistema**
 ![Login](https://github.com/BryanAlbuquerque/StorageControl/blob/d53db175d0558410682c2811634df07a264d1bdb/Sistema/Login.JPG)
+![Admin](https://github.com/BryanAlbuquerque/StorageControl/blob/dd684fbd79ef4e5dfc8bd4fce9fbedaee61b6c46/Sistema/Admin.JPG)
+![Entrada](https://github.com/BryanAlbuquerque/StorageControl/blob/dd684fbd79ef4e5dfc8bd4fce9fbedaee61b6c46/Sistema/Entrada.JPG)
+![Gestão](https://github.com/BryanAlbuquerque/StorageControl/blob/dd684fbd79ef4e5dfc8bd4fce9fbedaee61b6c46/Sistema/Gest%C3%A3o.JPG)
+![Baixas](https://github.com/BryanAlbuquerque/StorageControl/blob/dd684fbd79ef4e5dfc8bd4fce9fbedaee61b6c46/Sistema/Baixas.JPG)
+![Admin Historicos](https://github.com/BryanAlbuquerque/StorageControl/blob/8df0533ce6f6d38e038e7a531641767e97074fa0/Sistema/TelaAdmin.JPG)
+![](https://github.com/BryanAlbuquerque/StorageControl/blob/8df0533ce6f6d38e038e7a531641767e97074fa0/Sistema/Historicos.JPG)
+
 
