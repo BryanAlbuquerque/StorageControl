@@ -1,6 +1,24 @@
 # StorageControl
 Projeto usando **C# .NET com Visual Studio e Windowns forms** e aplicando os fundamento da **POO (Programação Orientada a Objetos)**, e com auxilio do SGBD **(Sistema de Gerenciamento de Banco de Dados)** SQL Server.
 
+O sistema opera diretamente com informações armazenadas no banco de dados.
+
+No processo de login, o usuário só consegue acessar o sistema caso tenha realizado previamente o cadastro, sendo que os dados fornecidos durante o cadastro devem ser validados para confirmar que o usuário é um funcionário da empresa.
+
+- Após o login, o usuário poderá:
+
+- Consultar os insumos cadastrados;
+
+- Registrar a entrada de novos insumos;
+
+- Dar baixa na quantidade de insumos de produtos já cadastrados;
+
+- Atribuir um endereço aos produtos, quando necessário, para facilitar sua localização.
+
+Todas as operações realizadas no sistema são registradas em uma tabela no banco de dados, permitindo que as informações sejam consultadas por meio da tabela de gestão disponível no botão correspondente na tela principal.
+
+Para o login com perfil de Administrador, todas as funcionalidades anteriores permanecem disponíveis, com a adição de permissões de edição na tela de gestão, permitindo alterar informações e salvá-las no banco de dados. Além disso, a tela principal disponibiliza um botão Histórico, que permite visualizar todas as baixas e endereçamentos realizados, incluindo data, hora e o Registro Empresarial (RE) do funcionário responsável.
+
 ## Pasta Imagens
 **Esta com todas as imagens usadas no sistema**.
 
