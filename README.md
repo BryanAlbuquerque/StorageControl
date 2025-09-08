@@ -8,4 +8,4 @@ Projeto usando **C# .NET com Visual Studio e Windowns forms** e aplicando os fun
 **Está armazenado as querys usadas pra formar o Banco de dados**.
 
 ## Pasta Diagramas
-**Está incluso os diagramas de **Casos de Uso, Classes, Atividades, e (MER).**
+Está incluso os diagramas de **Casos de Uso, Classes, Atividades, e (MER).**
