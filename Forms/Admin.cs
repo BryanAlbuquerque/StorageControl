@@ -1,24 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using StorageControl.Classes;
 
-namespace StorageProject
+namespace StorageControl.Forms
 {
-    public partial class AdminForm : Form
+    public partial class Admin : Form
     {
-        public AdminForm()
+        public Admin()
         {
             InitializeComponent();
         }
         private void btnVoltar_Click_1(object sender, EventArgs e)
         {
-            LoginForm loginForm = new LoginForm();
+            Login loginForm = new Login();
             loginForm.Show();
             this.Close();
         }
@@ -30,7 +24,7 @@ namespace StorageProject
 
         private void btnLogin_Click_1(object sender, EventArgs e)
         {
-            Admin admin = new Admin();
+            Classes.Admin admin = new Classes.Admin();
 
             if (admin.ValidarLogin(txtUsuario.Text, txtSenha.Text))
             {

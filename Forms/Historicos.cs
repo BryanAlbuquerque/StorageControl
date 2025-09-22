@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
+using StorageControl.Classes;
 
-namespace StorageProject
+namespace StorageControl.Forms
 {
     public partial class Historicos : Form
     {
@@ -10,8 +11,6 @@ namespace StorageProject
         {
             InitializeComponent();
         }
-
-  
 
         private void Historicos_Load(object sender, EventArgs e)
         {

@@ -1,6 +1,6 @@
-﻿namespace StorageProject
+﻿namespace StorageControl.Forms
 {
-    partial class LoginForm
+    partial class Login
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.label1 = new System.Windows.Forms.Label();
             this.lblCadastro = new System.Windows.Forms.LinkLabel();
             this.lblAdm = new System.Windows.Forms.LinkLabel();

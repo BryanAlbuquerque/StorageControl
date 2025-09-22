@@ -1,4 +1,4 @@
-﻿namespace StorageProject
+﻿namespace StorageControl.Forms
 {
     partial class Gestao
     {
@@ -72,7 +72,7 @@
             this.clnColaborador});
             this.dataGridGestao.Location = new System.Drawing.Point(99, 62);
             this.dataGridGestao.Name = "dataGridGestao";
-            this.dataGridGestao.Size = new System.Drawing.Size(1333, 118);
+            this.dataGridGestao.Size = new System.Drawing.Size(1333, 635);
             this.dataGridGestao.TabIndex = 4;
             // 
             // clnEnd

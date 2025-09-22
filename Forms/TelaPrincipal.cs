@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using StorageControl.Classes;
 
-namespace StorageProject
+namespace StorageControl.Forms  
 {
     public partial class TelaPrincipal : Form
     {
@@ -171,7 +171,7 @@ namespace StorageProject
 
         private void btnVoltar_Click_1(object sender, EventArgs e)
         {
-            LoginForm login = new LoginForm();
+            Login login = new Login();
             login.Show();
             this.Hide();
         }

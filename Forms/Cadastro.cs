@@ -1,13 +1,13 @@
 ﻿using System;
-using System.Drawing;
-using System.Drawing.Drawing2D;
 using System.Windows.Forms;
+using StorageControl.Classes;
 
-namespace StorageProject
+
+namespace StorageControl.Forms
 {
-    public partial class CadastroForm : Form
+    public partial class Cadastro : Form
     {
-        public CadastroForm()
+        public Cadastro()
         {
             InitializeComponent();
         }
@@ -19,7 +19,7 @@ namespace StorageProject
 
         private void btnVoltar_Click_1(object sender, EventArgs e)
         {
-            LoginForm loginForm = new LoginForm();
+            Login loginForm = new Login();
             loginForm.Show();
             this.Close();
         }
@@ -54,7 +54,7 @@ namespace StorageProject
                 MessageBox.Show("Cadastro não realizado! Verifique se o RE existe e está ativo.");
             }
 
-            LoginForm login = new LoginForm();
+            Login login = new Login();
             login.Show();
             this.Hide();
         }

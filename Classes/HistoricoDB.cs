@@ -1,7 +1,7 @@
 ﻿using System.Data;
 using Microsoft.Data.SqlClient;
 
-namespace StorageProject
+namespace StorageControl.Classes
 {
     internal class HistoricoDB
     {

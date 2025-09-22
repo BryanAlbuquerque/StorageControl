@@ -1,7 +1,7 @@
 ﻿using Microsoft.Data.SqlClient;
 using System.Data;
 
-namespace StorageProject
+namespace StorageControl.Classes
 {
     internal class GestaoDB
     {

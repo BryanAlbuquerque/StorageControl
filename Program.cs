@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using StorageControl.Forms;
 using System.Windows.Forms;
 
-namespace StorageProject
+namespace StorageControl
 {
     internal static class Program
     {
@@ -16,7 +14,7 @@ namespace StorageProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoginForm());
+            Application.Run(new Login());
         }
     }
 }

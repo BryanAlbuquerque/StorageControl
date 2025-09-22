@@ -1,4 +1,4 @@
-﻿namespace StorageProject
+﻿namespace StorageControl.Forms
 {
     partial class Entrada
     {

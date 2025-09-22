@@ -1,6 +1,6 @@
-﻿namespace StorageProject
+﻿namespace StorageControl.Forms
 {
-    partial class AdminForm
+    partial class Admin
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Admin));
             this.label2 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.txtSenha = new Guna.UI2.WinForms.Guna2TextBox();

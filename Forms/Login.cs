@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Windows.Forms;
+using StorageControl.Classes;
 
-namespace StorageProject
+namespace StorageControl.Forms
 {
-    public partial class LoginForm : Form
+    public partial class Login : Form
     {
-        public LoginForm()
+        public Login()
         {
             InitializeComponent();
         }
@@ -13,14 +14,14 @@ namespace StorageProject
 
         private void lblCadastro_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            CadastroForm cadastro = new CadastroForm();
+            Cadastro cadastro = new Cadastro();
             cadastro.Show();
             this.Hide();
         }
 
         private void lblAdm_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            AdminForm adm = new AdminForm();
+            Admin adm = new Admin();
             adm.Show();
             this.Hide();
         }
