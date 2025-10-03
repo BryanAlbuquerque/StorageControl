@@ -32,7 +32,7 @@ namespace StorageControl.Classes
         {
             if (_adapter != null && _dt != null)
             {
-                _adapter.Update(_dt); // aplica alterações do DataGridView
+                _adapter.Update(_dt); // aplica alterações do DataGrid
             }
         }
     }

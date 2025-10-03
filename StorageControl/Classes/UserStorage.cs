@@ -4,10 +4,22 @@ using Microsoft.Data.SqlClient;
 
 namespace StorageControl.Classes
 {
-    public static class UserStorage
+    public class UserStorage
     {
-        private static readonly string connectionString =
+        private static string connectionString =
             "Server=DESKTOP-BRYAN\\SQLEXPRESS;Database=Storage;Trusted_Connection=True;TrustServerCertificate=True";
+
+        public string Usuario { get; set; }
+        public string Senha { get; set; }
+        public int Re { get; set; }
+
+        public UserStorage() { }
+        public UserStorage(string usuario, string senha, int re) 
+        {
+            Usuario = usuario;
+            Senha = senha;
+            Re = re;
+        }
 
         public static bool CadastrarUsuario(string usuario, string senha, int re)
         {
@@ -25,7 +37,7 @@ namespace StorageControl.Classes
                     SELECT 1
                     FROM Funcionarios
                     WHERE ID_RegistroEmpresarial = @re
-                    AND Situacao = 'Ativo' ";
+                    AND Situacao = 'Ativo'";
 
                 using (var cmdVerifica = new SqlCommand(sqlVerificaReAtivo, conexao))
                 {

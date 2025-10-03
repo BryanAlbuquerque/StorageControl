@@ -33,7 +33,7 @@ namespace StorageControl.Forms
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            string usuario = txtUsuario.Text.Trim();
+            string usuario = txtUsuario.Text;
             string senha = txtSenha.Text;
 
             if (string.IsNullOrEmpty(usuario) || string.IsNullOrEmpty(senha))
