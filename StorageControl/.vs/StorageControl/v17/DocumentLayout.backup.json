@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|c:\\users\\bryan\\documents\\storagecontrol\\storagecontrol\\classes\\userstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|solutionrelative:classes\\userstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|c:\\users\\bryan\\documents\\storagecontrol\\storagecontrol\\classes\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|solutionrelative:classes\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|c:\\users\\bryan\\documents\\storagecontrol\\storagecontrol\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|solutionrelative:forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|c:\\users\\bryan\\documents\\storagecontrol\\storagecontrol\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|solutionrelative:forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|c:\\users\\bryan\\documents\\storagecontrol\\storagecontrol\\classes\\enderecodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|solutionrelative:classes\\enderecodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Forms\\Login.cs",
-              "RelativeDocumentMoniker": "Forms\\Login.cs",
-              "ToolTip": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Forms\\Login.cs",
-              "RelativeToolTip": "Forms\\Login.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAIwDQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T17:13:53.119Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Forms\\Login.cs",
-              "RelativeDocumentMoniker": "Forms\\Login.cs",
-              "ToolTip": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Forms\\Login.cs [Design]",
-              "RelativeToolTip": "Forms\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T17:13:39.05Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserStorage.cs",
-              "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Classes\\UserStorage.cs",
-              "RelativeDocumentMoniker": "Classes\\UserStorage.cs",
-              "ToolTip": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Classes\\UserStorage.cs",
-              "RelativeToolTip": "Classes\\UserStorage.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAtwB8AAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T17:10:58.015Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -69,6 +27,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnderecoDB.cs",
+              "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Classes\\EnderecoDB.cs",
+              "RelativeDocumentMoniker": "Classes\\EnderecoDB.cs",
+              "ToolTip": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Classes\\EnderecoDB.cs",
+              "RelativeToolTip": "Classes\\EnderecoDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:33:51.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Classes\\Admin.cs",
+              "RelativeDocumentMoniker": "Classes\\Admin.cs",
+              "ToolTip": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Classes\\Admin.cs",
+              "RelativeToolTip": "Classes\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:33:47.443Z",
+              "EditorCaption": ""
             }
           ]
         }
