@@ -15,6 +15,43 @@ namespace StorageControl.Forms
         {
             InitializeComponent();
         }
+
+        public void Baixa(bool visivel) 
+        {
+            lblTituloBaixa.Visible = visivel;
+            lblQtde.Visible = visivel;
+            lblPallet.Visible = visivel;
+            lblReBaixa.Visible = visivel;
+            lblSetor.Visible = visivel;
+
+            txtQtde.Visible = visivel;
+            txtBaixaPL.Visible = visivel;
+            txtRE.Visible = visivel;
+            txtSetor.Visible = visivel;
+
+            lblFrase.Visible = visivel;
+            PicBoxBaixa.Visible = visivel;
+
+            btnEnviarBaixa.Visible = visivel;
+        }
+
+        public void Endereco(bool visivel) 
+        {
+            lblTituloEnd.Visible = visivel;
+            lblPallet2.Visible = visivel;
+            lblEnd.Visible = visivel;
+            lblReEnd.Visible = visivel;
+
+            txtEnderecoPL.Visible = visivel;
+            txtEnd.Visible = visivel;
+            txtReEND.Visible = visivel;
+
+            PicBoxEnd.Visible = visivel;
+            lblFrase.Visible = visivel;
+
+            btnEnviarEnd.Visible = visivel;
+
+        }
         private void btnHistorico_Click_1(object sender, EventArgs e)
         {
             Historicos historicos = new Historicos();
@@ -48,38 +85,11 @@ namespace StorageControl.Forms
 
         private void btnBaixa_Click(object sender, EventArgs e)
         {
-            //Visibilidade para o botão Baixa
-            lblTituloBaixa.Visible = true;
-            lblQtde.Visible = true;
-            lblPallet.Visible = true;
-            lblReBaixa.Visible = true;
-            lblSetor.Visible = true;
+            Baixa(true);
+            Endereco(false);
 
-            txtQtde.Visible = true;
-            txtBaixaPL.Visible = true;
-            txtRE.Visible = true;
-            txtSetor.Visible = true;
-
-            lblFrase.Visible = true;
             lblFrase2.Visible = true;
-            PicBoxBaixa.Visible = true;
             txtNotas.Visible = true;
-
-            btnEnviarBaixa.Visible = true;
-
-
-            //Esconde os outros componentes
-            lblTituloEnd.Visible = false;
-            lblPallet2.Visible = false;
-            lblEnd.Visible = false;
-            lblReEnd.Visible = false;
-
-            txtEnderecoPL.Visible = false;
-            txtEnd.Visible = false;
-            txtReEND.Visible = false;
-
-            btnEnviarEnd.Visible = false;
-            PicBoxEnd.Visible = false;
         }
 
         private void btnEnviarBaixa_Click(object sender, EventArgs e)
@@ -109,38 +119,10 @@ namespace StorageControl.Forms
 
         private void btnEnd_Click(object sender, EventArgs e)
         {
-            //Visibilidade do botão de endereçamento
-            lblTituloEnd.Visible = true;
-            lblPallet2.Visible = true;
-            lblEnd.Visible = true;
-            lblReEnd.Visible = true;
-
-            txtEnderecoPL.Visible = true;
-            txtEnd.Visible = true;
-            txtReEND.Visible = true;
-
-            PicBoxEnd.Visible = true;
-            lblFrase.Visible = true;
+            Endereco(true);
+            Baixa(false);
             lblFrase2.Visible = true;
             txtNotas.Visible = true;
-
-            btnEnviarEnd.Visible = true;
-
-            //Enconde os outros componentes
-            lblTituloBaixa.Visible = false;
-            lblQtde.Visible = false;
-            lblPallet.Visible = false;
-            lblSetor.Visible = false;
-            lblReBaixa.Visible = false;
-
-            txtQtde.Visible = false;
-            txtBaixaPL.Visible = false;
-            txtRE.Visible = false;
-            txtSetor.Visible = false;
-
-            PicBoxBaixa.Visible = false;
-
-            btnEnviarBaixa.Visible = false;
         }
 
         private void btnEnviarEnd_Click(object sender, EventArgs e)

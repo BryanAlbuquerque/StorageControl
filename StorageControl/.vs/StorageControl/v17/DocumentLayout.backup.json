@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|c:\\users\\bryan\\documents\\storagecontrol\\storagecontrol\\classes\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|solutionrelative:classes\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|c:\\users\\bryan\\documents\\storagecontrol\\storagecontrol\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|c:\\users\\bryan\\documents\\storagecontrol\\storagecontrol\\classes\\enderecodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|solutionrelative:classes\\enderecodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|c:\\users\\bryan\\documents\\storagecontrol\\storagecontrol\\forms\\telaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|solutionrelative:forms\\telaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|c:\\users\\bryan\\documents\\storagecontrol\\storagecontrol\\forms\\telaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|solutionrelative:forms\\telaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,29 +34,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EnderecoDB.cs",
-              "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Classes\\EnderecoDB.cs",
-              "RelativeDocumentMoniker": "Classes\\EnderecoDB.cs",
-              "ToolTip": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Classes\\EnderecoDB.cs",
-              "RelativeToolTip": "Classes\\EnderecoDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T00:33:51.52Z",
+              "WhenOpened": "2025-11-12T15:48:25.145Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Classes\\Admin.cs",
-              "RelativeDocumentMoniker": "Classes\\Admin.cs",
-              "ToolTip": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Classes\\Admin.cs",
-              "RelativeToolTip": "Classes\\Admin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "TelaPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Forms\\TelaPrincipal.cs",
+              "RelativeDocumentMoniker": "Forms\\TelaPrincipal.cs",
+              "ToolTip": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Forms\\TelaPrincipal.cs",
+              "RelativeToolTip": "Forms\\TelaPrincipal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T00:33:47.443Z",
+              "WhenOpened": "2025-11-12T15:30:28.565Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TelaPrincipal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Forms\\TelaPrincipal.cs",
+              "RelativeDocumentMoniker": "Forms\\TelaPrincipal.cs",
+              "ToolTip": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Forms\\TelaPrincipal.cs [Design]",
+              "RelativeToolTip": "Forms\\TelaPrincipal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T15:23:10.98Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

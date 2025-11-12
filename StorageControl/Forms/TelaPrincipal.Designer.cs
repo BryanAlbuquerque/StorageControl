@@ -99,7 +99,7 @@
             // 
             this.lblQtde.AutoSize = true;
             this.lblQtde.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQtde.Location = new System.Drawing.Point(452, 254);
+            this.lblQtde.Location = new System.Drawing.Point(252, 279);
             this.lblQtde.Name = "lblQtde";
             this.lblQtde.Size = new System.Drawing.Size(101, 18);
             this.lblQtde.TabIndex = 63;
@@ -110,7 +110,7 @@
             // 
             this.lblPallet.AutoSize = true;
             this.lblPallet.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPallet.Location = new System.Drawing.Point(451, 193);
+            this.lblPallet.Location = new System.Drawing.Point(254, 225);
             this.lblPallet.Name = "lblPallet";
             this.lblPallet.Size = new System.Drawing.Size(70, 18);
             this.lblPallet.TabIndex = 67;
@@ -131,7 +131,7 @@
             // 
             this.lblTituloBaixa.AutoSize = true;
             this.lblTituloBaixa.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTituloBaixa.Location = new System.Drawing.Point(319, 160);
+            this.lblTituloBaixa.Location = new System.Drawing.Point(247, 143);
             this.lblTituloBaixa.Name = "lblTituloBaixa";
             this.lblTituloBaixa.Size = new System.Drawing.Size(234, 22);
             this.lblTituloBaixa.TabIndex = 69;
@@ -142,7 +142,7 @@
             // 
             this.lblEnd.AutoSize = true;
             this.lblEnd.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEnd.Location = new System.Drawing.Point(337, 268);
+            this.lblEnd.Location = new System.Drawing.Point(254, 277);
             this.lblEnd.Name = "lblEnd";
             this.lblEnd.Size = new System.Drawing.Size(86, 18);
             this.lblEnd.TabIndex = 72;
@@ -153,7 +153,7 @@
             // 
             this.lblPallet2.AutoSize = true;
             this.lblPallet2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPallet2.Location = new System.Drawing.Point(336, 215);
+            this.lblPallet2.Location = new System.Drawing.Point(252, 224);
             this.lblPallet2.Name = "lblPallet2";
             this.lblPallet2.Size = new System.Drawing.Size(70, 18);
             this.lblPallet2.TabIndex = 71;
@@ -164,7 +164,7 @@
             // 
             this.lblTituloEnd.AutoSize = true;
             this.lblTituloEnd.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTituloEnd.Location = new System.Drawing.Point(322, 141);
+            this.lblTituloEnd.Location = new System.Drawing.Point(247, 143);
             this.lblTituloEnd.Name = "lblTituloEnd";
             this.lblTituloEnd.Size = new System.Drawing.Size(264, 22);
             this.lblTituloEnd.TabIndex = 70;
@@ -174,7 +174,7 @@
             // PicBoxBaixa
             // 
             this.PicBoxBaixa.Image = ((System.Drawing.Image)(resources.GetObject("PicBoxBaixa.Image")));
-            this.PicBoxBaixa.Location = new System.Drawing.Point(615, 370);
+            this.PicBoxBaixa.Location = new System.Drawing.Point(725, 420);
             this.PicBoxBaixa.Name = "PicBoxBaixa";
             this.PicBoxBaixa.Size = new System.Drawing.Size(316, 206);
             this.PicBoxBaixa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -186,7 +186,7 @@
             // 
             this.lblFrase.AutoSize = true;
             this.lblFrase.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFrase.Location = new System.Drawing.Point(644, 352);
+            this.lblFrase.Location = new System.Drawing.Point(754, 402);
             this.lblFrase.Name = "lblFrase";
             this.lblFrase.Size = new System.Drawing.Size(275, 15);
             this.lblFrase.TabIndex = 77;
@@ -196,7 +196,7 @@
             // PicBoxEnd
             // 
             this.PicBoxEnd.Image = ((System.Drawing.Image)(resources.GetObject("PicBoxEnd.Image")));
-            this.PicBoxEnd.Location = new System.Drawing.Point(615, 370);
+            this.PicBoxEnd.Location = new System.Drawing.Point(725, 420);
             this.PicBoxEnd.Name = "PicBoxEnd";
             this.PicBoxEnd.Size = new System.Drawing.Size(316, 206);
             this.PicBoxEnd.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -208,7 +208,7 @@
             // 
             this.lblFrase2.AutoSize = true;
             this.lblFrase2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFrase2.Location = new System.Drawing.Point(673, 109);
+            this.lblFrase2.Location = new System.Drawing.Point(797, 111);
             this.lblFrase2.Name = "lblFrase2";
             this.lblFrase2.Size = new System.Drawing.Size(233, 15);
             this.lblFrase2.TabIndex = 81;
@@ -219,7 +219,7 @@
             // 
             this.lblReBaixa.AutoSize = true;
             this.lblReBaixa.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblReBaixa.Location = new System.Drawing.Point(254, 196);
+            this.lblReBaixa.Location = new System.Drawing.Point(256, 175);
             this.lblReBaixa.Name = "lblReBaixa";
             this.lblReBaixa.Size = new System.Drawing.Size(36, 18);
             this.lblReBaixa.TabIndex = 86;
@@ -230,7 +230,7 @@
             // 
             this.lblReEnd.AutoSize = true;
             this.lblReEnd.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblReEnd.Location = new System.Drawing.Point(336, 166);
+            this.lblReEnd.Location = new System.Drawing.Point(254, 172);
             this.lblReEnd.Name = "lblReEnd";
             this.lblReEnd.Size = new System.Drawing.Size(36, 18);
             this.lblReEnd.TabIndex = 88;
@@ -241,7 +241,7 @@
             // 
             this.lblSetor.AutoSize = true;
             this.lblSetor.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSetor.Location = new System.Drawing.Point(254, 252);
+            this.lblSetor.Location = new System.Drawing.Point(252, 334);
             this.lblSetor.Name = "lblSetor";
             this.lblSetor.Size = new System.Drawing.Size(137, 18);
             this.lblSetor.TabIndex = 91;
@@ -261,7 +261,7 @@
             this.btnEnviarEnd.FillColor2 = System.Drawing.Color.Navy;
             this.btnEnviarEnd.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEnviarEnd.ForeColor = System.Drawing.Color.White;
-            this.btnEnviarEnd.Location = new System.Drawing.Point(377, 330);
+            this.btnEnviarEnd.Location = new System.Drawing.Point(285, 393);
             this.btnEnviarEnd.Name = "btnEnviarEnd";
             this.btnEnviarEnd.Size = new System.Drawing.Size(104, 25);
             this.btnEnviarEnd.TabIndex = 93;
@@ -282,7 +282,7 @@
             this.btnEnviarBaixa.FillColor2 = System.Drawing.Color.Navy;
             this.btnEnviarBaixa.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEnviarBaixa.ForeColor = System.Drawing.Color.White;
-            this.btnEnviarBaixa.Location = new System.Drawing.Point(377, 319);
+            this.btnEnviarBaixa.Location = new System.Drawing.Point(285, 393);
             this.btnEnviarBaixa.Name = "btnEnviarBaixa";
             this.btnEnviarBaixa.Size = new System.Drawing.Size(104, 25);
             this.btnEnviarBaixa.TabIndex = 94;
@@ -303,7 +303,7 @@
             this.txtRE.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtRE.ForeColor = System.Drawing.Color.Black;
             this.txtRE.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtRE.Location = new System.Drawing.Point(255, 214);
+            this.txtRE.Location = new System.Drawing.Point(257, 193);
             this.txtRE.Name = "txtRE";
             this.txtRE.PlaceholderText = "";
             this.txtRE.SelectedText = "";
@@ -324,7 +324,7 @@
             this.txtSetor.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtSetor.ForeColor = System.Drawing.Color.Black;
             this.txtSetor.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSetor.Location = new System.Drawing.Point(255, 273);
+            this.txtSetor.Location = new System.Drawing.Point(255, 355);
             this.txtSetor.Name = "txtSetor";
             this.txtSetor.PlaceholderText = "";
             this.txtSetor.SelectedText = "";
@@ -345,7 +345,7 @@
             this.txtBaixaPL.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtBaixaPL.ForeColor = System.Drawing.Color.Black;
             this.txtBaixaPL.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtBaixaPL.Location = new System.Drawing.Point(457, 214);
+            this.txtBaixaPL.Location = new System.Drawing.Point(255, 246);
             this.txtBaixaPL.Name = "txtBaixaPL";
             this.txtBaixaPL.PlaceholderText = "";
             this.txtBaixaPL.SelectedText = "";
@@ -366,7 +366,7 @@
             this.txtQtde.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtQtde.ForeColor = System.Drawing.Color.Black;
             this.txtQtde.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtQtde.Location = new System.Drawing.Point(457, 273);
+            this.txtQtde.Location = new System.Drawing.Point(255, 297);
             this.txtQtde.Name = "txtQtde";
             this.txtQtde.PlaceholderText = "";
             this.txtQtde.SelectedText = "";
@@ -387,7 +387,7 @@
             this.txtReEND.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtReEND.ForeColor = System.Drawing.Color.Black;
             this.txtReEND.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtReEND.Location = new System.Drawing.Point(340, 186);
+            this.txtReEND.Location = new System.Drawing.Point(257, 193);
             this.txtReEND.Name = "txtReEND";
             this.txtReEND.PlaceholderText = "";
             this.txtReEND.SelectedText = "";
@@ -408,7 +408,7 @@
             this.txtEnderecoPL.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtEnderecoPL.ForeColor = System.Drawing.Color.Black;
             this.txtEnderecoPL.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtEnderecoPL.Location = new System.Drawing.Point(339, 236);
+            this.txtEnderecoPL.Location = new System.Drawing.Point(255, 245);
             this.txtEnderecoPL.Name = "txtEnderecoPL";
             this.txtEnderecoPL.PlaceholderText = "";
             this.txtEnderecoPL.SelectedText = "";
@@ -429,7 +429,7 @@
             this.txtEnd.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtEnd.ForeColor = System.Drawing.Color.Black;
             this.txtEnd.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtEnd.Location = new System.Drawing.Point(340, 289);
+            this.txtEnd.Location = new System.Drawing.Point(257, 298);
             this.txtEnd.Name = "txtEnd";
             this.txtEnd.PlaceholderText = "";
             this.txtEnd.SelectedText = "";
@@ -457,7 +457,7 @@
             this.btnFechar.FillColor2 = System.Drawing.Color.Red;
             this.btnFechar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFechar.ForeColor = System.Drawing.Color.White;
-            this.btnFechar.Location = new System.Drawing.Point(881, 4);
+            this.btnFechar.Location = new System.Drawing.Point(985, 4);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(45, 25);
             this.btnFechar.TabIndex = 102;
@@ -478,7 +478,7 @@
             this.txtNotas.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtNotas.ForeColor = System.Drawing.Color.Black;
             this.txtNotas.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtNotas.Location = new System.Drawing.Point(676, 141);
+            this.txtNotas.Location = new System.Drawing.Point(800, 143);
             this.txtNotas.Name = "txtNotas";
             this.txtNotas.PlaceholderText = "";
             this.txtNotas.SelectedText = "";
@@ -566,7 +566,7 @@
             this.btnHistorico.FillColor2 = System.Drawing.Color.Navy;
             this.btnHistorico.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHistorico.ForeColor = System.Drawing.Color.White;
-            this.btnHistorico.Location = new System.Drawing.Point(12, 509);
+            this.btnHistorico.Location = new System.Drawing.Point(12, 573);
             this.btnHistorico.Name = "btnHistorico";
             this.btnHistorico.Size = new System.Drawing.Size(180, 45);
             this.btnHistorico.TabIndex = 108;
@@ -659,6 +659,7 @@
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.Navy;
+            this.guna2Panel1.Controls.Add(this.btnHistorico);
             this.guna2Panel1.Controls.Add(this.Panel2);
             this.guna2Panel1.Controls.Add(this.Panel1);
             this.guna2Panel1.Controls.Add(this.btnEnd);
@@ -667,7 +668,7 @@
             this.guna2Panel1.Controls.Add(this.Panel4);
             this.guna2Panel1.Location = new System.Drawing.Point(-1, -1);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(195, 591);
+            this.guna2Panel1.Size = new System.Drawing.Size(195, 636);
             this.guna2Panel1.TabIndex = 109;
             // 
             // TelaPrincipal
@@ -675,8 +676,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(931, 577);
-            this.Controls.Add(this.btnHistorico);
+            this.ClientSize = new System.Drawing.Size(1037, 629);
             this.Controls.Add(this.btnGestao);
             this.Controls.Add(this.btnEntrada);
             this.Controls.Add(this.btnVoltar);

@@ -181,6 +181,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Admin.cs" />
+    <Compile Include="Classes\DashBoard.cs" />
     <Compile Include="Forms\Admin.cs">
       <SubType>Form</SubType>
     </Compile>
