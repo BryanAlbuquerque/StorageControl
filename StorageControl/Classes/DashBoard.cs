@@ -51,7 +51,12 @@ namespace StorageProject.Classes
             List<EstoqueInfo> informacoes = new List<EstoqueInfo>();
             using (SqlConnection conexao = new SqlConnection(ConnectionString))
             {
-                string query = @"SELECT NomeInsumo, Quantidade, ValorTotal FROM Gestao";
+                    string query = @"
+                    SELECT TOP 3 NomeInsumo, Quantidade, ValorTotal
+                    FROM Gestao
+                    ORDER BY DataEntrada DESC";
+
+
                 SqlCommand comando = new SqlCommand(query, conexao);
                 conexao.Open();
                 using (SqlDataReader leitor = comando.ExecuteReader())

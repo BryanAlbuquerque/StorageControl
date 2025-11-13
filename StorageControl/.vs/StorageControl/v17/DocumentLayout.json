@@ -7,12 +7,8 @@
       "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|solutionrelative:ui\\visaoestoqueui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|c:\\users\\bryan\\documents\\storagecontrol\\storagecontrol\\classes\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\classes\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|solutionrelative:classes\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|c:\\users\\bryan\\documents\\storagecontrol\\storagecontrol\\ui\\valortotalestoqueui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|solutionrelative:ui\\valortotalestoqueui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\forms\\telaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -40,7 +36,7 @@
               "RelativeDocumentMoniker": "Classes\\DashBoard.cs",
               "ToolTip": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Classes\\DashBoard.cs",
               "RelativeToolTip": "Classes\\DashBoard.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAzwDAAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAuwDgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T15:49:09.102Z",
               "IsPinned": true,
@@ -54,7 +50,7 @@
               "RelativeDocumentMoniker": "UI\\VisaoEstoqueUI.cs",
               "ToolTip": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\UI\\VisaoEstoqueUI.cs",
               "RelativeToolTip": "UI\\VisaoEstoqueUI.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAqwC4AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswD0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T11:56:49.844Z",
               "IsPinned": true,
@@ -62,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "TelaPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Forms\\TelaPrincipal.cs",
               "RelativeDocumentMoniker": "Forms\\TelaPrincipal.cs",
@@ -71,12 +67,11 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T15:30:28.565Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "TelaPrincipal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Forms\\TelaPrincipal.cs",
               "RelativeDocumentMoniker": "Forms\\TelaPrincipal.cs",
@@ -84,8 +79,7 @@
               "RelativeToolTip": "Forms\\TelaPrincipal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T15:23:10.98Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -94,19 +88,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ValorTotalEstoqueUI.cs",
-              "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\UI\\ValorTotalEstoqueUI.cs",
-              "RelativeDocumentMoniker": "UI\\ValorTotalEstoqueUI.cs",
-              "ToolTip": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\UI\\ValorTotalEstoqueUI.cs",
-              "RelativeToolTip": "UI\\ValorTotalEstoqueUI.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowBMAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T12:51:05.574Z",
-              "EditorCaption": ""
             }
           ]
         }

@@ -20,10 +20,13 @@ namespace StorageProject.UI
                 Size = new System.Drawing.Size(500, 300),
                 Location = new System.Drawing.Point(220, 300),
                 BorderStyle = BorderStyle.FixedSingle,
-                Padding = new Padding(20)
+                Padding = new Padding(20),
+                AutoScroll = true
             };
 
             var informacoesEstoque = dashBoard.ObterInformacoesEstoque();
+
+            int yOffset = 10;
 
             foreach (var info in informacoesEstoque)
             {
@@ -31,7 +34,7 @@ namespace StorageProject.UI
                 {
                     Text = $"Produto: {info.NomeInsumo}",
                     AutoSize = true,
-                    Location = new Point(10, 30),
+                    Location = new Point(10, yOffset),
                     Font = new Font("Arial", 10, FontStyle.Bold)
                 };
 
@@ -39,7 +42,7 @@ namespace StorageProject.UI
                 {
                     Text = $"Quantidade: {info.Quantidade}",
                     AutoSize = true,
-                    Location = new Point(30, 55),
+                    Location = new Point(30, yOffset + 25),
                     Font = new Font("Arial", 10)
                 };
 
@@ -47,7 +50,7 @@ namespace StorageProject.UI
                 {
                     Text = $"Valor: R$ {info.ValorTotal:F2}",
                     AutoSize = true,
-                    Location = new Point(30, 80),
+                    Location = new Point(30, yOffset + 50),
                     Font = new Font("Arial", 10)
                 };
 
@@ -55,6 +58,8 @@ namespace StorageProject.UI
                 panel.Controls.Add(nome);
                 panel.Controls.Add(quantidade);
                 panel.Controls.Add(valorTotal);
+
+                yOffset += 80;
             }
 
             return panel;
