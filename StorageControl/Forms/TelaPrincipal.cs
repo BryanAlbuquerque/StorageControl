@@ -1,13 +1,26 @@
 ﻿using System;
 using System.Windows.Forms;
 using StorageControl.Classes;
+using StorageProject.UI;
 
 namespace StorageControl.Forms  
 {
     public partial class TelaPrincipal : Form
     {
+        private Panel QuantidadeProdutosUI;
+        private Panel ValorTotalEstoqueUI;
+        private Panel VisaoEstoqueUI;
+
         public TelaPrincipal()
         {
+            VisaoEstoqueUI = new VisaoEstoqueUI().CriarPainel();    
+            QuantidadeProdutosUI = new QuantidadeProdutosUI().CriarPainel();
+            ValorTotalEstoqueUI = new ValorTotalEstoqueUI().CriarPainel();
+
+            this.Controls.Add(VisaoEstoqueUI);
+            this.Controls.Add(QuantidadeProdutosUI);
+            this.Controls.Add(ValorTotalEstoqueUI);
+
             InitializeComponent();
         }
 

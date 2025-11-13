@@ -3,15 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|c:\\users\\bryan\\documents\\storagecontrol\\storagecontrol\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|c:\\users\\bryan\\documents\\storagecontrol\\storagecontrol\\ui\\visaoestoqueui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|solutionrelative:ui\\visaoestoqueui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|c:\\users\\bryan\\documents\\storagecontrol\\storagecontrol\\forms\\telaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|c:\\users\\bryan\\documents\\storagecontrol\\storagecontrol\\classes\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|solutionrelative:classes\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|c:\\users\\bryan\\documents\\storagecontrol\\storagecontrol\\ui\\valortotalestoqueui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|solutionrelative:ui\\valortotalestoqueui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\forms\\telaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|solutionrelative:forms\\telaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|c:\\users\\bryan\\documents\\storagecontrol\\storagecontrol\\forms\\telaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\forms\\telaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8BA690BD-9DF6-4585-A80D-C2566ED22188}|StorageControl.csproj|solutionrelative:forms\\telaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -22,8 +30,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashBoard.cs",
+              "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Classes\\DashBoard.cs",
+              "RelativeDocumentMoniker": "Classes\\DashBoard.cs",
+              "ToolTip": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Classes\\DashBoard.cs",
+              "RelativeToolTip": "Classes\\DashBoard.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAzwDAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T15:49:09.102Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VisaoEstoqueUI.cs",
+              "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\UI\\VisaoEstoqueUI.cs",
+              "RelativeDocumentMoniker": "UI\\VisaoEstoqueUI.cs",
+              "ToolTip": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\UI\\VisaoEstoqueUI.cs*",
+              "RelativeToolTip": "UI\\VisaoEstoqueUI.cs*",
+              "ViewState": "AgIAACIAAAAAAAAAAAAqwC4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T11:56:49.844Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TelaPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Forms\\TelaPrincipal.cs",
+              "RelativeDocumentMoniker": "Forms\\TelaPrincipal.cs",
+              "ToolTip": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Forms\\TelaPrincipal.cs",
+              "RelativeToolTip": "Forms\\TelaPrincipal.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T15:30:28.565Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TelaPrincipal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Forms\\TelaPrincipal.cs",
+              "RelativeDocumentMoniker": "Forms\\TelaPrincipal.cs",
+              "ToolTip": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Forms\\TelaPrincipal.cs [Design]",
+              "RelativeToolTip": "Forms\\TelaPrincipal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T15:23:10.98Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -34,41 +97,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T15:48:25.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TelaPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Forms\\TelaPrincipal.cs",
-              "RelativeDocumentMoniker": "Forms\\TelaPrincipal.cs",
-              "ToolTip": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Forms\\TelaPrincipal.cs",
-              "RelativeToolTip": "Forms\\TelaPrincipal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T15:30:28.565Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TelaPrincipal.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Forms\\TelaPrincipal.cs",
-              "RelativeDocumentMoniker": "Forms\\TelaPrincipal.cs",
-              "ToolTip": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\Forms\\TelaPrincipal.cs [Design]",
-              "RelativeToolTip": "Forms\\TelaPrincipal.cs [Design]",
+              "Title": "ValorTotalEstoqueUI.cs",
+              "DocumentMoniker": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\UI\\ValorTotalEstoqueUI.cs",
+              "RelativeDocumentMoniker": "UI\\ValorTotalEstoqueUI.cs",
+              "ToolTip": "C:\\Users\\bryan\\Documents\\StorageControl\\StorageControl\\UI\\ValorTotalEstoqueUI.cs",
+              "RelativeToolTip": "UI\\ValorTotalEstoqueUI.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowBMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T15:23:10.98Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-13T12:51:05.574Z",
+              "EditorCaption": ""
             }
           ]
         }

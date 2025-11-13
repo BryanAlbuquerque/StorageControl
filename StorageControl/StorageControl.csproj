@@ -232,6 +232,9 @@
       <DependentUpon>TelaPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Classes\UserStorage.cs" />
+    <Compile Include="UI\QuantidadeProdutosUI.cs" />
+    <Compile Include="UI\ValorTotalEstoqueUI.cs" />
+    <Compile Include="UI\VisaoEstoqueUI.cs" />
     <EmbeddedResource Include="Forms\Admin.resx">
       <DependentUpon>Admin.cs</DependentUpon>
     </EmbeddedResource>
